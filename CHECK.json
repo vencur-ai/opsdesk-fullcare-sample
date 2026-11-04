@@ -1,0 +1,93 @@
+{
+  "machine": "Apple M4, macOS 27.0.1, Docker 29.9.2",
+  "date": "2026-11-04",
+  "cold_build_seconds": 12.4,
+  "requests": [
+    {
+      "request": "fc-586d61205620",
+      "exit": 0,
+      "seconds": 2.5,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request fc-586d61205620 – the app is at http://127.0.0.1:54523 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 145 calls",
+        "reference replayed: 1.0 passed",
+        "took 2 s"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "request": "fc-73582e57a857",
+      "exit": 0,
+      "seconds": 1.6,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request fc-73582e57a857 – the app is at http://127.0.0.1:54680 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 21 calls",
+        "reference replayed: 1.0 passed",
+        "took 2 s"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "request": "fc-354cca1ca2d3",
+      "exit": 0,
+      "seconds": 1.5,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request fc-354cca1ca2d3 – the app is at http://127.0.0.1:54710 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 8 calls",
+        "reference replayed: 1.0 passed",
+        "took 1 s"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "request": "fc-a335d975244c",
+      "exit": 0,
+      "seconds": 1.5,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request fc-a335d975244c – the app is at http://127.0.0.1:54727 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 7 calls",
+        "reference replayed: 1.0 passed",
+        "took 2 s"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "request": "fc-133cda77edf9",
+      "exit": 0,
+      "seconds": 1.5,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request fc-133cda77edf9 – the app is at http://127.0.0.1:54743 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 13 calls",
+        "reference replayed: 1.0 passed",
+        "took 1 s"
+      ],
+      "stderr_tail": []
+    }
+  ],
+  "all_ok": true
+}

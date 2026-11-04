@@ -1,0 +1,20 @@
+version = "1.0"
+artifacts = ["/workspace-out/workspace.json"]
+
+[metadata]
+author_name = "Vencur"
+difficulty = "hard"
+category = "care-documentation"
+tags = ["care-home", "nursing-record", "de", "long"]
+
+[verifier]
+timeout_sec = 600.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 10800.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048

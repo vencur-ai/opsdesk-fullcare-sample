@@ -1,0 +1,261 @@
+[
+ {
+  "tool": "care.admit",
+  "args": {
+   "birth_date": "1949-05-09",
+   "birth_place": "Wakefield",
+   "family_name": "King",
+   "funding_note": "Local authority",
+   "given_name": "Dorothy",
+   "gp_id": "doc-01",
+   "room": "A29",
+   "sex": "f",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "care.document_file",
+  "args": {
+   "attachment_id": "att-adm-47000001",
+   "resident_id": "res-000029",
+   "kind": "discharge_letter",
+   "title": "Discharge summary"
+  }
+ },
+ {
+  "tool": "care.allergy_add",
+  "args": {
+   "resident_id": "res-000029",
+   "substance": "Nuts",
+   "reaction": "swelling",
+   "severity": "moderate",
+   "source_document_id": "doc-000001"
+  }
+ },
+ {
+  "tool": "care.allergy_add",
+  "args": {
+   "resident_id": "res-000029",
+   "substance": "Ibuprofen",
+   "reaction": "shortness of breath",
+   "severity": "severe",
+   "source_document_id": "doc-000001"
+  }
+ },
+ {
+  "tool": "care.contact_add",
+  "args": {
+   "resident_id": "res-000029",
+   "name": "Valerie King",
+   "phone": "07840 212605",
+   "relation": "Granddaughter",
+   "emergency": true
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "bp",
+   "value": 153.0,
+   "unit": "mmHg",
+   "measured_at": "2026-09-06 07:30",
+   "source_ref": "chat",
+   "value2": 76.0
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "pulse",
+   "value": 75.0,
+   "unit": "/min",
+   "measured_at": "2026-09-06 07:30",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "temperature",
+   "value": 36.4,
+   "unit": "°C",
+   "measured_at": "2026-09-06 07:30",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "weight",
+   "value": 54.6,
+   "unit": "kg",
+   "measured_at": "2026-09-06 07:30",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "height",
+   "value": 153.0,
+   "unit": "cm",
+   "measured_at": "2026-09-06 07:30",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-000029",
+   "scale_id": "house_falls",
+   "answers": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g0",
+    "orientation": "g0",
+    "sight": "g0",
+    "walking": "g0"
+   },
+   "performed_at": "2026-09-06 08:05"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-000029",
+   "scale_id": "house_pain",
+   "answers": {
+    "at_rest": "g3",
+    "behaviour": "g2",
+    "on_moving": "g2",
+    "sleep": "g1"
+   },
+   "performed_at": "2026-09-06 08:05"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-000029",
+   "scale_id": "house_skin",
+   "answers": {
+    "eats_less": "g2",
+    "feels_pressure": "g2",
+    "moves_alone": "g2",
+    "out_of_bed": "g2",
+    "skin_moist": "g1",
+    "skin_now": "g0"
+   },
+   "performed_at": "2026-09-06 08:05"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "Needs help with personal care.",
+   "goal": "Stays safe and well cared for.",
+   "review_on": "2026-10-04"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "personal_care",
+   "schedule": {
+    "kind": "times",
+    "times": [
+     "07:00"
+    ],
+    "every_hours": null,
+    "night_every_hours": null,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-09-06",
+   "entry_id": "cpe-000001"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "Weekly vital signs.",
+   "goal": "Stays safe and well cared for.",
+   "review_on": "2026-10-04"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "vital_signs",
+   "schedule": {
+    "kind": "weekly",
+    "times": [
+     "09:00"
+    ],
+    "every_hours": null,
+    "night_every_hours": null,
+    "anchor": "06:00",
+    "weekdays": [
+     0
+    ]
+   },
+   "start": "2026-09-06",
+   "entry_id": "cpe-000002"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "At risk of pressure damage, moves little.",
+   "goal": "Stays safe and well cared for.",
+   "review_on": "2026-10-04"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "reposition",
+   "schedule": {
+    "kind": "interval",
+    "times": [],
+    "every_hours": 2,
+    "night_every_hours": 3,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-09-06",
+   "entry_id": "cpe-000003"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "heimversorgung@apotheke-upper.example"
+   ],
+   "subject": "New resident Dorothy King",
+   "body": "Hello,\n\nDorothy King, born 1949-05-09, moved in today. Medication on the discharge summary: Ramipril, Amlodipine, Colecalciferol. The GP will transfer the chart.\n\nKind regards"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "haustechnik@heim-upper.example"
+   ],
+   "subject": "Mattress",
+   "body": "Hello,\n\nPlease bring a pressure-relief mattress for Dorothy King, room A29."
+  }
+ }
+]

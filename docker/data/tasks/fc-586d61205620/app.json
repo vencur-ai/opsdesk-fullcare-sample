@@ -1,0 +1,1532 @@
+{
+ "schema_version": "workforce-app/v2",
+ "locale": "de-DE",
+ "home": {
+  "address": "Gartenstraße 20, 56412 Kirchheiligen",
+  "manager_name": "Jonas Winkler",
+  "manager_title": "Pflegedienstleitung",
+  "user_name": "Ahmet Fischer",
+  "user_title": "Pflegefachkraft, Assistenz der Pflegedienstleitung",
+  "night_lead_name": "Anne Bauer"
+ },
+ "unit_names": {
+  "ward-01": "Wohnbereich Sonnenblick"
+ },
+ "profiles": [
+  {
+   "employee_id": "staff-0001",
+   "staff_number": "PN-2007",
+   "phone": "intern 201",
+   "hire_date": "2021-02-23",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-03-11",
+    "Erste-Hilfe-Kurs": "2027-07-17",
+    "Expertenstandard Sturzprophylaxe": "2027-02-18"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 330,
+   "previous_period_minutes": 10722
+  },
+  {
+   "employee_id": "staff-0002",
+   "staff_number": "PN-2014",
+   "phone": "intern 202",
+   "hire_date": "2021-10-25",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2027-08-12",
+    "Brandschutzunterweisung": "2026-12-16",
+    "Erste-Hilfe-Kurs": "2026-11-24"
+   },
+   "wishes": [
+    "Tauscht keine Dienste"
+   ],
+   "notes": "",
+   "hours_balance_minutes": -180,
+   "previous_period_minutes": 8913
+  },
+  {
+   "employee_id": "staff-0003",
+   "staff_number": "PN-2021",
+   "phone": "intern 203",
+   "hire_date": "2017-07-14",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2027-06-26",
+    "Erste-Hilfe-Kurs": "2028-12-30",
+    "Expertenstandard Sturzprophylaxe": "2027-07-01"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 360,
+   "previous_period_minutes": 4516
+  },
+  {
+   "employee_id": "staff-0004",
+   "staff_number": "PN-2028",
+   "phone": "intern 204",
+   "hire_date": "2021-12-31",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-11-17",
+    "Erste-Hilfe-Kurs": "2027-12-30",
+    "Expertenstandard Sturzprophylaxe": "2028-12-25"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -240,
+   "previous_period_minutes": 4956
+  },
+  {
+   "employee_id": "staff-0005",
+   "staff_number": "PN-2035",
+   "phone": "intern 205",
+   "hire_date": "2016-12-09",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-05-07",
+    "Brandschutzunterweisung": "2028-12-20",
+    "Erste-Hilfe-Kurs": "2029-01-07"
+   },
+   "wishes": [],
+   "notes": "Nicht verwechseln mit Agnieszka Schmitt.",
+   "hours_balance_minutes": 180,
+   "previous_period_minutes": 9922
+  },
+  {
+   "employee_id": "staff-0006",
+   "staff_number": "PN-2042",
+   "phone": "intern 206",
+   "hire_date": "2023-01-05",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2029-01-14",
+    "Brandschutzunterweisung": "2027-10-04",
+    "Hygieneschulung": "2028-01-08"
+   },
+   "wishes": [
+    "Möchte sonntags nicht arbeiten"
+   ],
+   "notes": "",
+   "hours_balance_minutes": 0,
+   "previous_period_minutes": 9093
+  },
+  {
+   "employee_id": "staff-0007",
+   "staff_number": "PN-2049",
+   "phone": "intern 207",
+   "hire_date": "2020-03-19",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-09-12",
+    "Erste-Hilfe-Kurs": "2028-08-28",
+    "Hygieneschulung": "2027-02-16"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -120,
+   "previous_period_minutes": 7154
+  },
+  {
+   "employee_id": "staff-0008",
+   "staff_number": "PN-2056",
+   "phone": "intern 208",
+   "hire_date": "2025-02-02",
+   "qualification_valid_until": {
+    "Expertenstandard Sturzprophylaxe": "2027-03-28",
+    "Hygieneschulung": "2027-04-03"
+   },
+   "wishes": [
+    "Möchte am liebsten Frühdienste",
+    "Tauscht keine Dienste"
+   ],
+   "notes": "",
+   "hours_balance_minutes": 270,
+   "previous_period_minutes": 10012
+  },
+  {
+   "employee_id": "staff-0009",
+   "staff_number": "PN-2063",
+   "phone": "intern 209",
+   "hire_date": "2020-09-02",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2028-08-16",
+    "Expertenstandard Sturzprophylaxe": "2028-07-03"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 9213
+  },
+  {
+   "employee_id": "staff-0010",
+   "staff_number": "PN-2070",
+   "phone": "intern 210",
+   "hire_date": "2013-08-18",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2028-09-17",
+    "Expertenstandard Sturzprophylaxe": "2027-11-17"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 7394
+  },
+  {
+   "employee_id": "staff-0011",
+   "staff_number": "PN-2077",
+   "phone": "intern 211",
+   "hire_date": "2023-12-18",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2028-11-14",
+    "Hygieneschulung": "2027-04-06"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 300,
+   "previous_period_minutes": 6535
+  },
+  {
+   "employee_id": "staff-0012",
+   "staff_number": "PN-2084",
+   "phone": "intern 212",
+   "hire_date": "2023-12-11",
+   "qualification_valid_until": {
+    "Expertenstandard Sturzprophylaxe": "2027-05-24",
+    "Hygieneschulung": "2027-02-04"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 9862
+  },
+  {
+   "employee_id": "staff-0013",
+   "staff_number": "PN-2091",
+   "phone": "intern 213",
+   "hire_date": "2016-10-14",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2028-07-22",
+    "Expertenstandard Sturzprophylaxe": "2028-07-01"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 270,
+   "previous_period_minutes": 10662
+  },
+  {
+   "employee_id": "staff-0014",
+   "staff_number": "PN-2098",
+   "phone": "intern 214",
+   "hire_date": "2013-12-21",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2026-12-09",
+    "Hygieneschulung": "2028-12-01"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 300,
+   "previous_period_minutes": 10692
+  },
+  {
+   "employee_id": "staff-0015",
+   "staff_number": "PN-2105",
+   "phone": "intern 215",
+   "hire_date": "2018-08-05",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2028-02-03",
+    "Hygieneschulung": "2027-08-16"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 60,
+   "previous_period_minutes": 9802
+  },
+  {
+   "employee_id": "staff-0016",
+   "staff_number": "PN-2112",
+   "phone": "intern 216",
+   "hire_date": "2021-04-19",
+   "qualification_valid_until": {
+    "Expertenstandard Sturzprophylaxe": "2027-10-25",
+    "Hygieneschulung": "2028-03-01"
+   },
+   "wishes": [
+    "Möchte am liebsten Nachtdienste"
+   ],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 10512
+  },
+  {
+   "employee_id": "staff-0017",
+   "staff_number": "PN-2119",
+   "phone": "intern 217",
+   "hire_date": "2016-04-09",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2027-04-06",
+    "Hygieneschulung": "2027-11-28"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 6355
+  },
+  {
+   "employee_id": "staff-0018",
+   "staff_number": "PN-2126",
+   "phone": "intern 218",
+   "hire_date": "2012-01-18",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2028-09-07",
+    "Expertenstandard Sturzprophylaxe": "2027-01-12"
+   },
+   "wishes": [
+    "Tauscht keine Dienste"
+   ],
+   "notes": "Bitte erst nach 10 Uhr anrufen.",
+   "hours_balance_minutes": -120,
+   "previous_period_minutes": 8973
+  },
+  {
+   "employee_id": "staff-0019",
+   "staff_number": "PN-2133",
+   "phone": "intern 219",
+   "hire_date": "2019-02-11",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2028-06-03",
+    "Expertenstandard Sturzprophylaxe": "2026-10-11"
+   },
+   "wishes": [],
+   "notes": "Bitte erst nach 10 Uhr anrufen.",
+   "hours_balance_minutes": -60,
+   "previous_period_minutes": 9033
+  },
+  {
+   "employee_id": "staff-0020",
+   "staff_number": "PN-2140",
+   "phone": "intern 220",
+   "hire_date": "2014-08-07",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2028-02-16",
+    "Expertenstandard Sturzprophylaxe": "2027-02-25"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -60,
+   "previous_period_minutes": 10332
+  },
+  {
+   "employee_id": "staff-0021",
+   "staff_number": "PN-2147",
+   "phone": "intern 221",
+   "hire_date": "2010-12-15",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2027-03-12",
+    "Hygieneschulung": "2027-07-03"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -60,
+   "previous_period_minutes": 9682
+  },
+  {
+   "employee_id": "staff-0022",
+   "staff_number": "PN-2154",
+   "phone": "intern 222",
+   "hire_date": "2024-02-05",
+   "qualification_valid_until": {
+    "Expertenstandard Sturzprophylaxe": "2028-12-08",
+    "Hygieneschulung": "2028-04-08"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -30,
+   "previous_period_minutes": 7244
+  },
+  {
+   "employee_id": "staff-0023",
+   "staff_number": "PN-2161",
+   "phone": "intern 223",
+   "hire_date": "2011-03-13",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2027-09-22",
+    "Hygieneschulung": "2026-12-29"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -90,
+   "previous_period_minutes": 10302
+  },
+  {
+   "employee_id": "staff-0024",
+   "staff_number": "PN-2168",
+   "phone": "intern 224",
+   "hire_date": "2022-11-09",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2028-07-07",
+    "Hygieneschulung": "2028-07-29"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 180,
+   "previous_period_minutes": 4336
+  },
+  {
+   "employee_id": "staff-0025",
+   "staff_number": "PN-2175",
+   "phone": "intern 225",
+   "hire_date": "2024-06-25",
+   "qualification_valid_until": {
+    "Expertenstandard Sturzprophylaxe": "2028-11-24",
+    "Hygieneschulung": "2027-05-13"
+   },
+   "wishes": [],
+   "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+   "hours_balance_minutes": 30,
+   "previous_period_minutes": 10422
+  },
+  {
+   "employee_id": "staff-0026",
+   "staff_number": "PN-2182",
+   "phone": "intern 226",
+   "hire_date": "2021-05-11",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2027-01-25",
+    "Hygieneschulung": "2028-08-07"
+   },
+   "wishes": [
+    "Übernimmt derzeit keine Zusatzdienste"
+   ],
+   "notes": "",
+   "hours_balance_minutes": -120,
+   "previous_period_minutes": 9622
+  }
+ ],
+ "absence_meta": [
+  {
+   "absence_id": "holiday-0001",
+   "entered_by": "Jonas Winkler",
+   "entered_on": "2026-06-12",
+   "channel": "planned",
+   "note": ""
+  },
+  {
+   "absence_id": "holiday-0002",
+   "entered_by": "Jonas Winkler",
+   "entered_on": "2026-07-10",
+   "channel": "planned",
+   "note": ""
+  }
+ ],
+ "message_meta": [],
+ "message_texts": {},
+ "requests": [],
+ "reports": [],
+ "publications": [],
+ "history": [
+  {
+   "at": "2026-06-12 09:41",
+   "user": "Jonas Winkler",
+   "action": "Abwesenheit erfasst",
+   "object": "Mehmet Fuchs",
+   "before": "",
+   "after": "Urlaub 30.07.2026–30.07.2026"
+  },
+  {
+   "at": "2026-06-27 16:10",
+   "user": "Jonas Winkler",
+   "action": "Dienstplan veröffentlicht",
+   "object": "Woche 26",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-06-28 17:46",
+   "user": "Ahmet Fischer",
+   "action": "Dienst geändert",
+   "object": "Fatma Werner",
+   "before": "Mo. 29.06. Spät",
+   "after": "Früh"
+  },
+  {
+   "at": "2026-07-04 16:17",
+   "user": "Jonas Winkler",
+   "action": "Dienstplan veröffentlicht",
+   "object": "Woche 27",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-07-05 11:39",
+   "user": "Jonas Winkler",
+   "action": "Dienst geändert",
+   "object": "Claudia Schmidt",
+   "before": "Di. 07.07. Früh",
+   "after": "Nacht"
+  },
+  {
+   "at": "2026-07-05 15:48",
+   "user": "Ahmet Fischer",
+   "action": "Dienst geändert",
+   "object": "Claudia Lange",
+   "before": "Fr. 10.07. Nacht",
+   "after": "Spät"
+  },
+  {
+   "at": "2026-07-06 10:56",
+   "user": "Jonas Winkler",
+   "action": "Zeitarbeit gebucht",
+   "object": "CuraFlex Zeitarbeit",
+   "before": "",
+   "after": "Di. 07.07. Spät"
+  },
+  {
+   "at": "2026-07-06 11:18",
+   "user": "Jonas Winkler",
+   "action": "Dienst geändert",
+   "object": "Felix Richter",
+   "before": "Sa. 11.07. Spät",
+   "after": "Früh"
+  },
+  {
+   "at": "2026-07-10 09:54",
+   "user": "Jonas Winkler",
+   "action": "Abwesenheit erfasst",
+   "object": "Fatma Werner",
+   "before": "",
+   "after": "Urlaub 31.07.2026–31.07.2026"
+  },
+  {
+   "at": "2026-07-10 10:00",
+   "user": "Ioana Schäfer",
+   "action": "Dienst geändert",
+   "object": "Jana Neumann",
+   "before": "Mo. 13.07. Nacht",
+   "after": "Spät"
+  },
+  {
+   "at": "2026-07-11 16:24",
+   "user": "Jonas Winkler",
+   "action": "Dienstplan veröffentlicht",
+   "object": "Woche 28",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-07-13 09:01",
+   "user": "Ahmet Fischer",
+   "action": "Tausch genehmigt",
+   "object": "Swetlana Wagner ↔ Lena Schulz",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-07-17 09:48",
+   "user": "Jonas Winkler",
+   "action": "Zeitarbeit gebucht",
+   "object": "Pflegepool Nord GmbH",
+   "before": "",
+   "after": "Mi. 22.07. Früh"
+  },
+  {
+   "at": "2026-07-18 16:31",
+   "user": "Jonas Winkler",
+   "action": "Dienstplan veröffentlicht",
+   "object": "Woche 29",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-07-19 17:52",
+   "user": "Jonas Winkler",
+   "action": "Zeitarbeit gebucht",
+   "object": "Personaldienst Altenhilfe Süd",
+   "before": "",
+   "after": "Mi. 22.07. Nacht"
+  }
+ ],
+ "session_log": [],
+ "contacts": [
+  {
+   "contact_id": "contact-manager",
+   "name": "Jonas Winkler",
+   "address": "jonas.winkler@pflegezentrum-am-weinberg-kirchheiligen.de",
+   "organisation": "Pflegezentrum Am Weinberg",
+   "role": "Pflegedienstleitung"
+  },
+  {
+   "contact_id": "contact-ops",
+   "name": "Monika Demir",
+   "address": "monika.demir@kirchheiligen-pflegeverbund.de",
+   "organisation": "Regionalbüro",
+   "role": "Regionalleitung"
+  },
+  {
+   "contact_id": "contact-payroll",
+   "name": "Lena Koch",
+   "address": "lena.koch@kessler-lohnbuero-kirchheiligen.de",
+   "organisation": "Lohnbüro Kessler & Partner",
+   "role": "Lohnabrechnung"
+  },
+  {
+   "contact_id": "contact-training",
+   "name": "Stefan Keller",
+   "address": "stefan.keller@bildungswerk-pflegesued-kirchheiligen.de",
+   "organisation": "Bildungswerk Pflege Süd",
+   "role": "Fortbildungsträger"
+  },
+  {
+   "contact_id": "contact-agency-1",
+   "name": "Marek Köhler",
+   "address": "einsatz@pflegepool-nord-kirchheiligen.de",
+   "organisation": "Pflegepool Nord GmbH",
+   "role": "Disposition"
+  },
+  {
+   "contact_id": "contact-agency-2",
+   "name": "Stefan Sommer",
+   "address": "einsatz@personaldienst-altenhilfe-sued-kirchheiligen.de",
+   "organisation": "Personaldienst Altenhilfe Süd",
+   "role": "Disposition"
+  },
+  {
+   "contact_id": "contact-agency-3",
+   "name": "Stefan Winkler",
+   "address": "einsatz@curaflex-zeitarbeit-kirchheiligen.de",
+   "organisation": "CuraFlex Zeitarbeit",
+   "role": "Disposition"
+  },
+  {
+   "contact_id": "contact-rep",
+   "name": "Ahmet Nowak",
+   "address": "ahmet.nowak@pflegezentrum-am-weinberg-kirchheiligen.de",
+   "organisation": "Betriebsrat",
+   "role": "Vorsitz Betriebsrat"
+  },
+  {
+   "contact_id": "care-pharmacy",
+   "name": "Team Heimversorgung",
+   "address": "heimversorgung@apotheke-kirchheiligen.example",
+   "organisation": "Apotheke am Markt",
+   "role": "Apotheke"
+  },
+  {
+   "contact_id": "care-hospital",
+   "name": "Patientenaufnahme",
+   "address": "aufnahme@klinikum-kirchheiligen.example",
+   "organisation": "Kreisklinikum Kirchheiligen",
+   "role": "Krankenhaus"
+  },
+  {
+   "contact_id": "care-transport",
+   "name": "Disposition",
+   "address": "dispo@krankentransport-kirchheiligen.example",
+   "organisation": "Krankentransport Kirchheiligen",
+   "role": "Krankentransport"
+  },
+  {
+   "contact_id": "care-authority",
+   "name": "Infektionsschutz",
+   "address": "infektionsschutz@gesundheitsamt-kirchheiligen.example",
+   "organisation": "Gesundheitsamt Kirchheiligen",
+   "role": "Gesundheitsamt"
+  },
+  {
+   "contact_id": "care-lab",
+   "name": "Befundversand",
+   "address": "befunde@labor-kirchheiligen.example",
+   "organisation": "Labor am Klinikum Kirchheiligen",
+   "role": "Labor"
+  },
+  {
+   "contact_id": "care-facilities",
+   "name": "Haustechnik",
+   "address": "haustechnik@heim-kirchheiligen.example",
+   "organisation": "Haustechnik",
+   "role": "Haustechnik und Hilfsmittel"
+  },
+  {
+   "contact_id": "care-doc-01",
+   "name": "Dr. med. M. Werner",
+   "address": "praxis.werner@praxis.example",
+   "organisation": "Hausarztpraxis Werner, Kirchheiligen",
+   "role": "Hausarztpraxis"
+  },
+  {
+   "contact_id": "care-doc-02",
+   "name": "Dr. med. U. Schröder",
+   "address": "praxis.schröder@praxis.example",
+   "organisation": "Hausarztpraxis Schröder, Kirchheiligen",
+   "role": "Hausarztpraxis"
+  },
+  {
+   "contact_id": "care-doc-03",
+   "name": "Dr. med. D. Lorenz",
+   "address": "praxis.lorenz@praxis.example",
+   "organisation": "Hausarztpraxis Lorenz, Kirchheiligen",
+   "role": "Hausarztpraxis"
+  },
+  {
+   "contact_id": "care-doc-04",
+   "name": "Dr. med. G. Becker",
+   "address": "praxis.becker@praxis.example",
+   "organisation": "Praxis für Neurologie, Kirchheiligen",
+   "role": "Neurologie"
+  },
+  {
+   "contact_id": "care-doc-05",
+   "name": "Dr. med. H. Köhler",
+   "address": "praxis.köhler@praxis.example",
+   "organisation": "Praxis für Dermatologie, Kirchheiligen",
+   "role": "Dermatologie"
+  },
+  {
+   "contact_id": "care-res-001-c1",
+   "name": "Wolfgang Becker",
+   "address": "wolfgang.becker@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Frau Becker"
+  },
+  {
+   "contact_id": "care-res-002-c1",
+   "name": "Renate Wolf",
+   "address": "renate.wolf@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Herrn Wolf"
+  },
+  {
+   "contact_id": "care-res-003-c1",
+   "name": "Rolf Maier",
+   "address": "rolf.maier@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehemann von Frau Maier"
+  },
+  {
+   "contact_id": "care-res-003-c2",
+   "name": "Lieselotte Maier",
+   "address": "lieselotte.maier@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Maier"
+  },
+  {
+   "contact_id": "care-res-004-c1",
+   "name": "Helga Werner",
+   "address": "helga.werner@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Herrn Werner"
+  },
+  {
+   "contact_id": "care-res-005-c1",
+   "name": "Elisabeth Bauer",
+   "address": "elisabeth.bauer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Bauer"
+  },
+  {
+   "contact_id": "care-res-006-c1",
+   "name": "Lieselotte Becker",
+   "address": "lieselotte.becker@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Herrn Becker"
+  },
+  {
+   "contact_id": "care-res-006-c2",
+   "name": "Waltraud Becker",
+   "address": "waltraud.becker@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehefrau von Herrn Becker"
+  },
+  {
+   "contact_id": "care-res-007-c1",
+   "name": "Klaus Krause",
+   "address": "klaus.krause@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkel von Frau Krause"
+  },
+  {
+   "contact_id": "care-res-007-c2",
+   "name": "Helga Krause",
+   "address": "helga.krause@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Krause"
+  },
+  {
+   "contact_id": "care-res-008-c1",
+   "name": "Heinz Popescu",
+   "address": "heinz.popescu@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Herrn Popescu"
+  },
+  {
+   "contact_id": "care-res-009-c1",
+   "name": "Ingeborg Braun",
+   "address": "ingeborg.braun@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Nichte von Frau Braun"
+  },
+  {
+   "contact_id": "care-res-009-c2",
+   "name": "Inge Braun",
+   "address": "inge.braun@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Nichte von Frau Braun"
+  },
+  {
+   "contact_id": "care-res-010-c1",
+   "name": "Elisabeth Roth",
+   "address": "elisabeth.roth@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Roth"
+  },
+  {
+   "contact_id": "care-res-010-c2",
+   "name": "Elisabeth Roth",
+   "address": "elisabeth.roth2@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Nichte von Frau Roth"
+  },
+  {
+   "contact_id": "care-res-011-c1",
+   "name": "Dieter Meier",
+   "address": "dieter.meier@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Herrn Meier"
+  },
+  {
+   "contact_id": "care-res-011-c2",
+   "name": "Hannelore Meier",
+   "address": "hannelore.meier@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Herrn Meier"
+  },
+  {
+   "contact_id": "care-res-012-c1",
+   "name": "Rosemarie Fuchs",
+   "address": "rosemarie.fuchs@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Nichte von Frau Fuchs"
+  },
+  {
+   "contact_id": "care-res-013-c1",
+   "name": "Günter Braun",
+   "address": "günter.braun@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Frau Braun"
+  },
+  {
+   "contact_id": "care-res-014-c1",
+   "name": "Waltraud Haas",
+   "address": "waltraud.haas@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Haas"
+  },
+  {
+   "contact_id": "care-res-014-c2",
+   "name": "Karl-Heinz Haas",
+   "address": "karl-heinz.haas@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Frau Haas"
+  },
+  {
+   "contact_id": "care-res-015-c1",
+   "name": "Rolf Lehmann",
+   "address": "rolf.lehmann@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Herrn Lehmann"
+  },
+  {
+   "contact_id": "care-res-016-c1",
+   "name": "Werner Popescu",
+   "address": "werner.popescu@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Herrn Popescu"
+  },
+  {
+   "contact_id": "care-res-017-c1",
+   "name": "Brigitte Demir",
+   "address": "brigitte.demir@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Demir"
+  },
+  {
+   "contact_id": "care-res-017-c2",
+   "name": "Karl-Heinz Demir",
+   "address": "karl-heinz.demir@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Frau Demir"
+  },
+  {
+   "contact_id": "care-res-018-c1",
+   "name": "Marianne Roth",
+   "address": "marianne.roth@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Herrn Roth"
+  },
+  {
+   "contact_id": "care-res-019-c1",
+   "name": "Rolf Berger",
+   "address": "rolf.berger@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkel von Frau Berger"
+  },
+  {
+   "contact_id": "care-res-020-c1",
+   "name": "Helmut Köhler",
+   "address": "helmut.köhler@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehemann von Frau Köhler"
+  },
+  {
+   "contact_id": "care-res-020-c2",
+   "name": "Ingeborg Köhler",
+   "address": "ingeborg.köhler@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Köhler"
+  },
+  {
+   "contact_id": "care-res-021-c1",
+   "name": "Kurt Zimmermann",
+   "address": "kurt.zimmermann@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkel von Herrn Zimmermann"
+  },
+  {
+   "contact_id": "care-res-022-c1",
+   "name": "Waltraud Werner",
+   "address": "waltraud.werner@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Werner"
+  },
+  {
+   "contact_id": "care-res-023-c1",
+   "name": "Christa Demir",
+   "address": "christa.demir@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Demir"
+  },
+  {
+   "contact_id": "care-res-024-c1",
+   "name": "Werner Fischer",
+   "address": "werner.fischer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Herrn Fischer"
+  },
+  {
+   "contact_id": "care-res-025-c1",
+   "name": "Werner Lange",
+   "address": "werner.lange@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Frau Lange"
+  },
+  {
+   "contact_id": "care-res-026-c1",
+   "name": "Anneliese Yılmaz",
+   "address": "anneliese.yılmaz@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Yılmaz"
+  },
+  {
+   "contact_id": "care-res-027-c1",
+   "name": "Ingeborg Demir",
+   "address": "ingeborg.demir@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Herrn Demir"
+  },
+  {
+   "contact_id": "care-res-028-c1",
+   "name": "Hannelore Bauer",
+   "address": "hannelore.bauer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Bauer"
+  },
+  {
+   "contact_id": "care-res-028-c2",
+   "name": "Irmgard Bauer",
+   "address": "irmgard.bauer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Nichte von Frau Bauer"
+  }
+ ],
+ "mail_address": "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de",
+ "mails": [
+  {
+   "mail_id": "mail-0002",
+   "folder": "inbox",
+   "sender": "einsatz@pflegepool-nord-kirchheiligen.de",
+   "sender_name": "Marek Köhler",
+   "to": [
+    "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Neue Preisliste",
+   "body": "Guten Tag,\n\nanbei unsere aktuelle Preisliste. Für bereits bestätigte Einsätze ändert sich nichts. Bitte wie gewohnt über das Portal buchen, damit alle Dienstdaten vollständig sind.\n\nFreundliche Grüße\nMarek Köhler\nPflegepool Nord GmbH",
+   "sent_at": "2026-07-14 11:33",
+   "is_read": true,
+   "thread_id": "thread-0002",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-0002-preislistepd",
+     "filename": "preisliste.pdf",
+     "media_type": "application/pdf",
+     "content": "Pflegepool Nord GmbH\nPreisliste – gültig ab dem 1. dieses Monats\n\nPflegefachkraft: auf Anfrage\nPflegehilfskraft: auf Anfrage\n\nEin Stundensatz für alle Dienste, auch nachts und am Wochenende.\nMindesteinsatz 6 Stunden. Kostenfreie Stornierung bis 24 Stunden vor Dienstbeginn, danach voller Satz.\nVorlauf: wie im Buchungsportal je Angebot angegeben."
+    }
+   ]
+  },
+  {
+   "mail_id": "mail-0009",
+   "folder": "inbox",
+   "sender": "monika.demir@kirchheiligen-pflegeverbund.de",
+   "sender_name": "Monika Demir",
+   "to": [
+    "jonas.winkler@pflegezentrum-am-weinberg-kirchheiligen.de",
+    "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Stundenbericht Region",
+   "body": "Liebe Kolleginnen und Kollegen,\n\ndanke für die Zahlen des letzten Monats. In der Region sind die Überstunden wieder gestiegen. Künftig frage ich bei jedem Haus kurz nach, wenn ein Planungszeitraum über den Vertragsstunden endet. Heute ist nichts zu tun.\n\nViele Grüße\nMonika Demir",
+   "sent_at": "2026-07-17 16:25",
+   "is_read": true,
+   "thread_id": "thread-0009",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0011",
+   "folder": "sent",
+   "sender": "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de",
+   "sender_name": "Ahmet Fischer",
+   "to": [
+    "einsatz@pflegepool-nord-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Buchungsanfrage – Vorgangsnummer",
+   "body": "Guten Tag,\n\ndanke für die Übernahme des Spätdienstes letzte Woche. Könnten Sie mir die Vorgangsnummer für die Rechnung schicken?\n\nAhmet Fischer\nAssistenz der Pflegedienstleitung, Pflegezentrum Am Weinberg",
+   "sent_at": "2026-07-18 10:11",
+   "is_read": true,
+   "thread_id": "thread-0011",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0001",
+   "folder": "inbox",
+   "sender": "lena.koch@kessler-lohnbuero-kirchheiligen.de",
+   "sender_name": "Lena Koch",
+   "to": [
+    "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Abrechnungsschluss und Stundenübersicht 06/2026",
+   "body": "Guten Tag,\n\nanbei die abgerechneten Stunden für 06/2026. Änderungen an Vertragsstunden, Ein- und Austritte für den nächsten Lauf brauchen wir bis Sa., 01.08.2026. Überstunden zahlen wir nach Freigabe durch die Pflegedienstleitung aus.\n\nWenn eine Zahl nicht stimmt, antworten Sie bitte mit Personalnummer und korrigierten Stunden – bitte die Datei nicht ändern.\n\nMit freundlichen Grüßen\nLena Koch\nLohnbüro Kessler & Partner",
+   "sent_at": "2026-07-21 09:15",
+   "is_read": true,
+   "thread_id": "thread-0001",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-0001-stunden20260",
+     "filename": "stunden_2026_06.csv",
+     "media_type": "text/csv",
+     "content": "personalnr;name;vertrag_std_woche;geleistet_std;ueberstunden_std\nPN-2007;Anne Bauer;40,00;178,70;5,50\nPN-2014;Daniel Haas;35,00;148,55;0,00\nPN-2021;Felix Richter;16,00;75,27;6,00\nPN-2028;Swetlana Wagner;20,00;82,60;0,00\nPN-2035;Claudia Schmidt;37,50;165,37;3,00\nPN-2042;Agnieszka Schmitt;35,00;151,55;0,00\nPN-2049;Ioana Haas;28,00;119,23;0,00\nPN-2056;Thomas Koch;37,50;166,87;4,50\nPN-2063;Daniel Roth;35,00;153,55;2,00\nPN-2070;Julia Schäfer;28,00;123,23;2,00\nPN-2077;Anna Lehmann;24,00;108,92;5,00\nPN-2084;Ewa Krüger;37,50;164,37;2,00\nPN-2091;Fatma Werner;40,00;177,70;4,50\nPN-2098;Jana Neumann;40,00;178,20;5,00\nPN-2105;Mehmet Fuchs;37,50;163,37;1,00\nPN-2112;Ahmet Nowak;40,00;175,20;2,00\nPN-2119;Mehmet Keller;24,00;105,92;2,00\nPN-2126;Claudia Sommer;35,00;149,55;0,00\nPN-2133;Uwe Hoffmann;35,00;150,55;0,00\nPN-2140;Uwe Lehmann;40,00;172,20;0,00\nPN-2147;Sabine Richter;37,50;161,37;0,00\nPN-2154;Thomas Braun;28,00;120,73;0,00\nPN-2161;Agnieszka Köhler;40,00;171,70;0,00\nPN-2168;Lena Schulz;16,00;72,27;3,00\nPN-2175;Claudia Lange;40,00;173,70;0,50\nPN-2182;Mia Lehmann;37,50;160,37;0,00\n"
+    }
+   ]
+  },
+  {
+   "mail_id": "mail-0004",
+   "folder": "inbox",
+   "sender": "ahmet.nowak@pflegezentrum-am-weinberg-kirchheiligen.de",
+   "sender_name": "Ahmet Nowak",
+   "to": [
+    "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de",
+    "jonas.winkler@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Einladung Betriebsratssitzung",
+   "body": "Hallo zusammen,\n\ndie nächste Sitzung des Betriebsrats ist am Di., 28.07.2026 um 14:00 Uhr im Besprechungsraum. Tagesordnung: Dienstpläne der kommenden Wochen, Überstunden, Fortbildungen. Dienstplanentwürfe bitte wie in der Betriebsvereinbarung vereinbart vorher zur Zustimmung einreichen.\n\nViele Grüße\nAhmet Nowak",
+   "sent_at": "2026-07-21 13:42",
+   "is_read": true,
+   "thread_id": "thread-0004",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0008",
+   "folder": "inbox",
+   "sender": "jonas.winkler@pflegezentrum-am-weinberg-kirchheiligen.de",
+   "sender_name": "Jonas Winkler",
+   "to": [
+    "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Probealarm am Di. 28.07.",
+   "body": "Hallo zusammen,\n\nam Di., 28.07.2026 zwischen 10:00 und 10:30 Uhr gibt es einen Probealarm der Brandmeldeanlage. Bitte die Bewohnerinnen und Bewohner vorher beruhigen. Keine Räumung.\n\nJonas",
+   "sent_at": "2026-07-22 08:35",
+   "is_read": true,
+   "thread_id": "thread-0008",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0012",
+   "folder": "sent",
+   "sender": "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de",
+   "sender_name": "Ahmet Fischer",
+   "to": [
+    "jonas.winkler@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Dienstplan veröffentlicht",
+   "body": "Hallo Jonas,\n\nder Dienstplan ab Sa. 25.07. ist veröffentlicht. Offene Punkte stehen wie immer im Plan.\n\nAhmet Fischer\nAssistenz der Pflegedienstleitung, Pflegezentrum Am Weinberg",
+   "sent_at": "2026-07-22 15:37",
+   "is_read": true,
+   "thread_id": "thread-0012",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0003",
+   "folder": "inbox",
+   "sender": "jonas.winkler@pflegezentrum-am-weinberg-kirchheiligen.de",
+   "sender_name": "Jonas Winkler",
+   "to": [
+    "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Diese Woche – ein paar Punkte",
+   "body": "Hallo Ahmet,\n\nein paar Punkte für die nächsten Tage:\n- Überstunden nur, wo es wirklich nötig ist – die Regionalleitung schaut gerade genau auf die Stunden\n- bitte allen Bescheid geben, deren Dienst sich ändert\n\nIch bin morgen Vormittag fast durchgehend in Terminen; wenn etwas nicht warten kann, schreib mir im Chat.\n\nJonas",
+   "sent_at": "2026-07-24 17:22",
+   "is_read": true,
+   "thread_id": "thread-0003",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-000013",
+   "folder": "inbox",
+   "sender": "befunde@labor-kirchheiligen.example",
+   "sender_name": "Befundversand",
+   "to": [
+    "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Befund Edith Lange",
+   "body": "Guten Tag,\n\nanbei der Befund der Blutabnahme von gestern.\n\nIhr Labor",
+   "sent_at": "2026-07-31 05:05",
+   "is_read": false,
+   "thread_id": "thread-c0010",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-lab-47000000",
+     "filename": "laborbefund_lange.pdf",
+     "media_type": "application/pdf",
+     "content": "Labor am Klinikum Kirchheiligen\nLaboratoriumsmedizin · Klinikstraße 27 · 92172 Kirchheiligen\nTel. 0774 8427-9\n\nLaborbefund\n\nAuftragsnummer: 260730-7420\nPatient/in: Edith Lange, geb. 11.05.1935\nEinsender: Pflegezentrum Am Weinberg, Gartenstraße 20, 56412 Kirchheiligen\nAbnahme: 30.07.2026 07:40 · Eingang Labor: 30.07.2026 10:05\nMaterial: Serum, EDTA-Blut\n\nUntersuchung   Ergebnis  Einheit   Normbereich\nHämoglobin        11,1 g/dl      12–16 L\nLeukozyten         5,5 /nl       4–10 \nKreatinin          0,9 mg/dl     0,5–1,1 \nNatrium            140 mmol/l    135–145 \nKalium             4,7 mmol/l    3,5–5,1 \n\nH = über, L = unter dem Normbereich\nBefund vollständig. Medizinisch validiert: Dr. med. Florian Wagner, Fachärztin/Facharzt für Laboratoriumsmedizin\n\nSeite 1 von 1"
+    }
+   ]
+  },
+  {
+   "mail_id": "mail-000014",
+   "folder": "inbox",
+   "sender": "jonas.winkler@pflegezentrum-am-weinberg-kirchheiligen.de",
+   "sender_name": "Jonas Winkler",
+   "to": [
+    "ahmet.fischer@pflegezentrum-am-weinberg-kirchheiligen.de"
+   ],
+   "cc": [],
+   "subject": "Für deinen Frühdienst heute",
+   "body": "Hallo Ahmet,\n\ndu hast heute die Schichtleitung im Frühdienst. Was ich schon weiß:\n\n- Im Teamchat stehen Werte von heute früh. Bitte dokumentieren und nach unserem Standard handeln.\n- Siehe Teamchat – Julia Schäfer ist heute krank. Bitte die Krankmeldung eintragen und den Tagesplan der Frühschicht so umverteilen, dass nichts liegen bleibt. Um die Besetzung im Dienstplan kümmere ich mich.\n- Bei Frau Yılmaz ist heute um 10 Uhr der Verbandwechsel laut Anordnung dran. Bitte sorg dafür, dass das im Tagesplan richtig geregelt ist.\n- Dr. med. U. Schröder hat heute früh neue Anordnungen für Frau Bauer eingetragen. Bitte alles umsetzen – quittieren, in die Planung übernehmen, und die Apotheke informieren, wo nötig.\n- Der Laborbefund für Frau Lange ist da (Mail). Bitte ablegen und nach unserem Standard weitergeben.\n- Bitte die Trinkmengen von Herrn Meier eintragen (Teamchat) und die Bilanz der letzten Tage nach unserem Standard prüfen und im Pflegebericht festhalten.\n- Bei Frau Becker ist die Einschätzung „Sturzrisikofaktoren (Hausskala, angelehnt an eine Sturzrisiko-Skala)“ fällig – die Beobachtungen stehen im Teamchat. Bitte einschätzen und die Planung nach unserem Standard anpassen, falls nötig.\n\nIch bin heute auf Fortbildung und lese zwischendurch Mails. Danke!\nJonas",
+   "sent_at": "2026-07-30 17:40",
+   "is_read": false,
+   "thread_id": "thread-c0010",
+   "in_reply_to": null,
+   "attachments": []
+  }
+ ],
+ "chat_channels": [
+  {
+   "channel_id": "chat-all",
+   "name": "Alle Mitarbeitenden",
+   "kind": "group",
+   "members": [
+    "me",
+    "manager",
+    "staff-0001",
+    "staff-0002",
+    "staff-0003",
+    "staff-0004",
+    "staff-0005",
+    "staff-0006",
+    "staff-0007",
+    "staff-0008",
+    "staff-0009",
+    "staff-0010",
+    "staff-0011",
+    "staff-0012",
+    "staff-0013",
+    "staff-0014",
+    "staff-0015",
+    "staff-0016",
+    "staff-0017",
+    "staff-0018",
+    "staff-0019",
+    "staff-0020",
+    "staff-0021",
+    "staff-0022",
+    "staff-0023",
+    "staff-0024",
+    "staff-0025",
+    "staff-0026"
+   ],
+   "topic": "Infos für das ganze Haus"
+  },
+  {
+   "channel_id": "chat-ward-01",
+   "name": "Team Wohnbereich Sonnenblick",
+   "kind": "group",
+   "members": [
+    "me",
+    "staff-0001",
+    "staff-0002",
+    "staff-0003",
+    "staff-0004",
+    "staff-0005",
+    "staff-0006",
+    "staff-0007",
+    "staff-0008",
+    "staff-0009",
+    "staff-0010",
+    "staff-0012",
+    "staff-0013",
+    "staff-0014",
+    "staff-0015",
+    "staff-0016",
+    "staff-0017",
+    "staff-0018",
+    "staff-0019",
+    "staff-0020",
+    "staff-0021",
+    "staff-0022",
+    "staff-0023",
+    "staff-0025",
+    "staff-0026"
+   ],
+   "topic": "Übergaben und Dienstfragen"
+  },
+  {
+   "channel_id": "chat-nights",
+   "name": "Nachtdienst",
+   "kind": "group",
+   "members": [
+    "me",
+    "staff-0001",
+    "staff-0002",
+    "staff-0006",
+    "staff-0007",
+    "staff-0009",
+    "staff-0010",
+    "staff-0011",
+    "staff-0012",
+    "staff-0013",
+    "staff-0017",
+    "staff-0022",
+    "staff-0024",
+    "staff-0026"
+   ],
+   "topic": "Nachtteam"
+  },
+  {
+   "channel_id": "dm-staff-0026",
+   "name": "Mia Lehmann",
+   "kind": "direct",
+   "members": [
+    "me",
+    "staff-0026"
+   ],
+   "topic": ""
+  },
+  {
+   "channel_id": "dm-staff-0025",
+   "name": "Claudia Lange",
+   "kind": "direct",
+   "members": [
+    "me",
+    "staff-0025"
+   ],
+   "topic": ""
+  }
+ ],
+ "chat_messages": [
+  {
+   "chat_id": "chat-0001",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0003",
+   "text": "Hab ihn – lag in der Übergabemappe.",
+   "sent_at": "2026-07-17 10:45",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0002",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0019",
+   "text": "Wer hat den Schlüssel fürs Medikamentenzimmer? Er ist nicht im Kasten.",
+   "sent_at": "2026-07-17 16:56",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0003",
+   "channel_id": "dm-staff-0026",
+   "sender_id": "staff-0026",
+   "text": "Hallo Ahmet, könnte ich nächsten Monat am 21. frei haben? Das Wochenende davor arbeite ich gern.",
+   "sent_at": "2026-07-18 15:36",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0004",
+   "channel_id": "dm-staff-0026",
+   "sender_id": "me",
+   "text": "Danke – ich schaue nach und melde mich.",
+   "sent_at": "2026-07-18 20:01",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0005",
+   "channel_id": "dm-staff-0025",
+   "sender_id": "staff-0025",
+   "text": "Hallo Ahmet, könnte ich nächsten Monat am 28. frei haben? Das Wochenende davor arbeite ich gern.",
+   "sent_at": "2026-07-19 19:48",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0006",
+   "channel_id": "dm-staff-0025",
+   "sender_id": "me",
+   "text": "Danke – ich schaue nach und melde mich.",
+   "sent_at": "2026-07-19 20:21",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0007",
+   "channel_id": "chat-nights",
+   "sender_id": "staff-0014",
+   "text": "Kuchen im Pausenraum – bedient euch.",
+   "sent_at": "2026-07-20 09:49",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0008",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0023",
+   "text": "Der Aufzug im ersten Stock geht wieder.",
+   "sent_at": "2026-07-20 11:26",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0009",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0017",
+   "text": "Bitte jede Schicht die Kühlschranktemperatur eintragen.",
+   "sent_at": "2026-07-24 08:23",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0010",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0006",
+   "text": "Danke fürs Bleiben gestern Nacht!",
+   "sent_at": "2026-07-24 10:09",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0011",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0011",
+   "text": "Die Hausarztvisite ist diese Woche auf Donnerstag 11 Uhr verschoben.",
+   "sent_at": "2026-07-25 06:39",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-000012",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0001",
+   "text": "Werte von heute früh, bitte eintragen:\nHerr Lehmann (Zi. A15): RR um 05:53 208/99 mmHg\nFrau Maier (Zi. A03): SpO2 um 05:53 94 %",
+   "sent_at": "2026-07-31 05:55",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-000013",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0001",
+   "text": "Herr Meier hat heute getrunken: 150 ml um 04:45, 150 ml um 05:25. Bitte eintragen.",
+   "sent_at": "2026-07-31 05:30",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-000014",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0001",
+   "text": "Bei Frau Becker (Zimmer A01) hat sich einiges verändert. Was ich heute früh gesehen habe:\n- In den letzten 12 Monaten gestürzt: Einmal\n- Gehen: Unsicher\n- Kennt eigene Grenzen: Manchmal nicht\n- Sehen (mit Brille): Schlecht\n- Steht nachts zur Toilette auf: Nein\n- Schwindel beim Aufstehen: Ja",
+   "sent_at": "2026-07-31 05:15",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-000020",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0001",
+   "text": "Julia Schäfer hat sich um 03:10 krank gemeldet (Fieber) und kommt heute nicht. Im Dienstplan ist es noch nicht eingetragen.",
+   "sent_at": "2026-07-31 03:15",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  }
+ ],
+ "calendar": [
+  {
+   "event_id": "event-0001",
+   "title": "Probealarm Brandmeldeanlage",
+   "kind": "other",
+   "start": "2026-07-28 10:00",
+   "end": "2026-07-28 10:30",
+   "all_day": false,
+   "location": "Pflegezentrum Am Weinberg",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Jonas Winkler"
+  },
+  {
+   "event_id": "event-0002",
+   "title": "Teambesprechung Wohnbereich Sonnenblick",
+   "kind": "meeting",
+   "start": "2026-07-28 13:30",
+   "end": "2026-07-28 14:15",
+   "all_day": false,
+   "location": "Pausenraum",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Jonas Winkler"
+  },
+  {
+   "event_id": "event-0003",
+   "title": "Betriebsratssitzung",
+   "kind": "council",
+   "start": "2026-07-28 14:00",
+   "end": "2026-07-28 15:30",
+   "all_day": false,
+   "location": "Besprechungsraum",
+   "attendees": [
+    "staff-0016"
+   ],
+   "notes": "Dienstpläne, Überstunden, Fortbildungen.",
+   "created_by": "Ahmet Nowak"
+  },
+  {
+   "event_id": "event-0004",
+   "title": "Urlaub: Mehmet Fuchs",
+   "kind": "leave",
+   "start": "2026-07-30 00:00",
+   "end": "2026-07-30 23:59",
+   "all_day": true,
+   "location": "",
+   "attendees": [
+    "staff-0015"
+   ],
+   "notes": "",
+   "created_by": "Jonas Winkler"
+  },
+  {
+   "event_id": "event-0005",
+   "title": "Hausarztvisite",
+   "kind": "meeting",
+   "start": "2026-07-30 11:00",
+   "end": "2026-07-30 12:30",
+   "all_day": false,
+   "location": "alle Wohnbereiche",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Jonas Winkler"
+  },
+  {
+   "event_id": "event-0006",
+   "title": "Urlaub: Fatma Werner",
+   "kind": "leave",
+   "start": "2026-07-31 00:00",
+   "end": "2026-07-31 23:59",
+   "all_day": true,
+   "location": "",
+   "attendees": [
+    "staff-0013"
+   ],
+   "notes": "",
+   "created_by": "Jonas Winkler"
+  },
+  {
+   "event_id": "event-0007",
+   "title": "Begehung Heimaufsicht (angekündigt)",
+   "kind": "inspection",
+   "start": "2026-08-26 09:00",
+   "end": "2026-08-26 15:00",
+   "all_day": false,
+   "location": "Pflegezentrum Am Weinberg",
+   "attendees": [],
+   "notes": "Pflegedokumentation und Dienstpläne der letzten drei Monate.",
+   "created_by": "Jonas Winkler"
+  }
+ ],
+ "staged": [],
+ "open_at_start": 0,
+ "budget_in_mail": false
+}

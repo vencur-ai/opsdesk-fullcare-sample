@@ -1,0 +1,153 @@
+[
+ {
+  "tool": "care.status_set",
+  "args": {
+   "resident_id": "res-007",
+   "status": "present",
+   "reason": "Back from hospital"
+  }
+ },
+ {
+  "tool": "care.document_file",
+  "args": {
+   "attachment_id": "att-ret-47000005",
+   "resident_id": "res-007",
+   "kind": "discharge_letter",
+   "title": "Discharge summary"
+  }
+ },
+ {
+  "tool": "care.allergy_add",
+  "args": {
+   "resident_id": "res-007",
+   "substance": "Nuts",
+   "reaction": "swelling",
+   "severity": "moderate",
+   "source_document_id": "doc-000001"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-007",
+   "scale_id": "house_falls",
+   "answers": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g1",
+    "orientation": "g2",
+    "sight": "g0",
+    "walking": "g0"
+   },
+   "performed_at": "2026-02-01 08:05"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-007",
+   "scale_id": "house_skin",
+   "answers": {
+    "eats_less": "g2",
+    "feels_pressure": "g0",
+    "moves_alone": "g3",
+    "out_of_bed": "g2",
+    "skin_moist": "g2",
+    "skin_now": "g2"
+   },
+   "performed_at": "2026-02-01 08:05"
+  }
+ },
+ {
+  "tool": "care.measure_end",
+  "args": {
+   "measure_id": "res-007-m03",
+   "end": "2026-02-01",
+   "reason": "New assessment, plan changed"
+  }
+ },
+ {
+  "tool": "care.measure_end",
+  "args": {
+   "measure_id": "res-007-m04",
+   "end": "2026-02-01",
+   "reason": "New assessment, plan changed"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-007",
+   "problem": "At risk of pressure damage, moves little.",
+   "goal": "Stays safe and well cared for.",
+   "review_on": "2026-03-01"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-007",
+   "catalogue_key": "reposition",
+   "schedule": {
+    "kind": "interval",
+    "times": [],
+    "every_hours": 2,
+    "night_every_hours": 3,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-02-01",
+   "entry_id": "cpe-000001"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-007",
+   "problem": "At risk of falls when walking.",
+   "goal": "Stays safe and well cared for.",
+   "review_on": "2026-03-01"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-007",
+   "catalogue_key": "mobilisation",
+   "schedule": {
+    "kind": "times",
+    "times": [
+     "10:00",
+     "14:00",
+     "17:00"
+    ],
+    "every_hours": null,
+    "night_every_hours": null,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-02-01",
+   "entry_id": "cpe-000002"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "haustechnik@heim-fairhaven.example"
+   ],
+   "subject": "Mattress",
+   "body": "Hello,\n\nPlease bring a pressure-relief mattress for Sylvia Hughes."
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "heimversorgung@apotheke-fairhaven.example"
+   ],
+   "subject": "Medication change Sylvia Hughes",
+   "body": "Hello,\n\nSylvia Hughes is back from hospital. Ramipril is now 2.5 mg according to the discharge summary.\n\nKind regards"
+  }
+ }
+]

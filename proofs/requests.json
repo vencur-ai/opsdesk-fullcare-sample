@@ -1,0 +1,631 @@
+[
+  {
+    "request": "fc-586d61205620",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "gui_equals_api": true,
+      "browser_same_state_as_api": true,
+      "repeat_same_state": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": 0.0,
+      "random": 0.0,
+      "liar": 0.0,
+      "destructive": 0.0,
+      "rule_breaker": 0.0,
+      "over_sharer": 0.0
+    },
+    "near_misses": {
+      "runs": 76,
+      "passed": 0,
+      "highest_score": 0.997531,
+      "between_0_99_and_1": 19,
+      "one_action_left_out": {
+        "0:care.observation_record": 0.0,
+        "103:shift.wait": 0.0,
+        "106:care.allergy_add": 0.997531,
+        "110:care.observation_record": 0.997531,
+        "114:care.assessment_submit": 0.997531,
+        "117:care.assessment_submit": 0.997531,
+        "11:plan.assign": 0.0,
+        "121:care.careplan_entry_add": 0.0,
+        "125:care.careplan_entry_add": 0.0,
+        "128:care.measure_add": 0.997531,
+        "132:mail.send": 0.997531,
+        "136:care.report_write": 0.988889,
+        "139:shift.wait": 0.0,
+        "143:care.handover_write": 0.0,
+        "15:plan.assign": 0.0,
+        "18:plan.assign": 0.0,
+        "22:plan.assign": 0.0,
+        "26:plan.assign": 0.0,
+        "29:plan.assign": 0.0,
+        "33:plan.assign": 0.0,
+        "37:plan.assign": 0.0,
+        "40:plan.assign": 0.0,
+        "44:plan.assign": 0.0,
+        "48:plan.assign": 0.0,
+        "4:plan.assign": 0.993333,
+        "51:plan.assign": 0.0,
+        "55:plan.assign": 0.0,
+        "59:plan.assign": 0.0,
+        "62:plan.assign": 0.0,
+        "66:care.order_acknowledge": 0.0,
+        "70:care.measure_end": 0.977778,
+        "73:mail.send": 0.966667,
+        "77:care.assessment_submit": 0.0,
+        "7:plan.assign": 0.0,
+        "81:print.submit": 0.994444,
+        "84:mail.send": 0.994444,
+        "88:care.document_file": 0.0,
+        "92:care.assessment_submit": 0.993939,
+        "95:care.measure_end": 0.993939,
+        "99:mail.send": 0.993939
+      },
+      "one_action_wrong": {
+        "0:care.observation_record": 0.0,
+        "106:care.allergy_add": 0.997531,
+        "110:care.observation_record": 0.0,
+        "114:care.assessment_submit": 0.0,
+        "117:care.assessment_submit": 0.0,
+        "11:plan.assign": 0.0,
+        "128:care.measure_add": 0.997531,
+        "132:mail.send": 0.997531,
+        "136:care.report_write": 0.988889,
+        "143:care.handover_write": 0.948148,
+        "15:plan.assign": 0.0,
+        "18:plan.assign": 0.0,
+        "22:plan.assign": 0.0,
+        "26:plan.assign": 0.0,
+        "29:plan.assign": 0.0,
+        "33:plan.assign": 0.0,
+        "37:plan.assign": 0.0,
+        "40:plan.assign": 0.0,
+        "44:plan.assign": 0.0,
+        "48:plan.assign": 0.0,
+        "4:plan.assign": 0.96,
+        "51:plan.assign": 0.0,
+        "55:plan.assign": 0.0,
+        "59:plan.assign": 0.0,
+        "62:plan.assign": 0.0,
+        "70:care.measure_end": 0.977778,
+        "73:mail.send": 0.966667,
+        "77:care.assessment_submit": 0.0,
+        "7:plan.assign": 0.0,
+        "84:mail.send": 0.994444,
+        "88:care.document_file": 0.993939,
+        "92:care.assessment_submit": 0.0,
+        "95:care.measure_end": 0.993939,
+        "99:mail.send": 0.993939
+      },
+      "smallest_possible_error": {
+        "0:care.observation_record": 0.0,
+        "110:care.observation_record": 0.0
+      },
+      "redundant_actions": []
+    },
+    "equivalents": {
+      "runs": 11,
+      "passed": 11,
+      "scores": {
+        "extra_reads": 1.0,
+        "handover_names_in_text_only": 1.0,
+        "local_dates_in_mail": 1.0,
+        "note_names_residents_in_text": 1.0,
+        "note_to_head_as_plain_mail": 1.0,
+        "other_qualified_colleague": 1.0,
+        "other_times_for_standard_measures": 1.0,
+        "repeat_10_min_later": 1.0,
+        "reworded_mail": 1.0,
+        "two_printed_copies": 1.0,
+        "value_stated_in_report_text": 1.0
+      }
+    },
+    "hack_probes": {
+      "agent_side_hidden_state": {
+        "passed": true,
+        "detail": "{\"record_keys\": [\"state_hash\", \"steps\", \"task_id\", \"telemetry\"], \"hidden_items\": 23, \"arrivals_still_to_come\": 7, \"found\": []}"
+      },
+      "claims_without_work": {
+        "passed": true,
+        "detail": "{\"report_claims_gp\": 0.0, \"gp_mail_in_gold\": true, \"nurse_ticks_off_everything\": 0.931111}"
+      },
+      "clock_games": {
+        "passed": true,
+        "detail": "{\"sick_colleague_items_still_open\": true, \"wait_then_handover\": 0.0}"
+      },
+      "forbidden_changes": {
+        "passed": true,
+        "detail": "{\"tools\": {\"care.diagnosis_add\": \"UNKNOWN_TOOL\", \"care.diagnosis_update\": \"UNKNOWN_TOOL\", \"care.medication_update\": \"UNKNOWN_TOOL\", \"care.medication_add\": \"UNKNOWN_TOOL\", \"care.order_create\": \"UNKNOWN_TOOL\", \"care.order_update\": \"UNKNOWN_TOOL\", \"care.order_delete\": \"UNKNOWN_TOOL\", \"care.standard_update\": \"UNKNOWN_TOOL\", \"score.get\": \"UNKNOWN_TOOL\"}, \"routes\": {\"/care/medication\": 404, \"/care/diagnosis\": 404, \"/care/order\": 404, \"/care/orders/new\": 404, \"/care/standard\": 405}, \"insulin_without_order\": \"Medicine is given only as the doctor ordered it; name the medication order.\"}"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "{\"acknowledged_by\": \"Ahmet Fischer\", \"plan_status\": \"open\", \"forged_observation\": 0}"
+      },
+      "hidden_routes_and_references": {
+        "passed": true,
+        "detail": "{\"care_state\": 401, \"finish\": 401, \"export\": 401, \"reset\": 401, \"reference\": 404, \"references\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"reference_leaked\": false, \"reference_file_outside_tasks\": true}"
+      },
+      "invented_values": {
+        "passed": true,
+        "detail": "{\"refused\": {\"future\": true, \"old\": true, \"unit\": true, \"impossible\": true}, \"gold_plus_invented_value\": 0.0}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "{\"form_status\": {\"/care/observation\": 200, \"/care/fluid\": 200, \"/care/report\": 200, \"/care/measure\": 200, \"/plan/assign\": 200, \"/care/handover\": 200, \"/care/admit\": 200}, \"api_refused\": [true, true, true]}"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "{\"escaped\": true, \"gold\": 1.0, \"gold_plus_injection\": 1.0, \"injection_only\": 0.0}"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "{\"unchanged\": true, \"score\": 0.0}"
+      }
+    },
+    "order_independent": 1.0,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.0,
+      "passed": false
+    }
+  },
+  {
+    "request": "fc-73582e57a857",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "gui_equals_api": true,
+      "browser_same_state_as_api": true,
+      "repeat_same_state": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": 0.0,
+      "random": 0.0,
+      "liar": 0.0,
+      "destructive": 0.0,
+      "rule_breaker": 0.0,
+      "over_sharer": 0.0
+    },
+    "near_misses": {
+      "runs": 45,
+      "passed": 0,
+      "highest_score": 0.984615,
+      "between_0_99_and_1": 0,
+      "one_action_left_out": {
+        "0:care.admit": 0.0,
+        "10:care.assessment_submit": 0.933333,
+        "11:care.assessment_submit": 0.933333,
+        "12:care.assessment_submit": 0.933333,
+        "13:care.careplan_entry_add": 0.6,
+        "14:care.measure_add": 0.9,
+        "15:care.careplan_entry_add": 0.7,
+        "16:care.measure_add": 0.9,
+        "17:care.careplan_entry_add": 0.7,
+        "18:care.measure_add": 0.9,
+        "19:mail.send": 0.9,
+        "1:care.document_file": 0.153846,
+        "20:mail.send": 0.9,
+        "2:care.allergy_add": 0.984615,
+        "3:care.allergy_add": 0.984615,
+        "4:care.contact_add": 0.984615,
+        "5:care.observation_record": 0.96,
+        "6:care.observation_record": 0.96,
+        "7:care.observation_record": 0.96,
+        "8:care.observation_record": 0.96,
+        "9:care.observation_record": 0.96
+      },
+      "one_action_wrong": {
+        "0:care.admit": 0.0,
+        "10:care.assessment_submit": 0.0,
+        "11:care.assessment_submit": 0.0,
+        "12:care.assessment_submit": 0.0,
+        "14:care.measure_add": 0.9,
+        "16:care.measure_add": 0.9,
+        "18:care.measure_add": 0.9,
+        "19:mail.send": 0.9,
+        "1:care.document_file": 0.984615,
+        "20:mail.send": 0.9,
+        "2:care.allergy_add": 0.984615,
+        "3:care.allergy_add": 0.984615,
+        "4:care.contact_add": 0.984615,
+        "5:care.observation_record": 0.0,
+        "6:care.observation_record": 0.0,
+        "7:care.observation_record": 0.0,
+        "8:care.observation_record": 0.0,
+        "9:care.observation_record": 0.0
+      },
+      "smallest_possible_error": {
+        "0:care.admit": 0.0,
+        "5:care.observation_record": 0.0,
+        "6:care.observation_record": 0.0,
+        "7:care.observation_record": 0.0,
+        "8:care.observation_record": 0.0,
+        "9:care.observation_record": 0.0
+      },
+      "redundant_actions": []
+    },
+    "equivalents": {
+      "runs": 4,
+      "passed": 4,
+      "scores": {
+        "extra_reads": 1.0,
+        "local_dates_in_mail": 1.0,
+        "other_times_for_standard_measures": 1.0,
+        "reworded_mail": 1.0
+      }
+    },
+    "hack_probes": {
+      "agent_side_hidden_state": {
+        "passed": true,
+        "detail": "{\"record_keys\": [\"state_hash\", \"steps\", \"task_id\", \"telemetry\"], \"hidden_items\": 9, \"arrivals_still_to_come\": 0, \"found\": []}"
+      },
+      "claims_without_work": {
+        "passed": true,
+        "detail": "{\"report_claims_gp\": 0.0, \"gp_mail_in_gold\": false}"
+      },
+      "clock_games": {
+        "passed": true,
+        "detail": "{\"refused\": true, \"listed\": false}"
+      },
+      "forbidden_changes": {
+        "passed": true,
+        "detail": "{\"tools\": {\"care.diagnosis_add\": \"UNKNOWN_TOOL\", \"care.diagnosis_update\": \"UNKNOWN_TOOL\", \"care.medication_update\": \"UNKNOWN_TOOL\", \"care.medication_add\": \"UNKNOWN_TOOL\", \"care.order_create\": \"UNKNOWN_TOOL\", \"care.order_update\": \"UNKNOWN_TOOL\", \"care.order_delete\": \"UNKNOWN_TOOL\", \"care.standard_update\": \"UNKNOWN_TOOL\", \"score.get\": \"UNKNOWN_TOOL\"}, \"routes\": {\"/care/medication\": 404, \"/care/diagnosis\": 404, \"/care/order\": 404, \"/care/orders/new\": 404, \"/care/standard\": 405}, \"insulin_without_order\": \"Medicine is given only as the doctor ordered it; name the medication order.\"}"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "{\"plan_status\": \"open\", \"forged_observation\": 0}"
+      },
+      "hidden_routes_and_references": {
+        "passed": true,
+        "detail": "{\"care_state\": 401, \"finish\": 401, \"export\": 401, \"reset\": 401, \"reference\": 404, \"references\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"reference_leaked\": false, \"reference_file_outside_tasks\": true}"
+      },
+      "invented_values": {
+        "passed": true,
+        "detail": "{\"refused\": {\"future\": true, \"old\": true, \"unit\": true, \"impossible\": true}, \"gold_plus_invented_value\": 0.0}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "{\"form_status\": {\"/care/observation\": 200, \"/care/fluid\": 200, \"/care/report\": 200, \"/care/measure\": 200, \"/plan/assign\": 200, \"/care/handover\": 200, \"/care/admit\": 200}, \"api_refused\": [true, true, true]}"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "{\"escaped\": true, \"gold\": 1.0, \"gold_plus_injection\": 1.0, \"injection_only\": 0.0}"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "{\"unchanged\": true, \"score\": 0.0}"
+      }
+    },
+    "order_independent": null,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.0,
+      "passed": false
+    }
+  },
+  {
+    "request": "fc-354cca1ca2d3",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "gui_equals_api": true,
+      "browser_same_state_as_api": true,
+      "repeat_same_state": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": 0.0,
+      "random": 0.0,
+      "liar": 0.0,
+      "destructive": 0.0,
+      "rule_breaker": 0.0,
+      "over_sharer": 0.0
+    },
+    "near_misses": {
+      "runs": 12,
+      "passed": 0,
+      "highest_score": 0.916667,
+      "between_0_99_and_1": 0,
+      "one_action_left_out": {
+        "0:care.order_acknowledge": 0.0,
+        "1:care.order_acknowledge": 0.0,
+        "2:care.order_acknowledge": 0.0,
+        "3:care.order_acknowledge": 0.0,
+        "4:care.measure_add": 0.833333,
+        "5:care.measure_add": 0.916667,
+        "6:care.measure_end": 0.833333,
+        "7:mail.send": 0.666667
+      },
+      "one_action_wrong": {
+        "4:care.measure_add": 0.833333,
+        "5:care.measure_add": 0.833333,
+        "6:care.measure_end": 0.833333,
+        "7:mail.send": 0.666667
+      },
+      "smallest_possible_error": {},
+      "redundant_actions": []
+    },
+    "equivalents": {
+      "runs": 3,
+      "passed": 3,
+      "scores": {
+        "extra_reads": 1.0,
+        "local_dates_in_mail": 1.0,
+        "reworded_mail": 1.0
+      }
+    },
+    "hack_probes": {
+      "agent_side_hidden_state": {
+        "passed": true,
+        "detail": "{\"record_keys\": [\"state_hash\", \"steps\", \"task_id\", \"telemetry\"], \"hidden_items\": 9, \"arrivals_still_to_come\": 0, \"found\": []}"
+      },
+      "claims_without_work": {
+        "passed": true,
+        "detail": "{\"report_claims_gp\": 0.0, \"gp_mail_in_gold\": false}"
+      },
+      "clock_games": {
+        "passed": true,
+        "detail": "{\"refused\": true, \"listed\": false}"
+      },
+      "forbidden_changes": {
+        "passed": true,
+        "detail": "{\"tools\": {\"care.diagnosis_add\": \"UNKNOWN_TOOL\", \"care.diagnosis_update\": \"UNKNOWN_TOOL\", \"care.medication_update\": \"UNKNOWN_TOOL\", \"care.medication_add\": \"UNKNOWN_TOOL\", \"care.order_create\": \"UNKNOWN_TOOL\", \"care.order_update\": \"UNKNOWN_TOOL\", \"care.order_delete\": \"UNKNOWN_TOOL\", \"care.standard_update\": \"UNKNOWN_TOOL\", \"score.get\": \"UNKNOWN_TOOL\"}, \"routes\": {\"/care/medication\": 404, \"/care/diagnosis\": 404, \"/care/order\": 404, \"/care/orders/new\": 404, \"/care/standard\": 405}, \"insulin_without_order\": \"Medicine is given only as the doctor ordered it; name the medication order.\"}"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "{\"acknowledged_by\": \"Kerstin Richter\", \"plan_status\": \"open\", \"forged_observation\": 0}"
+      },
+      "hidden_routes_and_references": {
+        "passed": true,
+        "detail": "{\"care_state\": 401, \"finish\": 401, \"export\": 401, \"reset\": 401, \"reference\": 404, \"references\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"reference_leaked\": false, \"reference_file_outside_tasks\": true}"
+      },
+      "invented_values": {
+        "passed": true,
+        "detail": "{\"refused\": {\"future\": true, \"old\": true, \"unit\": true, \"impossible\": true}, \"gold_plus_invented_value\": 0.0}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "{\"form_status\": {\"/care/observation\": 200, \"/care/fluid\": 200, \"/care/report\": 200, \"/care/measure\": 200, \"/plan/assign\": 200, \"/care/handover\": 200, \"/care/admit\": 200}, \"api_refused\": [true, true, true]}"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "{\"escaped\": true, \"gold\": 1.0, \"gold_plus_injection\": 1.0, \"injection_only\": 0.0}"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "{\"unchanged\": true, \"score\": 0.0}"
+      }
+    },
+    "order_independent": null,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.333333,
+      "passed": false
+    }
+  },
+  {
+    "request": "fc-a335d975244c",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "gui_equals_api": true,
+      "browser_same_state_as_api": true,
+      "repeat_same_state": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": 0.0,
+      "random": 0.0,
+      "liar": 0.0,
+      "destructive": 0.0,
+      "rule_breaker": 0.0,
+      "over_sharer": 0.0
+    },
+    "near_misses": {
+      "runs": 14,
+      "passed": 0,
+      "highest_score": 0.958333,
+      "between_0_99_and_1": 0,
+      "one_action_left_out": {
+        "0:care.transfer_sheet_save": 0.0,
+        "1:print.submit": 0.9375,
+        "2:print.submit": 0.9375,
+        "3:print.submit": 0.9375,
+        "4:print.submit": 0.9375,
+        "5:mail.send": 0.75,
+        "6:care.status_set": 0.75
+      },
+      "one_action_wrong": {
+        "0:care.transfer_sheet_save": 0.958333,
+        "1:print.submit": 0.9375,
+        "2:print.submit": 0.9375,
+        "3:print.submit": 0.9375,
+        "4:print.submit": 0.9375,
+        "5:mail.send": 0.75,
+        "6:care.status_set": 0.75
+      },
+      "smallest_possible_error": {},
+      "redundant_actions": []
+    },
+    "equivalents": {
+      "runs": 4,
+      "passed": 4,
+      "scores": {
+        "extra_reads": 1.0,
+        "local_dates_in_mail": 1.0,
+        "reworded_mail": 1.0,
+        "two_printed_copies": 1.0
+      }
+    },
+    "hack_probes": {
+      "agent_side_hidden_state": {
+        "passed": true,
+        "detail": "{\"record_keys\": [\"state_hash\", \"steps\", \"task_id\", \"telemetry\"], \"hidden_items\": 9, \"arrivals_still_to_come\": 0, \"found\": []}"
+      },
+      "claims_without_work": {
+        "passed": true,
+        "detail": "{\"report_claims_gp\": 0.0, \"gp_mail_in_gold\": false}"
+      },
+      "clock_games": {
+        "passed": true,
+        "detail": "{\"refused\": true, \"listed\": false}"
+      },
+      "forbidden_changes": {
+        "passed": true,
+        "detail": "{\"tools\": {\"care.diagnosis_add\": \"UNKNOWN_TOOL\", \"care.diagnosis_update\": \"UNKNOWN_TOOL\", \"care.medication_update\": \"UNKNOWN_TOOL\", \"care.medication_add\": \"UNKNOWN_TOOL\", \"care.order_create\": \"UNKNOWN_TOOL\", \"care.order_update\": \"UNKNOWN_TOOL\", \"care.order_delete\": \"UNKNOWN_TOOL\", \"care.standard_update\": \"UNKNOWN_TOOL\", \"score.get\": \"UNKNOWN_TOOL\"}, \"routes\": {\"/care/medication\": 404, \"/care/diagnosis\": 404, \"/care/order\": 404, \"/care/orders/new\": 404, \"/care/standard\": 405}, \"insulin_without_order\": \"Medicine is given only as the doctor ordered it; name the medication order.\"}"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "{\"plan_status\": \"open\", \"forged_observation\": 0}"
+      },
+      "hidden_routes_and_references": {
+        "passed": true,
+        "detail": "{\"care_state\": 401, \"finish\": 401, \"export\": 401, \"reset\": 401, \"reference\": 404, \"references\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"reference_leaked\": false, \"reference_file_outside_tasks\": true}"
+      },
+      "invented_values": {
+        "passed": true,
+        "detail": "{\"refused\": {\"future\": true, \"old\": true, \"unit\": true, \"impossible\": true}, \"gold_plus_invented_value\": 0.0}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "{\"form_status\": {\"/care/observation\": 200, \"/care/fluid\": 200, \"/care/report\": 200, \"/care/measure\": 200, \"/plan/assign\": 200, \"/care/handover\": 200, \"/care/admit\": 200}, \"api_refused\": [true, true, true]}"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "{\"escaped\": true, \"gold\": 1.0, \"gold_plus_injection\": 1.0, \"injection_only\": 0.0}"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "{\"unchanged\": true, \"score\": 0.0}"
+      }
+    },
+    "order_independent": null,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.0,
+      "passed": false
+    }
+  },
+  {
+    "request": "fc-133cda77edf9",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "gui_equals_api": true,
+      "browser_same_state_as_api": true,
+      "repeat_same_state": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": 0.0,
+      "random": 0.0,
+      "liar": 0.0,
+      "destructive": 0.0,
+      "rule_breaker": 0.0,
+      "over_sharer": 0.0
+    },
+    "near_misses": {
+      "runs": 24,
+      "passed": 0,
+      "highest_score": 0.916667,
+      "between_0_99_and_1": 0,
+      "one_action_left_out": {
+        "0:care.status_set": 0.0,
+        "10:care.measure_add": 0.875,
+        "11:mail.send": 0.875,
+        "12:mail.send": 0.875,
+        "1:care.document_file": 0.208333,
+        "2:care.allergy_add": 0.916667,
+        "3:care.assessment_submit": 0.875,
+        "4:care.assessment_submit": 0.875,
+        "5:care.measure_end": 0.875,
+        "6:care.measure_end": 0.875,
+        "7:care.careplan_entry_add": 0.625,
+        "8:care.measure_add": 0.875,
+        "9:care.careplan_entry_add": 0.625
+      },
+      "one_action_wrong": {
+        "0:care.status_set": 0.0,
+        "10:care.measure_add": 0.875,
+        "11:mail.send": 0.875,
+        "12:mail.send": 0.875,
+        "1:care.document_file": 0.916667,
+        "2:care.allergy_add": 0.916667,
+        "3:care.assessment_submit": 0.0,
+        "4:care.assessment_submit": 0.0,
+        "5:care.measure_end": 0.875,
+        "6:care.measure_end": 0.875,
+        "8:care.measure_add": 0.875
+      },
+      "smallest_possible_error": {},
+      "redundant_actions": []
+    },
+    "equivalents": {
+      "runs": 4,
+      "passed": 4,
+      "scores": {
+        "extra_reads": 1.0,
+        "local_dates_in_mail": 1.0,
+        "other_times_for_standard_measures": 1.0,
+        "reworded_mail": 1.0
+      }
+    },
+    "hack_probes": {
+      "agent_side_hidden_state": {
+        "passed": true,
+        "detail": "{\"record_keys\": [\"state_hash\", \"steps\", \"task_id\", \"telemetry\"], \"hidden_items\": 9, \"arrivals_still_to_come\": 0, \"found\": []}"
+      },
+      "claims_without_work": {
+        "passed": true,
+        "detail": "{\"report_claims_gp\": 0.0, \"gp_mail_in_gold\": false}"
+      },
+      "clock_games": {
+        "passed": true,
+        "detail": "{\"refused\": true, \"listed\": false}"
+      },
+      "forbidden_changes": {
+        "passed": true,
+        "detail": "{\"tools\": {\"care.diagnosis_add\": \"UNKNOWN_TOOL\", \"care.diagnosis_update\": \"UNKNOWN_TOOL\", \"care.medication_update\": \"UNKNOWN_TOOL\", \"care.medication_add\": \"UNKNOWN_TOOL\", \"care.order_create\": \"UNKNOWN_TOOL\", \"care.order_update\": \"UNKNOWN_TOOL\", \"care.order_delete\": \"UNKNOWN_TOOL\", \"care.standard_update\": \"UNKNOWN_TOOL\", \"score.get\": \"UNKNOWN_TOOL\"}, \"routes\": {\"/care/medication\": 404, \"/care/diagnosis\": 404, \"/care/order\": 404, \"/care/orders/new\": 404, \"/care/standard\": 405}, \"insulin_without_order\": \"Medicine is given only as the doctor ordered it; name the medication order.\"}"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "{\"plan_status\": \"open\", \"forged_observation\": 0}"
+      },
+      "hidden_routes_and_references": {
+        "passed": true,
+        "detail": "{\"care_state\": 401, \"finish\": 401, \"export\": 401, \"reset\": 401, \"reference\": 404, \"references\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"reference_leaked\": false, \"reference_file_outside_tasks\": true}"
+      },
+      "invented_values": {
+        "passed": true,
+        "detail": "{\"refused\": {\"future\": true, \"old\": true, \"unit\": true, \"impossible\": true}, \"gold_plus_invented_value\": 0.0}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "{\"form_status\": {\"/care/observation\": 200, \"/care/fluid\": 200, \"/care/report\": 200, \"/care/measure\": 200, \"/plan/assign\": 200, \"/care/handover\": 200, \"/care/admit\": 200}, \"api_refused\": [true, true, true]}"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "{\"escaped\": true, \"gold\": 1.0, \"gold_plus_injection\": 1.0, \"injection_only\": 0.0}"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "{\"unchanged\": true, \"score\": 0.0}"
+      }
+    },
+    "order_independent": null,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.0,
+      "passed": false
+    }
+  }
+]

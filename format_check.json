@@ -1,0 +1,96 @@
+{
+  "runtime": {
+    "imports": true,
+    "error": "",
+    "left_out_ok": true,
+    "present_but_should_not_be": []
+  },
+  "listings": {
+    "tasks": 5,
+    "verifiers_ids_ok": true,
+    "openenv_ids_ok": true,
+    "harbor_ids_ok": true,
+    "hud_compiles": true,
+    "hud_uses_fullcare": true,
+    "references_in_docker_context": false,
+    "ok": true
+  },
+  "mcp": {
+    "api_tools": 75,
+    "same_as_session": true,
+    "ok": true
+  },
+  "http_and_harbor": [
+    {
+      "task_id": "fc-133cda77edf9",
+      "gui": true,
+      "api_tools": 75,
+      "api_state": true,
+      "oracle_calls": 13,
+      "oracle_refused": 0,
+      "http_finish_score": 1.0,
+      "record_written": true,
+      "harbor_reward_gold": 1.0,
+      "harbor_reward_changed_record": 0.0,
+      "harbor_reward_empty_workspace": 0.0,
+      "ok": true
+    },
+    {
+      "task_id": "fc-354cca1ca2d3",
+      "gui": true,
+      "api_tools": 75,
+      "api_state": true,
+      "oracle_calls": 8,
+      "oracle_refused": 0,
+      "http_finish_score": 1.0,
+      "record_written": true,
+      "harbor_reward_gold": 1.0,
+      "harbor_reward_changed_record": 0.0,
+      "harbor_reward_empty_workspace": 0.0,
+      "ok": true
+    },
+    {
+      "task_id": "fc-586d61205620",
+      "gui": true,
+      "api_tools": 76,
+      "api_state": true,
+      "oracle_calls": 145,
+      "oracle_refused": 0,
+      "http_finish_score": 1.0,
+      "record_written": true,
+      "harbor_reward_gold": 1.0,
+      "harbor_reward_changed_record": 0.0,
+      "harbor_reward_empty_workspace": 0.0,
+      "ok": true
+    },
+    {
+      "task_id": "fc-73582e57a857",
+      "gui": true,
+      "api_tools": 75,
+      "api_state": true,
+      "oracle_calls": 21,
+      "oracle_refused": 0,
+      "http_finish_score": 1.0,
+      "record_written": true,
+      "harbor_reward_gold": 1.0,
+      "harbor_reward_changed_record": 0.0,
+      "harbor_reward_empty_workspace": 0.0,
+      "ok": true
+    },
+    {
+      "task_id": "fc-a335d975244c",
+      "gui": true,
+      "api_tools": 75,
+      "api_state": true,
+      "oracle_calls": 7,
+      "oracle_refused": 0,
+      "http_finish_score": 1.0,
+      "record_written": true,
+      "harbor_reward_gold": 1.0,
+      "harbor_reward_changed_record": 0.0,
+      "harbor_reward_empty_workspace": 0.0,
+      "ok": true
+    }
+  ],
+  "ok": true
+}

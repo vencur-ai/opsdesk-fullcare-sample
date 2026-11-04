@@ -1,0 +1,455 @@
+"""UI texts and formatting for OpsDesk Workforce (en-GB for UK homes, de-DE for German homes).
+
+Every string here is visible to the agent and is checked by the visible-text lint (`lint.py`).
+"""
+
+from __future__ import annotations
+
+from datetime import date
+from decimal import Decimal
+
+WEEKDAYS = {"en-GB": ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"),
+            "de-DE": ("Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa.", "So.")}
+WEEKDAYS_LONG = {"en-GB": ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"),
+                 "de-DE": ("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag")}
+MONTHS = {"en-GB": ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"),
+          "de-DE": ("Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez.")}
+
+T: dict[str, dict[str, str]] = {
+    "app.name": {"en-GB": "OpsDesk Workforce", "de-DE": "OpsDesk Workforce"},
+    "nav.rota": {"en-GB": "Rota", "de-DE": "Dienstplan"},
+    "nav.staff": {"en-GB": "Staff", "de-DE": "Mitarbeitende"},
+    "nav.absences": {"en-GB": "Absences", "de-DE": "Abwesenheiten"},
+    "nav.requests": {"en-GB": "Requests", "de-DE": "Anfragen"},
+    "nav.messages": {"en-GB": "Messages", "de-DE": "Nachrichten"},
+    "nav.agency": {"en-GB": "Agency", "de-DE": "Zeitarbeit"},
+    "nav.publish": {"en-GB": "Publish", "de-DE": "Veröffentlichen"},
+    "nav.reports": {"en-GB": "Reports", "de-DE": "Auswertungen"},
+    "nav.understaffing": {"en-GB": "Report understaffing", "de-DE": "Unterbesetzung melden"},
+    "nav.audit": {"en-GB": "Audit log", "de-DE": "Änderungsprotokoll"},
+    "nav.timeclock": {"en-GB": "Time clock", "de-DE": "Zeiterfassung"},
+    "nav.payroll": {"en-GB": "Payroll export", "de-DE": "Lohnexport"},
+    "nav.council": {"en-GB": "Works council", "de-DE": "Betriebsrat"},
+    "nav.documents": {"en-GB": "Documents", "de-DE": "Dokumente"},
+    "nav.main": {"en-GB": "Main menu", "de-DE": "Hauptmenü"},
+    "signed_in": {"en-GB": "Signed in as", "de-DE": "Angemeldet als"},
+    "today": {"en-GB": "Today", "de-DE": "Heute"},
+    "shift.early": {"en-GB": "Early", "de-DE": "Früh"},
+    "shift.late": {"en-GB": "Late", "de-DE": "Spät"},
+    "shift.night": {"en-GB": "Night", "de-DE": "Nacht"},
+    "shift.long_day": {"en-GB": "Long day", "de-DE": "Langdienst"},
+    "qual.registered_nurse": {"en-GB": "Registered nurse", "de-DE": "Pflegefachkraft"},
+    "qual.care_assistant": {"en-GB": "Care assistant", "de-DE": "Pflegehilfskraft"},
+    "qual.team_lead": {"en-GB": "Team leader", "de-DE": "Schichtleitung"},
+    "qual.headcount": {"en-GB": "Any staff (headcount)", "de-DE": "Personal (Anzahl)"},
+    "qualpl.registered_nurse": {"en-GB": "registered nurses", "de-DE": "Pflegefachkräfte"},
+    "qualpl.team_lead": {"en-GB": "team leaders", "de-DE": "Schichtleitungen"},
+    "qualone.registered_nurse": {"en-GB": "registered nurse", "de-DE": "Pflegefachkraft"},
+    "qualone.team_lead": {"en-GB": "team leader", "de-DE": "Schichtleitung"},
+    "qualshort.registered_nurse": {"en-GB": "RN", "de-DE": "PFK"},
+    "qualshort.care_assistant": {"en-GB": "CA", "de-DE": "PH"},
+    "qualshort.team_lead": {"en-GB": "TL", "de-DE": "SL"},
+    "absence.sick": {"en-GB": "Sick", "de-DE": "Krank"},
+    "absence.holiday": {"en-GB": "Holiday", "de-DE": "Urlaub"},
+    "absence.other": {"en-GB": "Other (training, appointment)", "de-DE": "Sonstiges (Fortbildung, Termin)"},
+    "contract.full_time": {"en-GB": "Full time", "de-DE": "Vollzeit"},
+    "contract.part_time": {"en-GB": "Part time", "de-DE": "Teilzeit"},
+    "all": {"en-GB": "All", "de-DE": "Alle"},
+    "unit": {"en-GB": "Unit", "de-DE": "Wohnbereich"},
+    "units": {"en-GB": "Units", "de-DE": "Wohnbereiche"},
+    "week": {"en-GB": "Week", "de-DE": "Woche"},
+    "view": {"en-GB": "View", "de-DE": "Ansicht"},
+    "month": {"en-GB": "Month", "de-DE": "Monat"},
+    "period": {"en-GB": "Planning period", "de-DE": "Planungszeitraum"},
+    "previous": {"en-GB": "Previous", "de-DE": "Zurück"},
+    "next": {"en-GB": "Next", "de-DE": "Weiter"},
+    "filter": {"en-GB": "Filter", "de-DE": "Filtern"},
+    "search": {"en-GB": "Search", "de-DE": "Suchen"},
+    "qualification": {"en-GB": "Qualification", "de-DE": "Qualifikation"},
+    "employee": {"en-GB": "Employee", "de-DE": "Mitarbeiter/in"},
+    "name": {"en-GB": "Name", "de-DE": "Name"},
+    "staff_number": {"en-GB": "Staff no.", "de-DE": "Pers.-Nr."},
+    "role": {"en-GB": "Role", "de-DE": "Funktion"},
+    "contract": {"en-GB": "Contract", "de-DE": "Vertrag"},
+    "hours_week": {"en-GB": "h/week", "de-DE": "Std./Woche"},
+    "page": {"en-GB": "Page", "de-DE": "Seite"},
+    "of": {"en-GB": "of", "de-DE": "von"},
+    "results": {"en-GB": "results", "de-DE": "Treffer"},
+    "open": {"en-GB": "open", "de-DE": "offen"},
+    "covered": {"en-GB": "covered", "de-DE": "besetzt"},
+    "demand": {"en-GB": "Needed", "de-DE": "Bedarf"},
+    "planned_cost": {"en-GB": "Planned cost", "de-DE": "Geplante Kosten"},
+    "shifts": {"en-GB": "Shifts", "de-DE": "Dienste"},
+    "open_positions": {"en-GB": "Open positions", "de-DE": "Offene Positionen"},
+    "warnings": {"en-GB": "Rule warnings", "de-DE": "Regelhinweise"},
+    "no_warnings": {"en-GB": "No rule warnings", "de-DE": "Keine Regelhinweise"},
+    "agency_cover": {"en-GB": "Agency", "de-DE": "Zeitarbeit"},
+    "draft": {"en-GB": "Draft", "de-DE": "Entwurf"},
+    "published": {"en-GB": "Published", "de-DE": "Veröffentlicht"},
+    "close": {"en-GB": "Close", "de-DE": "Schließen"},
+    "cancel": {"en-GB": "Cancel", "de-DE": "Abbrechen"},
+    "save": {"en-GB": "Save", "de-DE": "Speichern"},
+    "assign": {"en-GB": "Assign", "de-DE": "Einplanen"},
+    "remove": {"en-GB": "Remove from shift", "de-DE": "Aus Dienst entfernen"},
+    "swap_with": {"en-GB": "Swap with", "de-DE": "Tauschen mit"},
+    "notify": {"en-GB": "Send shift notice to the employee", "de-DE": "Mitarbeiter/in per Dienstmitteilung informieren"},
+    "notify_short": {"en-GB": "Send shift notice", "de-DE": "Dienstmitteilung senden"},
+    "at_least": {"en-GB": "at least", "de-DE": "mindestens"},
+    "people": {"en-GB": "people", "de-DE": "Personen"},
+    "empty.not_found": {"en-GB": "This record does not exist (any more).", "de-DE": "Dieser Eintrag existiert nicht (mehr)."},
+    "empty.no_shifts": {"en-GB": "No shifts in this period.", "de-DE": "Keine Dienste im Zeitraum."},
+    "empty.no_absences": {"en-GB": "No absences recorded.", "de-DE": "Keine Abwesenheiten erfasst."},
+    "empty.shift": {"en-GB": "Nobody is on this shift yet.", "de-DE": "In diesem Dienst ist noch niemand eingeplant."},
+    "empty.bookings": {"en-GB": "No agency bookings in this period.", "de-DE": "Keine Zeitarbeitsbuchungen im Zeitraum."},
+    "empty.changes": {"en-GB": "No shifts changed since the last publication.", "de-DE": "Seit der letzten Veröffentlichung wurde kein Dienst geändert."},
+    "empty.absences": {"en-GB": "No absences match the filter.", "de-DE": "Keine Abwesenheiten für diesen Filter."},
+    "empty.messages": {"en-GB": "No messages.", "de-DE": "Keine Nachrichten."},
+    "empty.reports": {"en-GB": "No understaffing reports sent.", "de-DE": "Keine Unterbesetzungsmeldungen gesendet."},
+    "empty.timeclock": {"en-GB": "No time-clock entries in this period.", "de-DE": "Keine Zeiterfassungseinträge im Zeitraum."},
+    "on_shift": {"en-GB": "On this shift", "de-DE": "In diesem Dienst"},
+    "who_can": {"en-GB": "Who can take this shift", "de-DE": "Wer kann diesen Dienst übernehmen"},
+    "status.available": {"en-GB": "Available", "de-DE": "Verfügbar"},
+    "status.warning": {"en-GB": "Possible, with rule warning", "de-DE": "Möglich, mit Regelhinweis"},
+    "status.busy": {"en-GB": "Already working", "de-DE": "Bereits im Dienst"},
+    "status.absent": {"en-GB": "Absent", "de-DE": "Abwesend"},
+    "status.on_shift": {"en-GB": "On this shift", "de-DE": "In diesem Dienst"},
+    "until": {"en-GB": "until", "de-DE": "bis"},
+    "from": {"en-GB": "From", "de-DE": "Von"},
+    "to": {"en-GB": "To", "de-DE": "Bis"},
+    "type": {"en-GB": "Type", "de-DE": "Art"},
+    "note": {"en-GB": "Note", "de-DE": "Notiz"},
+    "entered_by": {"en-GB": "Entered by", "de-DE": "Erfasst von"},
+    "entered_on": {"en-GB": "Entered on", "de-DE": "Erfasst am"},
+    "new_absence": {"en-GB": "Record absence", "de-DE": "Abwesenheit erfassen"},
+    "edit": {"en-GB": "Edit", "de-DE": "Bearbeiten"},
+    "delete": {"en-GB": "Delete", "de-DE": "Löschen"},
+    "status": {"en-GB": "Status", "de-DE": "Status"},
+    "req.open": {"en-GB": "Open", "de-DE": "Offen"},
+    "req.withdrawn": {"en-GB": "Withdrawn", "de-DE": "Zurückgezogen"},
+    "req.awaiting": {"en-GB": "Waiting for {name} to confirm", "de-DE": "Wartet auf Bestätigung von {name}"},
+    "req.confirmed": {"en-GB": "Confirmed by {name}", "de-DE": "Bestätigt von {name}"},
+    "req.approved": {"en-GB": "Approved", "de-DE": "Genehmigt"},
+    "req.declined": {"en-GB": "Declined", "de-DE": "Abgelehnt"},
+    "swap_request": {"en-GB": "Shift swap request", "de-DE": "Tauschwunsch"},
+    "requested_by": {"en-GB": "Requested by", "de-DE": "Angefragt von"},
+    "gives": {"en-GB": "gives up", "de-DE": "gibt ab"},
+    "takes": {"en-GB": "takes", "de-DE": "übernimmt"},
+    "partner": {"en-GB": "Swap partner", "de-DE": "Tauschpartner/in"},
+    "approve": {"en-GB": "Approve swap", "de-DE": "Tausch genehmigen"},
+    "decline": {"en-GB": "Decline", "de-DE": "Ablehnen"},
+    "reason": {"en-GB": "Reason", "de-DE": "Begründung"},
+    "decline_reason": {"en-GB": "Reason for declining (sent to both)", "de-DE": "Grund der Ablehnung (geht an beide)"},
+    "notify_both": {"en-GB": "Tell both employees the outcome", "de-DE": "Beide Mitarbeitenden über das Ergebnis informieren"},
+    "inbox": {"en-GB": "Inbox", "de-DE": "Posteingang"},
+    "sent": {"en-GB": "Sent", "de-DE": "Gesendet"},
+    "new_message": {"en-GB": "New message", "de-DE": "Neue Nachricht"},
+    "recipient": {"en-GB": "To", "de-DE": "An"},
+    "subject": {"en-GB": "Subject", "de-DE": "Betreff"},
+    "message": {"en-GB": "Message", "de-DE": "Nachricht"},
+    "about_shift": {"en-GB": "About a shift (optional)", "de-DE": "Zu einem Dienst (optional)"},
+    "ask_to_work": {"en-GB": "Ask whether they can work this shift", "de-DE": "Fragen, ob der Dienst übernommen werden kann"},
+    "send": {"en-GB": "Send", "de-DE": "Senden"},
+    "date": {"en-GB": "Date", "de-DE": "Datum"},
+    "shift": {"en-GB": "Shift", "de-DE": "Dienst"},
+    "channel.phone": {"en-GB": "Phone note", "de-DE": "Telefonnotiz"},
+    "channel.app": {"en-GB": "Staff app", "de-DE": "Mitarbeiter-App"},
+    "channel.email": {"en-GB": "Email", "de-DE": "E-Mail"},
+    "channel.note": {"en-GB": "Note", "de-DE": "Notiz"},
+    "channel.planned": {"en-GB": "Leave planner", "de-DE": "Urlaubsplanung"},
+    "channel.office": {"en-GB": "Office", "de-DE": "Büro"},
+    "source": {"en-GB": "Source", "de-DE": "Quelle"},
+    "budget": {"en-GB": "Agency budget this period", "de-DE": "Zeitarbeitsbudget im Zeitraum"},
+    "budget_used": {"en-GB": "Used", "de-DE": "Verbraucht"},
+    "budget_left": {"en-GB": "Remaining", "de-DE": "Verbleibend"},
+    "offers": {"en-GB": "Offers", "de-DE": "Angebote"},
+    "bookings": {"en-GB": "Bookings", "de-DE": "Buchungen"},
+    "agency": {"en-GB": "Agency", "de-DE": "Agentur"},
+    "rate": {"en-GB": "Rate per hour", "de-DE": "Satz pro Stunde"},
+    "max_staff": {"en-GB": "Max. staff per shift", "de-DE": "Max. Personen pro Dienst"},
+    "lead_time": {"en-GB": "Lead time (days)", "de-DE": "Vorlauf (Tage)"},
+    "available": {"en-GB": "Available", "de-DE": "Verfügbar"},
+    "request_cover": {"en-GB": "Request cover", "de-DE": "Einsatz anfragen"},
+    "staff_count": {"en-GB": "Staff", "de-DE": "Personen"},
+    "est_cost": {"en-GB": "Estimated cost", "de-DE": "Geschätzte Kosten"},
+    "cancel_booking": {"en-GB": "Cancel booking", "de-DE": "Buchung stornieren"},
+    "confirmed": {"en-GB": "Confirmed", "de-DE": "Bestätigt"},
+    "cancelled": {"en-GB": "Cancelled", "de-DE": "Storniert"},
+    "publish.title": {"en-GB": "Publish rota", "de-DE": "Dienstplan veröffentlichen"},
+    "publish.summary": {"en-GB": "Summary of the draft", "de-DE": "Zusammenfassung des Entwurfs"},
+    "publish.changed": {"en-GB": "Shifts changed since the last publication", "de-DE": "Seit der letzten Veröffentlichung geänderte Dienste"},
+    "publish.notify": {"en-GB": "Notify staff whose shifts changed", "de-DE": "Mitarbeitende mit geänderten Diensten informieren"},
+    "publish.confirm": {"en-GB": "Publish this rota and notify staff whose shifts changed?", "de-DE": "Diesen Dienstplan veröffentlichen und betroffene Mitarbeitende informieren?"},
+    "publish.button": {"en-GB": "Publish", "de-DE": "Veröffentlichen"},
+    "publish.review": {"en-GB": "Review and publish", "de-DE": "Prüfen und veröffentlichen"},
+    "publish.blocked": {"en-GB": "The rota cannot be published while rule breaches remain.", "de-DE": "Der Dienstplan kann nicht veröffentlicht werden, solange Regelverstöße bestehen."},
+    "publish.is_published": {"en-GB": "This rota is published.", "de-DE": "Dieser Dienstplan ist veröffentlicht."},
+    "report.title": {"en-GB": "Report understaffing to the home manager", "de-DE": "Unterbesetzung an die Heimleitung melden"},
+    "report.intro": {"en-GB": "List every shift that cannot be covered, what is missing and why. The home manager receives the report.", "de-DE": "Nennen Sie jeden Dienst, der nicht besetzt werden kann, was fehlt und warum. Die Heimleitung erhält die Meldung."},
+    "report.include": {"en-GB": "Include", "de-DE": "Aufnehmen"},
+    "report.missing": {"en-GB": "Missing", "de-DE": "Fehlt"},
+    "report.send": {"en-GB": "Send report", "de-DE": "Meldung senden"},
+    "report.active": {"en-GB": "Report on file", "de-DE": "Aktive Meldung"},
+    "report.withdraw": {"en-GB": "Withdraw report", "de-DE": "Meldung zurückziehen"},
+    "report.none_open": {"en-GB": "There are no open positions at the moment.", "de-DE": "Zurzeit gibt es keine offenen Positionen."},
+    "report.extra": {"en-GB": "Add another shift", "de-DE": "Weiteren Dienst hinzufügen"},
+    "report.sent_on": {"en-GB": "Sent on", "de-DE": "Gesendet am"},
+    "report.withdrawn": {"en-GB": "Withdrawn", "de-DE": "Zurückgezogen"},
+    "audit.time": {"en-GB": "Time", "de-DE": "Zeit"},
+    "audit.user": {"en-GB": "User", "de-DE": "Benutzer"},
+    "audit.action": {"en-GB": "Action", "de-DE": "Aktion"},
+    "audit.object": {"en-GB": "Object", "de-DE": "Objekt"},
+    "audit.before": {"en-GB": "Before", "de-DE": "Vorher"},
+    "audit.after": {"en-GB": "After", "de-DE": "Nachher"},
+    "profile.overview": {"en-GB": "Overview", "de-DE": "Übersicht"},
+    "profile.qualifications": {"en-GB": "Qualifications", "de-DE": "Qualifikationen"},
+    "profile.valid_until": {"en-GB": "Valid until", "de-DE": "Gültig bis"},
+    "profile.availability": {"en-GB": "Availability and wishes", "de-DE": "Verfügbarkeit und Wünsche"},
+    "profile.hours": {"en-GB": "Hours", "de-DE": "Stunden"},
+    "profile.planned": {"en-GB": "Planned this period", "de-DE": "Geplant im Zeitraum"},
+    "profile.balance": {"en-GB": "Balance carried over", "de-DE": "Übertrag Stundenkonto"},
+    "profile.previous": {"en-GB": "Worked last month", "de-DE": "Geleistet im Vormonat"},
+    "profile.notes": {"en-GB": "Notes", "de-DE": "Notizen"},
+    "profile.phone": {"en-GB": "Phone", "de-DE": "Telefon"},
+    "profile.hired": {"en-GB": "Employed since", "de-DE": "Beschäftigt seit"},
+    "profile.rate": {"en-GB": "Hourly rate", "de-DE": "Stundenlohn"},
+    "profile.edit": {"en-GB": "Edit record", "de-DE": "Stammdaten bearbeiten"},
+    "profile.shifts": {"en-GB": "Shifts this period", "de-DE": "Dienste im Zeitraum"},
+    "fixed_day_off": {"en-GB": "Never on", "de-DE": "Nie am"},
+    "nights_only": {"en-GB": "Works nights only", "de-DE": "Nur Nachtdienste"},
+    "night_worker": {"en-GB": "Night worker (night-work limits apply)", "de-DE": "Nachtarbeitnehmer/in (Grenzen für Nachtarbeit gelten)"},
+    "profile.status": {"en-GB": "Working-time status", "de-DE": "Arbeitszeitstatus"},
+    "max_nights": {"en-GB": "Max. nights per month", "de-DE": "Max. Nächte pro Monat"},
+    "opt_out": {"en-GB": "48-hour opt-out signed", "de-DE": "48-Stunden-Verzicht unterschrieben"},
+    "documents.valid": {"en-GB": "Valid", "de-DE": "Gültig"},
+    "documents.kind": {"en-GB": "Kind", "de-DE": "Art"},
+    "documents.title": {"en-GB": "Title", "de-DE": "Titel"},
+    "timeclock.in": {"en-GB": "In", "de-DE": "Kommen"},
+    "timeclock.out": {"en-GB": "Out", "de-DE": "Gehen"},
+    "timeclock.correct": {"en-GB": "Request correction", "de-DE": "Korrektur anfordern"},
+    "payroll.create": {"en-GB": "Create export", "de-DE": "Export erstellen"},
+    "payroll.rostered": {"en-GB": "Rostered min", "de-DE": "Geplant (Min.)"},
+    "payroll.clocked": {"en-GB": "Clocked min", "de-DE": "Gestempelt (Min.)"},
+    "payroll.payable": {"en-GB": "Payable min", "de-DE": "Bezahlt (Min.)"},
+    "payroll.discrepancy": {"en-GB": "Difference", "de-DE": "Differenz"},
+    "council.submit": {"en-GB": "Submit draft to the works council", "de-DE": "Entwurf beim Betriebsrat einreichen"},
+    "council.required": {"en-GB": "This home needs works-council approval before publication.", "de-DE": "Dieses Haus braucht vor der Veröffentlichung die Zustimmung des Betriebsrats."},
+    "council.not_required": {"en-GB": "No works-council approval is needed in this home.", "de-DE": "In diesem Haus ist keine Zustimmung des Betriebsrats nötig."},
+    "reports.hours": {"en-GB": "Hours against contract", "de-DE": "Stunden im Vergleich zum Vertrag"},
+    "reports.cost_unit": {"en-GB": "Planned cost per unit", "de-DE": "Geplante Kosten pro Wohnbereich"},
+    "done": {"en-GB": "Saved.", "de-DE": "Gespeichert."},
+    "error": {"en-GB": "Not saved", "de-DE": "Nicht gespeichert"},
+    "changes_saved_with_warnings": {"en-GB": "Saved with rule warnings", "de-DE": "Gespeichert, mit Regelhinweisen"},
+    "total": {"en-GB": "Total", "de-DE": "Summe"},
+    "per_day": {"en-GB": "per day", "de-DE": "pro Tag"},
+    "home_manager": {"en-GB": "Home manager", "de-DE": "Heimleitung"},
+    "channel": {"en-GB": "Channel", "de-DE": "Kanal"},
+    "notif.title": {"en-GB": "Notifications", "de-DE": "Benachrichtigungen"},
+    "notif.seen": {"en-GB": "Mark all as seen", "de-DE": "Alle als gesehen markieren"},
+    "notif.empty": {"en-GB": "Nothing new since you last looked.", "de-DE": "Nichts Neues seit dem letzten Blick."},
+    "notif.mail": {"en-GB": "Mail", "de-DE": "Mail"},
+    "notif.chat": {"en-GB": "Chat", "de-DE": "Chat"},
+    "notif.rota": {"en-GB": "Rota inbox", "de-DE": "Dienstplan-Postfach"},
+    "session.notice": {"en-GB": "For security, your session ends in 5 minutes. Stay signed in to keep working.",
+                       "de-DE": "Aus Sicherheitsgründen endet Ihre Sitzung in 5 Minuten. Angemeldet bleiben, um weiterzuarbeiten."},
+    "session.stay": {"en-GB": "Stay signed in", "de-DE": "Angemeldet bleiben"},
+    "council.confirm": {"en-GB": "Submit the current draft rota to the works council? It is checked against the works agreement.",
+                        "de-DE": "Den aktuellen Dienstplanentwurf beim Betriebsrat einreichen? Er wird gegen die Betriebsvereinbarung geprüft."},
+    "remove.title": {"en-GB": "Remove from shift?", "de-DE": "Aus dem Dienst entfernen?"},
+    "remove.confirm": {"en-GB": "Remove {name} from {shift}? The shift is then one person short until you fill it.",
+                       "de-DE": "{name} aus dem Dienst {shift} entfernen? Bis du ihn neu besetzt, fehlt dann eine Person."},
+    "budget_by_manager": {"en-GB": "set by the home manager (see mail)", "de-DE": "legt die Pflegedienstleitung fest (siehe Mail)"},
+    # 3.1 office apps
+    "app.rota": {"en-GB": "Rota", "de-DE": "Dienstplan"},
+    "app.mail": {"en-GB": "Mail", "de-DE": "Mail"},
+    "app.chat": {"en-GB": "Team chat", "de-DE": "Team-Chat"},
+    "app.calendar": {"en-GB": "Calendar", "de-DE": "Kalender"},
+    "app.switch": {"en-GB": "Apps", "de-DE": "Anwendungen"},
+    "app.brand.rota": {"en-GB": "OpsDesk Workforce", "de-DE": "OpsDesk Workforce"},
+    "app.brand.mail": {"en-GB": "OpsDesk Mail", "de-DE": "OpsDesk Mail"},
+    "app.brand.chat": {"en-GB": "OpsDesk Team Chat", "de-DE": "OpsDesk Team-Chat"},
+    "app.brand.calendar": {"en-GB": "OpsDesk Calendar", "de-DE": "OpsDesk Kalender"},
+    "mail.inbox": {"en-GB": "Inbox", "de-DE": "Posteingang"},
+    "mail.sent": {"en-GB": "Sent", "de-DE": "Gesendet"},
+    "mail.archive": {"en-GB": "Archive", "de-DE": "Archiv"},
+    "mail.compose": {"en-GB": "New mail", "de-DE": "Neue Mail"},
+    "mail.reply": {"en-GB": "Reply", "de-DE": "Antworten"},
+    "mail.from": {"en-GB": "From", "de-DE": "Von"},
+    "mail.to": {"en-GB": "To", "de-DE": "An"},
+    "mail.cc": {"en-GB": "Cc", "de-DE": "Cc"},
+    "mail.received": {"en-GB": "Received", "de-DE": "Eingang"},
+    "mail.sent_at": {"en-GB": "Sent", "de-DE": "Gesendet am"},
+    "mail.attachments": {"en-GB": "Attachments", "de-DE": "Anhänge"},
+    "mail.download": {"en-GB": "Download", "de-DE": "Herunterladen"},
+    "mail.view": {"en-GB": "View", "de-DE": "Anzeigen"},
+    "mail.search": {"en-GB": "Search mail", "de-DE": "Mails durchsuchen"},
+    "mail.search_hint": {"en-GB": "Whole words, exact spelling", "de-DE": "Ganze Wörter, genaue Schreibweise"},
+    "mail.empty": {"en-GB": "No mails in this folder.", "de-DE": "Keine Mails in diesem Ordner."},
+    "mail.none_found": {"en-GB": "No mails match your search.", "de-DE": "Keine Mail passt zur Suche."},
+    "mail.contacts": {"en-GB": "Address book", "de-DE": "Adressbuch"},
+    "mail.addresses_hint": {"en-GB": "Addresses separated by commas", "de-DE": "Adressen durch Kommas getrennt"},
+    "mail.sent_ok": {"en-GB": "Mail sent.", "de-DE": "Mail gesendet."},
+    "chat.channels": {"en-GB": "Channels", "de-DE": "Kanäle"},
+    "chat.direct": {"en-GB": "Direct messages", "de-DE": "Direktnachrichten"},
+    "chat.new_direct": {"en-GB": "Message a colleague", "de-DE": "Kollegin/Kollegen anschreiben"},
+    "chat.write": {"en-GB": "Write a message", "de-DE": "Nachricht schreiben"},
+    "chat.empty": {"en-GB": "No messages yet.", "de-DE": "Noch keine Nachrichten."},
+    "chat.members": {"en-GB": "members", "de-DE": "Mitglieder"},
+    "chat.older": {"en-GB": "Older messages", "de-DE": "Ältere Nachrichten"},
+    "chat.newer": {"en-GB": "Newer messages", "de-DE": "Neuere Nachrichten"},
+    "chat.me": {"en-GB": "You", "de-DE": "Du"},
+    "chat.about_shift": {"en-GB": "About a shift", "de-DE": "Zu einem Dienst"},
+    "chat.ask": {"en-GB": "Ask whether they can work this shift", "de-DE": "Fragen, ob der Dienst übernommen werden kann"},
+    "chat.ask_label": {"en-GB": "Can you work", "de-DE": "Kannst du übernehmen"},
+    "chat.about_label": {"en-GB": "About", "de-DE": "Zu"},
+    "cal.week": {"en-GB": "Week", "de-DE": "Woche"},
+    "cal.previous": {"en-GB": "Previous week", "de-DE": "Vorherige Woche"},
+    "cal.next": {"en-GB": "Next week", "de-DE": "Nächste Woche"},
+    "cal.today": {"en-GB": "This week", "de-DE": "Diese Woche"},
+    "cal.new": {"en-GB": "New entry", "de-DE": "Neuer Termin"},
+    "cal.all_day": {"en-GB": "all day", "de-DE": "ganztägig"},
+    "cal.upcoming": {"en-GB": "Coming up", "de-DE": "Demnächst"},
+    "cal.kind": {"en-GB": "Type", "de-DE": "Art"},
+    "cal.title": {"en-GB": "Title", "de-DE": "Titel"},
+    "cal.start": {"en-GB": "Start", "de-DE": "Beginn"},
+    "cal.end": {"en-GB": "End", "de-DE": "Ende"},
+    "cal.time": {"en-GB": "Time", "de-DE": "Uhrzeit"},
+    "cal.location": {"en-GB": "Location", "de-DE": "Ort"},
+    "cal.attendees": {"en-GB": "Attendees", "de-DE": "Teilnehmende"},
+    "cal.notes": {"en-GB": "Notes", "de-DE": "Notizen"},
+    "cal.created_by": {"en-GB": "Entered by", "de-DE": "Eingetragen von"},
+    "cal.none": {"en-GB": "Nothing in the calendar this week.", "de-DE": "Diese Woche keine Termine."},
+    "cal.kind.training": {"en-GB": "Training", "de-DE": "Fortbildung"},
+    "cal.kind.council": {"en-GB": "Works council", "de-DE": "Betriebsrat"},
+    "cal.kind.inspection": {"en-GB": "Inspection", "de-DE": "Begehung"},
+    "cal.kind.leave": {"en-GB": "Leave", "de-DE": "Urlaub"},
+    "cal.kind.meeting": {"en-GB": "Meeting", "de-DE": "Besprechung"},
+    "cal.kind.other": {"en-GB": "Other", "de-DE": "Sonstiges"},
+    "cal.saved": {"en-GB": "Entry saved.", "de-DE": "Termin gespeichert."},
+    "from_day": {"en-GB": "from", "de-DE": "ab"},
+    "warning": {"en-GB": "Warning", "de-DE": "Hinweis"},
+    "documents.expired": {"en-GB": "Expired", "de-DE": "Abgelaufen"},
+    "reports.premiums": {"en-GB": "plus weekly overtime premiums (all units)", "de-DE": "zzgl. wöchentliche Überstundenzuschläge (alle Bereiche)"},
+    "reports.agency": {"en-GB": "Agency cover", "de-DE": "Zeitarbeit"},
+    "payroll.intro": {"en-GB": "Rostered and clocked hours per employee for the selected days, for the payroll office.",
+                      "de-DE": "Geplante und gestempelte Stunden je Mitarbeiter/in für die gewählten Tage, für die Lohnbuchhaltung."},
+    "payroll.none": {"en-GB": "No payroll export created in this period yet.", "de-DE": "In diesem Zeitraum wurde noch kein Lohnexport erstellt."},
+    "payroll.hours_rostered": {"en-GB": "Rostered", "de-DE": "Geplant"},
+    "payroll.hours_clocked": {"en-GB": "Clocked", "de-DE": "Gestempelt"},
+    "payroll.hours_payable": {"en-GB": "Payable", "de-DE": "Bezahlt"},
+    "council.status": {"en-GB": "Status this period", "de-DE": "Stand im Zeitraum"},
+    "council.not_submitted": {"en-GB": "Not submitted", "de-DE": "Nicht eingereicht"},
+    "council.approved": {"en-GB": "Approved", "de-DE": "Zugestimmt"},
+    "council.rejected": {"en-GB": "Rejected", "de-DE": "Abgelehnt"},
+    "council.history": {"en-GB": "Submissions", "de-DE": "Einreichungen"},
+    "council.none": {"en-GB": "No draft submitted in this period.", "de-DE": "In diesem Zeitraum wurde noch kein Entwurf eingereicht."},
+    "council.agreement": {"en-GB": "Agreement", "de-DE": "Vereinbarung"},
+}
+
+RULE_TEXT = {
+    "uk.daily_rest": {"en-GB": "Less than 11 hours rest between shifts", "de-DE": "Weniger als 11 Stunden Ruhe zwischen Diensten"},
+    "uk.weekly_rest": {"en-GB": "No 24-hour weekly rest (or 48 hours in 14 days)", "de-DE": "Keine wöchentliche Ruhezeit von 24 Stunden"},
+    "uk.weekly_hours": {"en-GB": "More than 48 hours in a week without opt-out", "de-DE": "Mehr als 48 Stunden pro Woche ohne Verzicht"},
+    "uk.rest_break": {"en-GB": "Rest break missing", "de-DE": "Pause fehlt"},
+    "uk.night_worker_hours": {"en-GB": "Night worker above 8 hours on average", "de-DE": "Nachtarbeit über 8 Stunden im Schnitt"},
+    "de.daily_hours": {"en-GB": "More than 10 working hours in a day", "de-DE": "Mehr als 10 Stunden Arbeitszeit an einem Tag"},
+    "de.rest_break": {"en-GB": "Break too short", "de-DE": "Pause zu kurz"},
+    "de.daily_rest": {"en-GB": "Less than 11 hours rest between shifts", "de-DE": "Weniger als 11 Stunden Ruhezeit zwischen Diensten"},
+    "de.free_sundays": {"en-GB": "Too few free Sundays", "de-DE": "Zu wenige freie Sonntage"},
+    "house.employee_availability": {"en-GB": "Not available (absence, fixed day off or contract)", "de-DE": "Nicht verfügbar (Abwesenheit, fester freier Tag oder Vertrag)"},
+    "house.max_consecutive_nights": {"en-GB": "Too many nights in a row", "de-DE": "Zu viele Nächte am Stück"},
+    "house.monthly_night_limit": {"en-GB": "Monthly night limit exceeded", "de-DE": "Monatliche Nachtgrenze überschritten"},
+    "house.minimum_registered_nurses": {"en-GB": "Fewer registered nurses than the house minimum", "de-DE": "Weniger Pflegefachkräfte als die Hausregel verlangt"},
+    "house.no_late_to_early": {"en-GB": "Late followed by early", "de-DE": "Spätdienst gefolgt von Frühdienst"},
+    "house.max_consecutive_work_days": {"en-GB": "Too many working days in a row", "de-DE": "Zu viele Arbeitstage am Stück"},
+    "house.part_time_hours": {"en-GB": "Part-time hours above contract margin", "de-DE": "Teilzeitstunden über der vertraglichen Grenze"},
+}
+
+
+def t(locale: str, key: str) -> str:
+    return T[key][locale]
+
+
+def rule_text(locale: str, rule_id: str) -> str:
+    return RULE_TEXT.get(rule_id, {}).get(locale, rule_id)
+
+
+# Works-council reasons are "rule_id: message" from the shared rule packs (English, internal ids). The council page
+# shows them as the council would write them, in the home's language and with unit names.
+_COUNCIL = (
+    (r"de\.daily_hours: ([\d.]+) working hours exceed the 10-hour daily ceiling\.",
+     "{0} working hours on one day – more than the 10 hours allowed.", "{0} Arbeitsstunden an einem Tag – mehr als die zulässigen 10 Stunden."),
+    (r"de\.daily_hours: Average working time in the (?:episode|planning period) exceeds eight hours per working day\.",
+     "Average working time in the planning period is above eight hours per working day.",
+     "Die durchschnittliche Arbeitszeit im Planungszeitraum liegt über acht Stunden pro Werktag."),
+    (r"de\.daily_rest: Only 0 hours of rest between shifts; 11 are required.*",
+     "Two shifts back to back without rest; 11 hours are required.",
+     "Zwei Dienste direkt hintereinander ohne Ruhezeit; vorgeschrieben sind 11 Stunden."),
+    (r"de\.daily_rest: Only ([\d.]+) hours of rest between shifts; 11 are required.*",
+     "Only {0} hours of rest between two shifts; 11 hours are required.",
+     "Nur {0} Stunden Ruhezeit zwischen zwei Diensten; vorgeschrieben sind 11 Stunden."),
+    (r"de\.rest_break: The shift provides (\d+) minutes of break; (\d+) are required\.",
+     "The shift has {0} minutes of break; {1} are required.", "Der Dienst hat {0} Minuten Pause; vorgeschrieben sind {1}."),
+    (r"de\.free_sundays: Only (\d+) Sundays are free; at least (\d+) are required.*",
+     "Only {0} Sundays off; at least {1} are required.", "Nur {0} freie Sonntage; mindestens {1} sind vorgeschrieben."),
+    (r"house\.minimum_registered_nurses: (\d+) RNs cover (early|late|night) in (\S+); (\d+) are required\.",
+     "Only {0} registered nurses on the {1} shift in {2}; {3} are required.",
+     "Nur {0} Pflegefachkräfte im {1} ({2}); nötig sind {3}."),
+    (r"house\.part_time_hours: ([\d.]+) hours exceed the part-time allowance of ([\d.]+) hours\.",
+     "{0} hours – more than the part-time limit of {1} hours.", "{0} Stunden – mehr als die Teilzeitgrenze von {1} Stunden."),
+)
+
+
+def council_reason(locale: str, raw: str, unit_names: dict[str, str]) -> str:
+    import re
+    de = locale == "de-DE"
+    for pattern, en_text, de_text in _COUNCIL:
+        m = re.fullmatch(pattern, raw)
+        if m:
+            parts = list(m.groups())
+            for i, part in enumerate(parts):
+                if part in ("early", "late", "night"):
+                    parts[i] = {"early": "Frühdienst", "late": "Spätdienst", "night": "Nachtdienst"}[part] if de else part
+                elif part in unit_names:
+                    parts[i] = unit_names[part]
+                elif re.fullmatch(r"\d+\.\d+", part) and de:
+                    parts[i] = part.replace(".", ",")
+            text = (de_text if de else en_text).format(*parts)
+            if parts and parts[0] == "1":  # one nurse, one Sunday
+                text = (text.replace("1 Pflegefachkräfte", "1 Pflegefachkraft").replace("1 freie Sonntage", "1 freier Sonntag")
+                        .replace("1 registered nurses", "1 registered nurse").replace("1 Sundays", "1 Sunday"))
+            return text
+    return rule_text(locale, raw.split(":", 1)[0])
+
+
+def fmt_date(locale: str, d: date, *, weekday: bool = True) -> str:
+    wd = WEEKDAYS[locale][d.weekday()]
+    if locale == "de-DE":
+        return f"{wd + ', ' if weekday else ''}{d.day:02d}.{d.month:02d}.{d.year}"
+    return f"{wd + ' ' if weekday else ''}{d.day} {MONTHS[locale][d.month - 1]} {d.year}"
+
+
+def fmt_short(locale: str, d: date) -> str:
+    wd = WEEKDAYS[locale][d.weekday()]
+    return f"{wd} {d.day:02d}.{d.month:02d}." if locale == "de-DE" else f"{wd} {d.day} {MONTHS[locale][d.month - 1]}"
+
+
+def fmt_money(locale: str, cents: int | Decimal) -> str:
+    value = Decimal(cents) / Decimal(100)
+    if locale == "de-DE":
+        whole, frac = f"{value:,.2f}".split(".")
+        return f"{whole.replace(',', '.')},{frac} €"
+    return f"£{value:,.2f}"
+
+
+def fmt_hours(locale: str, minutes: int) -> str:
+    sign = "−" if minutes < 0 else ""
+    h, m = divmod(abs(minutes), 60)
+    return f"{sign}{h}:{m:02d} {'Std.' if locale == 'de-DE' else 'h'}"
+
+
+def shift_name(locale: str, shift: str) -> str:
+    return T[f"shift.{shift}"][locale]
+
+
+def qual_name(locale: str, qual: str) -> str:
+    return T[f"qual.{qual}"][locale]

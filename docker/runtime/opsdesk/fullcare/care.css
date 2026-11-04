@@ -1,0 +1,15 @@
+/* OpsDesk FullCare: care record and daily plan (added after the Workforce stylesheet) */
+body.area-care { --brand: #7a3b2e; }
+body.area-plan { --brand: #2e5e7a; }
+body.area-care .side a.active, body.area-plan .side a.active { background: #f3ece9; }
+section.band { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--brand); padding: 6px 10px;
+  margin-bottom: 8px; line-height: 1.6; }
+nav.tabs { display: flex; flex-wrap: wrap; gap: 2px; border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+nav.tabs a { padding: 4px 9px; text-decoration: none; color: var(--ink); border: 1px solid transparent; border-bottom: 0;
+  border-radius: 3px 3px 0 0; font-size: 13px; }
+nav.tabs a.active { background: #fff; border-color: var(--line); font-weight: 600; margin-bottom: -1px; }
+figure.trend { margin: 6px 0; color: var(--brand); }
+figure.trend figcaption { font-size: 11px; color: var(--muted); }
+form fieldset { border: 1px solid var(--line); background: #fff; margin: 4px 0; padding: 4px 8px; }
+form fieldset legend { font-weight: 600; padding: 0 4px; }
+form fieldset .check { margin-right: 14px; white-space: nowrap; }

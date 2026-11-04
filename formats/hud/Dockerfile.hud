@@ -1,0 +1,21 @@
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends chromium fonts-dejavu-core && rm -rf /var/lib/apt/lists/*
+# The browser the agent drives must not read local files: file:// and browser-internal pages are blocked by
+# policy, and Chromium runs as an unprivileged user that cannot read the host data.
+RUN mkdir -p /etc/chromium/policies/managed && printf '%s' \
+    '{"URLBlocklist": ["file://*", "chrome://*", "view-source:*", "devtools://*"], "DownloadRestrictions": 3}' \
+    > /etc/chromium/policies/managed/opsdesk.json && useradd --create-home browser \
+    && mkdir -p /home/browser/profile && chown -R browser:browser /home/browser \
+    && printf '#!/bin/sh\nexec env HOME=/home/browser setpriv --reuid=browser --regid=browser --init-groups /usr/bin/chromium "$@"\n' \
+    > /usr/local/bin/opsdesk-chromium && chmod 755 /usr/local/bin/opsdesk-chromium
+WORKDIR /hud
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev
+COPY env.py tasks.py ./
+COPY runtime/ ./runtime/
+COPY data/ ./data/
+RUN chmod -R go-rwx /hud/data
+ENV OPSDESK_TASKS_ROOT=/hud/data/tasks OPSDESK_CHROMIUM=/usr/local/bin/opsdesk-chromium \
+    OPSDESK_CHROMIUM_PROFILE=/home/browser/profile
+EXPOSE 8765
+CMD ["/hud/.venv/bin/hud", "serve", "env:env", "--host", "0.0.0.0", "--port", "8765"]

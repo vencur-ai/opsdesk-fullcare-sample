@@ -1,0 +1,1452 @@
+{
+ "schema_version": "workforce-app/v2",
+ "locale": "de-DE",
+ "home": {
+  "address": "Kirchplatz 11, 63785 Talbach",
+  "manager_name": "Felix Frank",
+  "manager_title": "Pflegedienstleitung",
+  "user_name": "Kerstin Richter",
+  "user_title": "Pflegefachkraft, Assistenz der Pflegedienstleitung",
+  "night_lead_name": "Jürgen Koch"
+ },
+ "unit_names": {
+  "ward-01": "Wohnbereich Weidenweg"
+ },
+ "profiles": [
+  {
+   "employee_id": "staff-0001",
+   "staff_number": "PN-2007",
+   "phone": "intern 201",
+   "hire_date": "2017-08-08",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2027-08-04",
+    "Erste-Hilfe-Kurs": "2029-02-16",
+    "Hygieneschulung": "2028-02-06"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 300,
+   "previous_period_minutes": 6535
+  },
+  {
+   "employee_id": "staff-0002",
+   "staff_number": "PN-2014",
+   "phone": "intern 202",
+   "hire_date": "2019-12-23",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-08-13",
+    "Brandschutzunterweisung": "2029-01-21",
+    "Expertenstandard Sturzprophylaxe": "2028-07-05"
+   },
+   "wishes": [
+    "Möchte am liebsten Nachtdienste"
+   ],
+   "notes": "",
+   "hours_balance_minutes": 240,
+   "previous_period_minutes": 7514
+  },
+  {
+   "employee_id": "staff-0003",
+   "staff_number": "PN-2021",
+   "phone": "intern 203",
+   "hire_date": "2021-05-18",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-08-17",
+    "Erste-Hilfe-Kurs": "2027-04-25",
+    "Expertenstandard Sturzprophylaxe": "2027-03-04"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -120,
+   "previous_period_minutes": 8973
+  },
+  {
+   "employee_id": "staff-0004",
+   "staff_number": "PN-2028",
+   "phone": "intern 204",
+   "hire_date": "2018-12-31",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-08-23",
+    "Brandschutzunterweisung": "2026-12-27",
+    "Expertenstandard Sturzprophylaxe": "2026-12-23"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 30,
+   "previous_period_minutes": 9123
+  },
+  {
+   "employee_id": "staff-0005",
+   "staff_number": "PN-2035",
+   "phone": "intern 205",
+   "hire_date": "2023-03-25",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-04-20",
+    "Brandschutzunterweisung": "2028-11-02",
+    "Hygieneschulung": "2027-08-22"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -90,
+   "previous_period_minutes": 5106
+  },
+  {
+   "employee_id": "staff-0006",
+   "staff_number": "PN-2042",
+   "phone": "intern 206",
+   "hire_date": "2021-08-02",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2029-06-22",
+    "Brandschutzunterweisung": "2027-09-25",
+    "Expertenstandard Sturzprophylaxe": "2029-03-01"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 270,
+   "previous_period_minutes": 9363
+  },
+  {
+   "employee_id": "staff-0007",
+   "staff_number": "PN-2049",
+   "phone": "intern 207",
+   "hire_date": "2022-12-28",
+   "qualification_valid_until": {
+    "Berufsurkunde Pflegefachkraft": "2028-11-29",
+    "Brandschutzunterweisung": "2028-12-06",
+    "Erste-Hilfe-Kurs": "2027-11-01"
+   },
+   "wishes": [],
+   "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025). Nicht verwechseln mit Daniel Schmidt.",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 9862
+  },
+  {
+   "employee_id": "staff-0008",
+   "staff_number": "PN-2056",
+   "phone": "intern 208",
+   "hire_date": "2021-04-24",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2028-02-28",
+    "Erste-Hilfe-Kurs": "2027-05-21"
+   },
+   "wishes": [],
+   "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+   "hours_balance_minutes": 180,
+   "previous_period_minutes": 10572
+  },
+  {
+   "employee_id": "staff-0009",
+   "staff_number": "PN-2063",
+   "phone": "intern 209",
+   "hire_date": "2017-04-04",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2026-12-30",
+    "Expertenstandard Sturzprophylaxe": "2028-09-06"
+   },
+   "wishes": [
+    "Übernimmt derzeit keine Zusatzdienste"
+   ],
+   "notes": "",
+   "hours_balance_minutes": 90,
+   "previous_period_minutes": 9183
+  },
+  {
+   "employee_id": "staff-0010",
+   "staff_number": "PN-2070",
+   "phone": "intern 210",
+   "hire_date": "2023-06-18",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2027-11-01",
+    "Hygieneschulung": "2028-01-12"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 90,
+   "previous_period_minutes": 4246
+  },
+  {
+   "employee_id": "staff-0011",
+   "staff_number": "PN-2077",
+   "phone": "intern 211",
+   "hire_date": "2023-05-24",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2028-11-27",
+    "Hygieneschulung": "2027-10-26"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -240,
+   "previous_period_minutes": 9502
+  },
+  {
+   "employee_id": "staff-0012",
+   "staff_number": "PN-2084",
+   "phone": "intern 212",
+   "hire_date": "2023-04-04",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2028-07-26",
+    "Hygieneschulung": "2027-05-06"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -150,
+   "previous_period_minutes": 6085
+  },
+  {
+   "employee_id": "staff-0013",
+   "staff_number": "PN-2091",
+   "phone": "intern 213",
+   "hire_date": "2011-05-13",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2028-07-11",
+    "Expertenstandard Sturzprophylaxe": "2027-10-24"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 240,
+   "previous_period_minutes": 6475
+  },
+  {
+   "employee_id": "staff-0014",
+   "staff_number": "PN-2098",
+   "phone": "intern 214",
+   "hire_date": "2011-05-24",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2028-05-14",
+    "Expertenstandard Sturzprophylaxe": "2028-04-20"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 360,
+   "previous_period_minutes": 9453
+  },
+  {
+   "employee_id": "staff-0015",
+   "staff_number": "PN-2105",
+   "phone": "intern 215",
+   "hire_date": "2016-01-03",
+   "qualification_valid_until": {
+    "Expertenstandard Sturzprophylaxe": "2028-05-15",
+    "Hygieneschulung": "2027-01-12"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 270,
+   "previous_period_minutes": 10662
+  },
+  {
+   "employee_id": "staff-0016",
+   "staff_number": "PN-2112",
+   "phone": "intern 216",
+   "hire_date": "2024-04-13",
+   "qualification_valid_until": {
+    "Expertenstandard Sturzprophylaxe": "2028-09-25",
+    "Hygieneschulung": "2027-03-02"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 180,
+   "previous_period_minutes": 9273
+  },
+  {
+   "employee_id": "staff-0017",
+   "staff_number": "PN-2119",
+   "phone": "intern 217",
+   "hire_date": "2016-09-12",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2029-01-01",
+    "Hygieneschulung": "2028-01-24"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 0,
+   "previous_period_minutes": 10392
+  },
+  {
+   "employee_id": "staff-0018",
+   "staff_number": "PN-2126",
+   "phone": "intern 218",
+   "hire_date": "2012-03-11",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2029-01-08",
+    "Hygieneschulung": "2028-06-14"
+   },
+   "wishes": [],
+   "notes": "Bitte erst nach 10 Uhr anrufen.",
+   "hours_balance_minutes": 210,
+   "previous_period_minutes": 7484
+  },
+  {
+   "employee_id": "staff-0019",
+   "staff_number": "PN-2133",
+   "phone": "intern 219",
+   "hire_date": "2025-12-02",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2027-10-11",
+    "Expertenstandard Sturzprophylaxe": "2027-09-01"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 180,
+   "previous_period_minutes": 10572
+  },
+  {
+   "employee_id": "staff-0020",
+   "staff_number": "PN-2140",
+   "phone": "intern 220",
+   "hire_date": "2012-01-10",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2027-08-11",
+    "Erste-Hilfe-Kurs": "2028-03-29"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 330,
+   "previous_period_minutes": 9423
+  },
+  {
+   "employee_id": "staff-0021",
+   "staff_number": "PN-2147",
+   "phone": "intern 221",
+   "hire_date": "2025-06-05",
+   "qualification_valid_until": {
+    "Expertenstandard Sturzprophylaxe": "2028-02-06",
+    "Hygieneschulung": "2027-02-21"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 330,
+   "previous_period_minutes": 10722
+  },
+  {
+   "employee_id": "staff-0022",
+   "staff_number": "PN-2154",
+   "phone": "intern 222",
+   "hire_date": "2026-01-03",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2026-12-15",
+    "Expertenstandard Sturzprophylaxe": "2027-10-18"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 90,
+   "previous_period_minutes": 9183
+  },
+  {
+   "employee_id": "staff-0023",
+   "staff_number": "PN-2161",
+   "phone": "intern 223",
+   "hire_date": "2023-12-15",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2027-01-21",
+    "Erste-Hilfe-Kurs": "2028-05-23"
+   },
+   "wishes": [
+    "Tauscht keine Dienste"
+   ],
+   "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+   "hours_balance_minutes": 300,
+   "previous_period_minutes": 10692
+  },
+  {
+   "employee_id": "staff-0024",
+   "staff_number": "PN-2168",
+   "phone": "intern 224",
+   "hire_date": "2014-11-08",
+   "qualification_valid_until": {
+    "Erste-Hilfe-Kurs": "2028-06-15",
+    "Expertenstandard Sturzprophylaxe": "2028-09-30"
+   },
+   "wishes": [
+    "Möchte am liebsten Frühdienste"
+   ],
+   "notes": "",
+   "hours_balance_minutes": 360,
+   "previous_period_minutes": 9453
+  },
+  {
+   "employee_id": "staff-0025",
+   "staff_number": "PN-2175",
+   "phone": "intern 225",
+   "hire_date": "2015-08-17",
+   "qualification_valid_until": {
+    "Brandschutzunterweisung": "2028-05-03",
+    "Erste-Hilfe-Kurs": "2028-12-09"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 240,
+   "previous_period_minutes": 10632
+  }
+ ],
+ "absence_meta": [
+  {
+   "absence_id": "holiday-0001",
+   "entered_by": "Felix Frank",
+   "entered_on": "2026-08-31",
+   "channel": "planned",
+   "note": ""
+  },
+  {
+   "absence_id": "holiday-0002",
+   "entered_by": "Felix Frank",
+   "entered_on": "2026-09-08",
+   "channel": "planned",
+   "note": ""
+  }
+ ],
+ "message_meta": [],
+ "message_texts": {},
+ "requests": [],
+ "reports": [],
+ "publications": [],
+ "history": [
+  {
+   "at": "2026-08-31 09:59",
+   "user": "Felix Frank",
+   "action": "Abwesenheit erfasst",
+   "object": "Anne Lorenz",
+   "before": "",
+   "after": "Urlaub 10.10.2026–12.10.2026"
+  },
+  {
+   "at": "2026-09-08 09:27",
+   "user": "Felix Frank",
+   "action": "Abwesenheit erfasst",
+   "object": "Lukas Schwarz",
+   "before": "",
+   "after": "Urlaub 13.10.2026–13.10.2026"
+  },
+  {
+   "at": "2026-09-09 16:10",
+   "user": "Felix Frank",
+   "action": "Dienstplan veröffentlicht",
+   "object": "Woche 37",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-09-14 18:46",
+   "user": "Kerstin Richter",
+   "action": "Dienstmitteilung gesendet",
+   "object": "Jonas Schneider",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-09-16 16:17",
+   "user": "Felix Frank",
+   "action": "Dienstplan veröffentlicht",
+   "object": "Woche 38",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-09-17 16:21",
+   "user": "Jürgen Koch",
+   "action": "Krankmeldung erfasst",
+   "object": "Mehmet Petrović",
+   "before": "",
+   "after": "17.09.2026"
+  },
+  {
+   "at": "2026-09-22 13:31",
+   "user": "Kerstin Richter",
+   "action": "Dienstmitteilung gesendet",
+   "object": "Anne Lorenz",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-09-22 14:26",
+   "user": "Petra Hoffmann",
+   "action": "Dienst geändert",
+   "object": "Julia Schwarz",
+   "before": "Fr. 25.09. Früh",
+   "after": "Spät"
+  },
+  {
+   "at": "2026-09-23 16:24",
+   "user": "Felix Frank",
+   "action": "Dienstplan veröffentlicht",
+   "object": "Woche 39",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-09-27 07:22",
+   "user": "Jürgen Koch",
+   "action": "Krankmeldung erfasst",
+   "object": "Lukas Schwarz",
+   "before": "",
+   "after": "27.09.2026"
+  },
+  {
+   "at": "2026-09-27 12:34",
+   "user": "Petra Hoffmann",
+   "action": "Dienst geändert",
+   "object": "Claudia Popescu",
+   "before": "Di. 29.09. Nacht",
+   "after": "Früh"
+  },
+  {
+   "at": "2026-09-30 13:22",
+   "user": "Kerstin Richter",
+   "action": "Dienstmitteilung gesendet",
+   "object": "Sarah Lorenz",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-09-30 16:31",
+   "user": "Felix Frank",
+   "action": "Dienstplan veröffentlicht",
+   "object": "Woche 40",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-10-05 07:28",
+   "user": "Kerstin Richter",
+   "action": "Dienstmitteilung gesendet",
+   "object": "Michael Schäfer",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-10-05 08:06",
+   "user": "Felix Frank",
+   "action": "Dienst geändert",
+   "object": "Paul Krüger",
+   "before": "Fr. 09.10. Früh",
+   "after": "Spät"
+  }
+ ],
+ "session_log": [],
+ "contacts": [
+  {
+   "contact_id": "contact-manager",
+   "name": "Felix Frank",
+   "address": "felix.frank@haus-am-weinberg-talbach.de",
+   "organisation": "Haus Am Weinberg",
+   "role": "Pflegedienstleitung"
+  },
+  {
+   "contact_id": "contact-ops",
+   "name": "Thomas Kaya",
+   "address": "thomas.kaya@talbach-pflegeverbund.de",
+   "organisation": "Regionalbüro",
+   "role": "Regionalleitung"
+  },
+  {
+   "contact_id": "contact-payroll",
+   "name": "Mia Schwarz",
+   "address": "mia.schwarz@kessler-lohnbuero-talbach.de",
+   "organisation": "Lohnbüro Kessler & Partner",
+   "role": "Lohnabrechnung"
+  },
+  {
+   "contact_id": "contact-training",
+   "name": "Felix Lange",
+   "address": "felix.lange@bildungswerk-pflegesued-talbach.de",
+   "organisation": "Bildungswerk Pflege Süd",
+   "role": "Fortbildungsträger"
+  },
+  {
+   "contact_id": "contact-agency-1",
+   "name": "Uwe Richter",
+   "address": "einsatz@pflegepool-nord-talbach.de",
+   "organisation": "Pflegepool Nord GmbH",
+   "role": "Disposition"
+  },
+  {
+   "contact_id": "contact-agency-2",
+   "name": "Anna Schneider",
+   "address": "einsatz@personaldienst-altenhilfe-sued-talbach.de",
+   "organisation": "Personaldienst Altenhilfe Süd",
+   "role": "Disposition"
+  },
+  {
+   "contact_id": "contact-agency-3",
+   "name": "Ayşe Schmidt",
+   "address": "einsatz@curaflex-zeitarbeit-talbach.de",
+   "organisation": "CuraFlex Zeitarbeit",
+   "role": "Disposition"
+  },
+  {
+   "contact_id": "contact-rep",
+   "name": "Daniel Schmidt",
+   "address": "daniel.schmidt@haus-am-weinberg-talbach.de",
+   "organisation": "Betriebsrat",
+   "role": "Vorsitz Betriebsrat"
+  },
+  {
+   "contact_id": "care-pharmacy",
+   "name": "Team Heimversorgung",
+   "address": "heimversorgung@apotheke-talbach.example",
+   "organisation": "Apotheke am Markt",
+   "role": "Apotheke"
+  },
+  {
+   "contact_id": "care-hospital",
+   "name": "Patientenaufnahme",
+   "address": "aufnahme@klinikum-talbach.example",
+   "organisation": "Kreisklinikum Talbach",
+   "role": "Krankenhaus"
+  },
+  {
+   "contact_id": "care-transport",
+   "name": "Disposition",
+   "address": "dispo@krankentransport-talbach.example",
+   "organisation": "Krankentransport Talbach",
+   "role": "Krankentransport"
+  },
+  {
+   "contact_id": "care-authority",
+   "name": "Infektionsschutz",
+   "address": "infektionsschutz@gesundheitsamt-talbach.example",
+   "organisation": "Gesundheitsamt Talbach",
+   "role": "Gesundheitsamt"
+  },
+  {
+   "contact_id": "care-lab",
+   "name": "Befundversand",
+   "address": "befunde@labor-talbach.example",
+   "organisation": "Labor am Klinikum Talbach",
+   "role": "Labor"
+  },
+  {
+   "contact_id": "care-facilities",
+   "name": "Haustechnik",
+   "address": "haustechnik@heim-talbach.example",
+   "organisation": "Haustechnik",
+   "role": "Haustechnik und Hilfsmittel"
+  },
+  {
+   "contact_id": "care-doc-01",
+   "name": "Dr. med. H. Neumann",
+   "address": "praxis.neumann@praxis.example",
+   "organisation": "Hausarztpraxis Neumann, Talbach",
+   "role": "Hausarztpraxis"
+  },
+  {
+   "contact_id": "care-doc-02",
+   "name": "Dr. med. R. Fuchs",
+   "address": "praxis.fuchs@praxis.example",
+   "organisation": "Hausarztpraxis Fuchs, Talbach",
+   "role": "Hausarztpraxis"
+  },
+  {
+   "contact_id": "care-doc-03",
+   "name": "Dr. med. R. Werner",
+   "address": "praxis.werner@praxis.example",
+   "organisation": "Hausarztpraxis Werner, Talbach",
+   "role": "Hausarztpraxis"
+  },
+  {
+   "contact_id": "care-doc-04",
+   "name": "Dr. med. I. Hoffmann",
+   "address": "praxis.hoffmann@praxis.example",
+   "organisation": "Praxis für Neurologie, Talbach",
+   "role": "Neurologie"
+  },
+  {
+   "contact_id": "care-doc-05",
+   "name": "Dr. med. G. Schulz",
+   "address": "praxis.schulz@praxis.example",
+   "organisation": "Praxis für Dermatologie, Talbach",
+   "role": "Dermatologie"
+  },
+  {
+   "contact_id": "care-res-001-c1",
+   "name": "Herbert Fischer",
+   "address": "herbert.fischer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Herrn Fischer"
+  },
+  {
+   "contact_id": "care-res-002-c1",
+   "name": "Elfriede Klein",
+   "address": "elfriede.klein@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Nichte von Herrn Klein"
+  },
+  {
+   "contact_id": "care-res-003-c1",
+   "name": "Siegfried Maier",
+   "address": "siegfried.maier@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Frau Maier"
+  },
+  {
+   "contact_id": "care-res-004-c1",
+   "name": "Siegfried Yılmaz",
+   "address": "siegfried.yılmaz@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Herrn Yılmaz"
+  },
+  {
+   "contact_id": "care-res-005-c1",
+   "name": "Kurt Neumann",
+   "address": "kurt.neumann@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehemann von Frau Neumann"
+  },
+  {
+   "contact_id": "care-res-005-c2",
+   "name": "Elisabeth Neumann",
+   "address": "elisabeth.neumann@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Neumann"
+  },
+  {
+   "contact_id": "care-res-006-c1",
+   "name": "Anneliese Frank",
+   "address": "anneliese.frank@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehefrau von Herrn Frank"
+  },
+  {
+   "contact_id": "care-res-006-c2",
+   "name": "Erich Frank",
+   "address": "erich.frank@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Herrn Frank"
+  },
+  {
+   "contact_id": "care-res-007-c1",
+   "name": "Inge Becker",
+   "address": "inge.becker@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Becker"
+  },
+  {
+   "contact_id": "care-res-008-c1",
+   "name": "Günter Schulz",
+   "address": "günter.schulz@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Frau Schulz"
+  },
+  {
+   "contact_id": "care-res-009-c1",
+   "name": "Klaus Frank",
+   "address": "klaus.frank@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkel von Frau Frank"
+  },
+  {
+   "contact_id": "care-res-009-c2",
+   "name": "Gisela Frank",
+   "address": "gisela.frank@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Frank"
+  },
+  {
+   "contact_id": "care-res-010-c1",
+   "name": "Lieselotte Klein",
+   "address": "lieselotte.klein@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehefrau von Herrn Klein"
+  },
+  {
+   "contact_id": "care-res-011-c1",
+   "name": "Werner Meier",
+   "address": "werner.meier@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Herrn Meier"
+  },
+  {
+   "contact_id": "care-res-012-c1",
+   "name": "Renate Kaya",
+   "address": "renate.kaya@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehefrau von Herrn Kaya"
+  },
+  {
+   "contact_id": "care-res-013-c1",
+   "name": "Edith Schäfer",
+   "address": "edith.schäfer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Herrn Schäfer"
+  },
+  {
+   "contact_id": "care-res-014-c1",
+   "name": "Helmut Popescu",
+   "address": "helmut.popescu@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Frau Popescu"
+  },
+  {
+   "contact_id": "care-res-014-c2",
+   "name": "Karl-Heinz Popescu",
+   "address": "karl-heinz.popescu@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehemann von Frau Popescu"
+  },
+  {
+   "contact_id": "care-res-015-c1",
+   "name": "Erika Petrović",
+   "address": "erika.petrović@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Petrović"
+  },
+  {
+   "contact_id": "care-res-016-c1",
+   "name": "Erika Müller",
+   "address": "erika.müller@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Müller"
+  },
+  {
+   "contact_id": "care-res-016-c2",
+   "name": "Gisela Müller",
+   "address": "gisela.müller@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Müller"
+  },
+  {
+   "contact_id": "care-res-017-c1",
+   "name": "Erich Bauer",
+   "address": "erich.bauer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Frau Bauer"
+  },
+  {
+   "contact_id": "care-res-018-c1",
+   "name": "Hannelore Koch",
+   "address": "hannelore.koch@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Koch"
+  },
+  {
+   "contact_id": "care-res-018-c2",
+   "name": "Inge Koch",
+   "address": "inge.koch@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Koch"
+  },
+  {
+   "contact_id": "care-res-019-c1",
+   "name": "Erich Hoffmann",
+   "address": "erich.hoffmann@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Neffe von Frau Hoffmann"
+  },
+  {
+   "contact_id": "care-res-020-c1",
+   "name": "Margarete Popescu",
+   "address": "margarete.popescu@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Popescu"
+  },
+  {
+   "contact_id": "care-res-020-c2",
+   "name": "Helga Popescu",
+   "address": "helga.popescu@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Popescu"
+  },
+  {
+   "contact_id": "care-res-021-c1",
+   "name": "Margarete Meyer",
+   "address": "margarete.meyer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Meyer"
+  },
+  {
+   "contact_id": "care-res-021-c2",
+   "name": "Ursula Meyer",
+   "address": "ursula.meyer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Meyer"
+  },
+  {
+   "contact_id": "care-res-022-c1",
+   "name": "Herbert Sommer",
+   "address": "herbert.sommer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Herrn Sommer"
+  },
+  {
+   "contact_id": "care-res-023-c1",
+   "name": "Margarete Meyer",
+   "address": "margarete.meyer2@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Tochter von Frau Meyer"
+  },
+  {
+   "contact_id": "care-res-023-c2",
+   "name": "Siegfried Meyer",
+   "address": "siegfried.meyer@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkel von Frau Meyer"
+  },
+  {
+   "contact_id": "care-res-024-c1",
+   "name": "Edith Krüger",
+   "address": "edith.krüger@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Krüger"
+  },
+  {
+   "contact_id": "care-res-025-c1",
+   "name": "Erich Braun",
+   "address": "erich.braun@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehemann von Frau Braun"
+  },
+  {
+   "contact_id": "care-res-026-c1",
+   "name": "Rosemarie Berger",
+   "address": "rosemarie.berger@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Enkelin von Frau Berger"
+  },
+  {
+   "contact_id": "care-res-027-c1",
+   "name": "Waltraud Köhler",
+   "address": "waltraud.köhler@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Ehefrau von Herrn Köhler"
+  },
+  {
+   "contact_id": "care-res-027-c2",
+   "name": "Kurt Köhler",
+   "address": "kurt.köhler@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Herrn Köhler"
+  },
+  {
+   "contact_id": "care-res-028-c1",
+   "name": "Helmut Keller",
+   "address": "helmut.keller@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Sohn von Frau Keller"
+  },
+  {
+   "contact_id": "care-res-028-c2",
+   "name": "Helga Keller",
+   "address": "helga.keller@mail.example",
+   "organisation": "Angehörige/r",
+   "role": "Nichte von Frau Keller"
+  }
+ ],
+ "mail_address": "kerstin.richter@haus-am-weinberg-talbach.de",
+ "mails": [
+  {
+   "mail_id": "mail-0002",
+   "folder": "inbox",
+   "sender": "einsatz@pflegepool-nord-talbach.de",
+   "sender_name": "Uwe Richter",
+   "to": [
+    "kerstin.richter@haus-am-weinberg-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Neue Preisliste",
+   "body": "Guten Tag,\n\nanbei unsere aktuelle Preisliste. Für bereits bestätigte Einsätze ändert sich nichts. Bitte wie gewohnt über das Portal buchen, damit alle Dienstdaten vollständig sind.\n\nFreundliche Grüße\nUwe Richter\nPflegepool Nord GmbH",
+   "sent_at": "2026-09-27 11:00",
+   "is_read": true,
+   "thread_id": "thread-0002",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-0002-preislistepd",
+     "filename": "preisliste.pdf",
+     "media_type": "application/pdf",
+     "content": "Pflegepool Nord GmbH\nPreisliste – gültig ab dem 1. dieses Monats\n\nPflegefachkraft: auf Anfrage\nPflegehilfskraft: auf Anfrage\n\nEin Stundensatz für alle Dienste, auch nachts und am Wochenende.\nMindesteinsatz 6 Stunden. Kostenfreie Stornierung bis 24 Stunden vor Dienstbeginn, danach voller Satz.\nVorlauf: wie im Buchungsportal je Angebot angegeben."
+    }
+   ]
+  },
+  {
+   "mail_id": "mail-0009",
+   "folder": "inbox",
+   "sender": "thomas.kaya@talbach-pflegeverbund.de",
+   "sender_name": "Thomas Kaya",
+   "to": [
+    "felix.frank@haus-am-weinberg-talbach.de",
+    "kerstin.richter@haus-am-weinberg-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Stundenbericht Region",
+   "body": "Liebe Kolleginnen und Kollegen,\n\ndanke für die Zahlen des letzten Monats. In der Region sind die Überstunden wieder gestiegen. Künftig frage ich bei jedem Haus kurz nach, wenn ein Planungszeitraum über den Vertragsstunden endet. Heute ist nichts zu tun.\n\nViele Grüße\nThomas Kaya",
+   "sent_at": "2026-09-28 16:45",
+   "is_read": true,
+   "thread_id": "thread-0009",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0004",
+   "folder": "inbox",
+   "sender": "daniel.schmidt@haus-am-weinberg-talbach.de",
+   "sender_name": "Daniel Schmidt",
+   "to": [
+    "kerstin.richter@haus-am-weinberg-talbach.de",
+    "felix.frank@haus-am-weinberg-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Einladung Betriebsratssitzung",
+   "body": "Hallo zusammen,\n\ndie nächste Sitzung des Betriebsrats ist am Mo., 12.10.2026 um 14:00 Uhr im Besprechungsraum. Tagesordnung: Dienstpläne der kommenden Wochen, Überstunden, Fortbildungen. Dienstplanentwürfe bitte wie in der Betriebsvereinbarung vereinbart vorher zur Zustimmung einreichen.\n\nViele Grüße\nDaniel Schmidt",
+   "sent_at": "2026-09-30 13:59",
+   "is_read": true,
+   "thread_id": "thread-0004",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0011",
+   "folder": "sent",
+   "sender": "kerstin.richter@haus-am-weinberg-talbach.de",
+   "sender_name": "Kerstin Richter",
+   "to": [
+    "einsatz@pflegepool-nord-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Buchungsanfrage – Vorgangsnummer",
+   "body": "Guten Tag,\n\ndanke für die Übernahme des Spätdienstes letzte Woche. Könnten Sie mir die Vorgangsnummer für die Rechnung schicken?\n\nKerstin Richter\nAssistenz der Pflegedienstleitung, Haus Am Weinberg",
+   "sent_at": "2026-10-01 10:42",
+   "is_read": true,
+   "thread_id": "thread-0011",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0001",
+   "folder": "inbox",
+   "sender": "mia.schwarz@kessler-lohnbuero-talbach.de",
+   "sender_name": "Mia Schwarz",
+   "to": [
+    "kerstin.richter@haus-am-weinberg-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Abrechnungsschluss und Stundenübersicht 09/2026",
+   "body": "Guten Tag,\n\nanbei die abgerechneten Stunden für 09/2026. Änderungen an Vertragsstunden, Ein- und Austritte für den nächsten Lauf brauchen wir bis Di., 13.10.2026. Überstunden zahlen wir nach Freigabe durch die Pflegedienstleitung aus.\n\nWenn eine Zahl nicht stimmt, antworten Sie bitte mit Personalnummer und korrigierten Stunden – bitte die Datei nicht ändern.\n\nMit freundlichen Grüßen\nMia Schwarz\nLohnbüro Kessler & Partner",
+   "sent_at": "2026-10-04 09:46",
+   "is_read": true,
+   "thread_id": "thread-0001",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-0001-stunden20260",
+     "filename": "stunden_2026_09.csv",
+     "media_type": "text/csv",
+     "content": "personalnr;name;vertrag_std_woche;geleistet_std;ueberstunden_std\nPN-2007;Jürgen Koch;24,00;108,92;5,00\nPN-2014;Jürgen Schröder;28,00;125,23;4,00\nPN-2021;Michael Schäfer;35,00;149,55;0,00\nPN-2028;Nicole Petrović;35,00;152,05;0,50\nPN-2035;Julia Schwarz;20,00;85,10;0,00\nPN-2042;Kai Müller;35,00;156,05;4,50\nPN-2049;Petra Schmitt;37,50;164,37;2,00\nPN-2056;Laura Koch;40,00;176,20;3,00\nPN-2063;Maria Kaya;35,00;153,05;1,50\nPN-2070;Anna Hoffmann;16,00;70,77;1,50\nPN-2077;Felix Vogel;37,50;158,37;0,00\nPN-2084;Jonas Schneider;24,00;101,42;0,00\nPN-2091;Laura Lange;24,00;107,92;4,00\nPN-2098;Anne Lorenz;35,00;157,55;6,00\nPN-2105;Paul Krüger;40,00;177,70;4,50\nPN-2112;Lukas Schwarz;35,00;154,55;3,00\nPN-2119;Anna Keller;40,00;173,20;0,00\nPN-2126;Claudia Popescu;28,00;124,73;3,50\nPN-2133;Lena Berger;40,00;176,20;3,00\nPN-2140;Mia Winkler;35,00;157,05;5,50\nPN-2147;Mehmet Petrović;40,00;178,70;5,50\nPN-2154;Daniel Schmidt;35,00;153,05;1,50\nPN-2161;Tobias Weber;40,00;178,20;5,00\nPN-2168;Anna Lange;35,00;157,55;6,00\nPN-2175;Sarah Lorenz;40,00;177,20;4,00\n"
+    }
+   ]
+  },
+  {
+   "mail_id": "mail-0012",
+   "folder": "sent",
+   "sender": "kerstin.richter@haus-am-weinberg-talbach.de",
+   "sender_name": "Kerstin Richter",
+   "to": [
+    "felix.frank@haus-am-weinberg-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Dienstplan veröffentlicht",
+   "body": "Hallo Felix,\n\nder Dienstplan ab Mi. 07.10. ist veröffentlicht. Offene Punkte stehen wie immer im Plan.\n\nKerstin Richter\nAssistenz der Pflegedienstleitung, Haus Am Weinberg",
+   "sent_at": "2026-10-04 15:49",
+   "is_read": true,
+   "thread_id": "thread-0012",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0008",
+   "folder": "inbox",
+   "sender": "felix.frank@haus-am-weinberg-talbach.de",
+   "sender_name": "Felix Frank",
+   "to": [
+    "kerstin.richter@haus-am-weinberg-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Probealarm am Mo. 12.10.",
+   "body": "Hallo zusammen,\n\nam Mo., 12.10.2026 zwischen 10:00 und 10:30 Uhr gibt es einen Probealarm der Brandmeldeanlage. Bitte die Bewohnerinnen und Bewohner vorher beruhigen. Keine Räumung.\n\nFelix",
+   "sent_at": "2026-10-06 08:16",
+   "is_read": true,
+   "thread_id": "thread-0008",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0003",
+   "folder": "inbox",
+   "sender": "felix.frank@haus-am-weinberg-talbach.de",
+   "sender_name": "Felix Frank",
+   "to": [
+    "kerstin.richter@haus-am-weinberg-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Diese Woche – ein paar Punkte",
+   "body": "Hallo Kerstin,\n\nein paar Punkte für die nächsten Tage:\n- Überstunden nur, wo es wirklich nötig ist – die Regionalleitung schaut gerade genau auf die Stunden\n- bitte allen Bescheid geben, deren Dienst sich ändert\n\nIch bin morgen Vormittag fast durchgehend in Terminen; wenn etwas nicht warten kann, schreib mir im Chat.\n\nFelix",
+   "sent_at": "2026-10-06 17:22",
+   "is_read": true,
+   "thread_id": "thread-0003",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0010",
+   "folder": "inbox",
+   "sender": "mia.schwarz@kessler-lohnbuero-talbach.de",
+   "sender_name": "Mia Schwarz",
+   "to": [
+    "kerstin.richter@haus-am-weinberg-talbach.de"
+   ],
+   "cc": [],
+   "subject": "Rückfrage: Stunden Mi. 07.10. – Di. 13.10.",
+   "body": "Guten Tag,\n\nbevor wir die Abrechnung für Mi., 07.10.2026 bis Di., 13.10.2026 machen, gleichen Sie bitte die gestempelten Zeiten mit dem Dienstplan ab. Antworten Sie auf diese Mail mit einer Zeile je Person, deren gestempelte Zeit vom Plan abweicht: Personalnummer, Name und Abweichung in Minuten – plus, wenn mehr gestempelt als geplant, minus, wenn weniger (zum Beispiel „+30 Min.“ oder „−15 Min.“ hinter dem Namen). Weicht ein Dienst um weniger als 10 Minuten vom Plan ab, liegt das in unserer Toleranz – bitte weglassen. Wenn alles passt, reicht ein kurzer Hinweis.\n\nDie Zeiterfassung selbst bitte nicht korrigieren; wir rechnen nach den bestätigten Zahlen ab.\n\nMit freundlichen Grüßen\nMia Schwarz\nLohnbüro Kessler & Partner",
+   "sent_at": "2026-10-13 07:47",
+   "is_read": false,
+   "thread_id": "thread-0010",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-0003-abrechnungst",
+     "filename": "abrechnung_stunden.csv",
+     "media_type": "text/csv",
+     "content": "personalnr;name;geplante_minuten\nPN-2007;Jürgen Koch;900\nPN-2014;Jürgen Schröder;900\nPN-2021;Michael Schäfer;1800\nPN-2028;Nicole Petrović;1800\nPN-2035;Julia Schwarz;900\nPN-2042;Kai Müller;1800\nPN-2049;Petra Schmitt;1350\nPN-2056;Laura Koch;900\nPN-2063;Maria Kaya;900\nPN-2070;Anna Hoffmann;450\nPN-2077;Felix Vogel;900\nPN-2084;Jonas Schneider;450\nPN-2091;Laura Lange;450\nPN-2098;Anne Lorenz;1350\nPN-2105;Paul Krüger;900\nPN-2112;Lukas Schwarz;900\nPN-2119;Anna Keller;1350\nPN-2126;Claudia Popescu;450\nPN-2133;Lena Berger;1350\nPN-2140;Mia Winkler;900\nPN-2147;Mehmet Petrović;900\nPN-2154;Daniel Schmidt;900\nPN-2161;Tobias Weber;900\nPN-2168;Anna Lange;900\nPN-2175;Sarah Lorenz;900\n"
+    }
+   ]
+  }
+ ],
+ "chat_channels": [
+  {
+   "channel_id": "chat-all",
+   "name": "Alle Mitarbeitenden",
+   "kind": "group",
+   "members": [
+    "me",
+    "manager",
+    "staff-0001",
+    "staff-0002",
+    "staff-0003",
+    "staff-0004",
+    "staff-0005",
+    "staff-0006",
+    "staff-0007",
+    "staff-0008",
+    "staff-0009",
+    "staff-0010",
+    "staff-0011",
+    "staff-0012",
+    "staff-0013",
+    "staff-0014",
+    "staff-0015",
+    "staff-0016",
+    "staff-0017",
+    "staff-0018",
+    "staff-0019",
+    "staff-0020",
+    "staff-0021",
+    "staff-0022",
+    "staff-0023",
+    "staff-0024",
+    "staff-0025"
+   ],
+   "topic": "Infos für das ganze Haus"
+  },
+  {
+   "channel_id": "chat-ward-01",
+   "name": "Team Wohnbereich Weidenweg",
+   "kind": "group",
+   "members": [
+    "me",
+    "staff-0001",
+    "staff-0002",
+    "staff-0003",
+    "staff-0004",
+    "staff-0005",
+    "staff-0006",
+    "staff-0007",
+    "staff-0008",
+    "staff-0009",
+    "staff-0010",
+    "staff-0011",
+    "staff-0012",
+    "staff-0013",
+    "staff-0014",
+    "staff-0015",
+    "staff-0016",
+    "staff-0017",
+    "staff-0018",
+    "staff-0019",
+    "staff-0020",
+    "staff-0021",
+    "staff-0022",
+    "staff-0023",
+    "staff-0024",
+    "staff-0025"
+   ],
+   "topic": "Übergaben und Dienstfragen"
+  },
+  {
+   "channel_id": "chat-nights",
+   "name": "Nachtdienst",
+   "kind": "group",
+   "members": [
+    "me",
+    "staff-0001",
+    "staff-0002",
+    "staff-0008",
+    "staff-0010",
+    "staff-0014",
+    "staff-0016",
+    "staff-0017",
+    "staff-0020",
+    "staff-0022",
+    "staff-0025"
+   ],
+   "topic": "Nachtteam"
+  },
+  {
+   "channel_id": "dm-staff-0007",
+   "name": "Petra Schmitt",
+   "kind": "direct",
+   "members": [
+    "me",
+    "staff-0007"
+   ],
+   "topic": ""
+  },
+  {
+   "channel_id": "dm-staff-0001",
+   "name": "Jürgen Koch",
+   "kind": "direct",
+   "members": [
+    "me",
+    "staff-0001"
+   ],
+   "topic": ""
+  }
+ ],
+ "chat_messages": [
+  {
+   "chat_id": "chat-0001",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0020",
+   "text": "Neue Handschuhe Größe M sind im Schrank am Aufzug.",
+   "sent_at": "2026-09-28 15:27",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0002",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0010",
+   "text": "Hab ihn – lag in der Übergabemappe.",
+   "sent_at": "2026-09-29 20:36",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0003",
+   "channel_id": "dm-staff-0001",
+   "sender_id": "staff-0001",
+   "text": "Guten Morgen! Ich wollte nur sichergehen, dass ich Samstag Früh habe – auf dem Ausdruck im Büro steht Spät.",
+   "sent_at": "2026-10-02 10:31",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0004",
+   "channel_id": "chat-nights",
+   "sender_id": "staff-0014",
+   "text": "Erinnerung: neue Liftertücher liegen im Lager, die alten bitte in die Wäsche.",
+   "sent_at": "2026-10-02 11:39",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0005",
+   "channel_id": "dm-staff-0001",
+   "sender_id": "me",
+   "text": "Danke – ich schaue nach und melde mich.",
+   "sent_at": "2026-10-02 20:25",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0006",
+   "channel_id": "dm-staff-0007",
+   "sender_id": "staff-0007",
+   "text": "Hallo, mein Fortbildungsnachweis ist erneuert – wohin soll ich die Kopie schicken?",
+   "sent_at": "2026-10-04 16:51",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0007",
+   "channel_id": "dm-staff-0007",
+   "sender_id": "me",
+   "text": "Danke – ich schaue nach und melde mich.",
+   "sent_at": "2026-10-04 20:15",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0008",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0018",
+   "text": "Fährt heute jemand an der Apotheke vorbei?",
+   "sent_at": "2026-10-05 18:27",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0009",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0006",
+   "text": "Kuchen im Pausenraum – bedient euch.",
+   "sent_at": "2026-10-06 11:47",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0010",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0006",
+   "text": "Kann der Spätdienst morgen die Speisekarten in die Küche bringen?",
+   "sent_at": "2026-10-06 18:41",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0011",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0023",
+   "text": "Der Aufzug im ersten Stock geht wieder.",
+   "sent_at": "2026-10-07 06:12",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  }
+ ],
+ "calendar": [
+  {
+   "event_id": "event-0001",
+   "title": "Hausarztvisite",
+   "kind": "meeting",
+   "start": "2026-10-08 11:00",
+   "end": "2026-10-08 12:30",
+   "all_day": false,
+   "location": "alle Wohnbereiche",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Felix Frank"
+  },
+  {
+   "event_id": "event-0002",
+   "title": "Teambesprechung Wohnbereich Weidenweg",
+   "kind": "meeting",
+   "start": "2026-10-09 13:30",
+   "end": "2026-10-09 14:15",
+   "all_day": false,
+   "location": "Pausenraum",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Felix Frank"
+  },
+  {
+   "event_id": "event-0003",
+   "title": "Urlaub: Anne Lorenz",
+   "kind": "leave",
+   "start": "2026-10-10 00:00",
+   "end": "2026-10-12 23:59",
+   "all_day": true,
+   "location": "",
+   "attendees": [
+    "staff-0014"
+   ],
+   "notes": "",
+   "created_by": "Felix Frank"
+  },
+  {
+   "event_id": "event-0004",
+   "title": "Probealarm Brandmeldeanlage",
+   "kind": "other",
+   "start": "2026-10-12 10:00",
+   "end": "2026-10-12 10:30",
+   "all_day": false,
+   "location": "Haus Am Weinberg",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Felix Frank"
+  },
+  {
+   "event_id": "event-0005",
+   "title": "Betriebsratssitzung",
+   "kind": "council",
+   "start": "2026-10-12 14:00",
+   "end": "2026-10-12 15:30",
+   "all_day": false,
+   "location": "Besprechungsraum",
+   "attendees": [
+    "staff-0022"
+   ],
+   "notes": "Dienstpläne, Überstunden, Fortbildungen.",
+   "created_by": "Daniel Schmidt"
+  },
+  {
+   "event_id": "event-0006",
+   "title": "Urlaub: Lukas Schwarz",
+   "kind": "leave",
+   "start": "2026-10-13 00:00",
+   "end": "2026-10-13 23:59",
+   "all_day": true,
+   "location": "",
+   "attendees": [
+    "staff-0016"
+   ],
+   "notes": "",
+   "created_by": "Felix Frank"
+  },
+  {
+   "event_id": "event-0007",
+   "title": "Begehung Heimaufsicht (angekündigt)",
+   "kind": "inspection",
+   "start": "2026-11-07 09:00",
+   "end": "2026-11-07 15:00",
+   "all_day": false,
+   "location": "Haus Am Weinberg",
+   "attendees": [],
+   "notes": "Pflegedokumentation und Dienstpläne der letzten drei Monate.",
+   "created_by": "Felix Frank"
+  }
+ ],
+ "staged": [],
+ "open_at_start": 0,
+ "budget_in_mail": false
+}

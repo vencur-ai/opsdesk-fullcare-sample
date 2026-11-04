@@ -1,0 +1,26 @@
+# main: where the agent runs (no app code, no task data, no key). app: the OpsDesk FullCare workspace.
+# The app writes its record to workspace-out; main can only read it, and it holds only the calls with their results
+# and the state hash (no state, no arrivals still to come). The verifier replays the calls.
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["sleep", "infinity"]
+    environment:
+      OPSDESK_URL: http://app:8080
+    volumes:
+      - workspace-out:/workspace-out:ro
+    depends_on:
+      - app
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    environment:
+      OPSDESK_TASK: fc-73582e57a857
+      OPSDESK_WORKSPACE_OUT: /workspace-out
+    volumes:
+      - workspace-out:/workspace-out
+volumes:
+  workspace-out:

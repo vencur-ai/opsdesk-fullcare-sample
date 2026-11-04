@@ -1,0 +1,68 @@
+[
+ {
+  "tool": "care.transfer_sheet_save",
+  "args": {
+   "resident_id": "res-012",
+   "destination": "Kreisklinikum Mühlhausen-Ost",
+   "reason": "Sturz, Verdacht auf Hüftfraktur (Notarzt)",
+   "aids_sent": [
+    "dentures",
+    "hearing_aid",
+    "walking_frame"
+   ],
+   "continence": "double_incontinent",
+   "mobility": "walks_alone",
+   "orientation": "oriented"
+  }
+ },
+ {
+  "tool": "print.submit",
+  "args": {
+   "kind": "transfer_sheet",
+   "resident_id": "res-012",
+   "printer": "Drucker Wohnbereich Lindenhof"
+  }
+ },
+ {
+  "tool": "print.submit",
+  "args": {
+   "kind": "medication_plan",
+   "resident_id": "res-012",
+   "printer": "Drucker Wohnbereich Lindenhof"
+  }
+ },
+ {
+  "tool": "print.submit",
+  "args": {
+   "kind": "care_report",
+   "resident_id": "res-012",
+   "printer": "Drucker Wohnbereich Lindenhof"
+  }
+ },
+ {
+  "tool": "print.submit",
+  "args": {
+   "kind": "daily_plan",
+   "resident_id": "res-012",
+   "printer": "Drucker Wohnbereich Lindenhof"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "manfred.zimmermann@mail.example"
+   ],
+   "subject": "Krankenhaus – Christa Zimmermann",
+   "body": "Guten Tag,\n\nChrista Zimmermann kommt heute ins Kreisklinikum Mühlhausen-Ost. Bei Fragen rufen Sie uns gern an.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "care.status_set",
+  "args": {
+   "resident_id": "res-012",
+   "status": "in_hospital",
+   "reason": "Sturz, Notarzt, Rettungswagen ins Krankenhaus"
+  }
+ }
+]

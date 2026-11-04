@@ -1,0 +1,29 @@
+{
+  "difficulty": "hard",
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "FC14_early_shift",
+  "fullcare": {
+    "careplan_model": "pgm",
+    "home": "compact_home",
+    "jurisdiction": "de",
+    "locale": "de-DE",
+    "residents": 28,
+    "scope": 13,
+    "staff": 26,
+    "units": 1
+  },
+  "horizon_days": 7,
+  "instruction": "Ahmet: Du hast heute die Schichtleitung im Frühdienst (Wohnbereich Sonnenblick). Meine Notizen sind in der Mail, die Nacht steht im Teamchat, und im Lauf des Vormittags kommt noch einiges dazu. Bitte alles nach unserem Standard erledigen und am Ende die Übergabe an den Spätdienst schreiben. Jonas",
+  "jurisdiction": "de",
+  "start_date": "2026-07-25",
+  "surface": "fullcare",
+  "task_id": "fc-586d61205620",
+  "world_file": "world.json"
+}

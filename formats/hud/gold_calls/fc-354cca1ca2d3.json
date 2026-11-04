@@ -1,0 +1,87 @@
+[
+ {
+  "tool": "care.order_acknowledge",
+  "args": {
+   "order_id": "res-007-new1"
+  }
+ },
+ {
+  "tool": "care.order_acknowledge",
+  "args": {
+   "order_id": "res-007-new2"
+  }
+ },
+ {
+  "tool": "care.order_acknowledge",
+  "args": {
+   "order_id": "res-007-new3"
+  }
+ },
+ {
+  "tool": "care.order_acknowledge",
+  "args": {
+   "order_id": "res-007-new4"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-007",
+   "catalogue_key": "glucose",
+   "schedule": {
+    "anchor": "06:00",
+    "every_hours": null,
+    "kind": "times",
+    "night_every_hours": null,
+    "times": [
+     "07:00",
+     "12:00",
+     "18:00"
+    ],
+    "weekdays": []
+   },
+   "start": "2026-10-13",
+   "order_id": "res-007-new1"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-007",
+   "catalogue_key": "weigh",
+   "schedule": {
+    "anchor": "06:00",
+    "every_hours": null,
+    "kind": "weekly",
+    "night_every_hours": null,
+    "times": [
+     "07:30"
+    ],
+    "weekdays": [
+     1,
+     4
+    ]
+   },
+   "start": "2026-10-13",
+   "order_id": "res-007-new2"
+  }
+ },
+ {
+  "tool": "care.measure_end",
+  "args": {
+   "measure_id": "res-007-m01",
+   "end": "2026-10-13",
+   "reason": "Ärztliche Anordnung: absetzen"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "heimversorgung@apotheke-talbach.example"
+   ],
+   "subject": "Medikationsänderung Gisela Becker",
+   "body": "Guten Tag,\n\nfür Gisela Becker hat der Hausarzt Torasemid ab heute auf 20 mg geändert. Bitte entsprechend liefern.\n\nViele Grüße"
+  }
+ }
+]

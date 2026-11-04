@@ -1,0 +1,29 @@
+{
+  "difficulty": "medium",
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "FC1_admission",
+  "fullcare": {
+    "careplan_model": "pgm",
+    "home": "compact_home",
+    "jurisdiction": "uk",
+    "locale": "en-GB",
+    "residents": 28,
+    "scope": 1,
+    "staff": 29,
+    "units": 1
+  },
+  "horizon_days": 7,
+  "instruction": "Sophia: Dorothy King moves in today, room A29 (Cedar Unit). The discharge summary came by mail, the admission notes are in the team chat. Please set up the record completely, do the assessments our standard asks for today, and plan the care as per our standard. The pharmacy needs the medication from the letter. Thanks! Sophie",
+  "jurisdiction": "uk",
+  "start_date": "2026-08-31",
+  "surface": "fullcare",
+  "task_id": "fc-73582e57a857",
+  "world_file": "world.json"
+}

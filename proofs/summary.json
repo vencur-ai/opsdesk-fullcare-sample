@@ -1,0 +1,32 @@
+{
+  "requests": 5,
+  "reference_1_0": {
+    "api": 5,
+    "gui_forms": 5,
+    "real_browser": 5
+  },
+  "do_nothing_0": 5,
+  "cheat_runs": 30,
+  "cheat_runs_scoring_0": 30,
+  "near_misses": 171,
+  "near_misses_passed": 0,
+  "near_miss_highest_score": 0.997531,
+  "near_misses_between_0_99_and_1": 19,
+  "equivalents": 26,
+  "equivalents_passed": 26,
+  "hack_probes": 50,
+  "hack_probes_passed": 50,
+  "gui_equals_api": 5,
+  "browser_same_state_as_api": 5,
+  "replay_reproduced": 5,
+  "long_tier_order_independent": 1,
+  "greedy_no_model_script_passed": 0,
+  "lint_hits": 0,
+  "format_check_ok": true,
+  "release_summary_agrees": true,
+  "product": "OpsDesk FullCare",
+  "version": "0.6.4",
+  "release_commit": "2b47abd",
+  "date": "2026-11-04",
+  "scripted_agents_only": true
+}

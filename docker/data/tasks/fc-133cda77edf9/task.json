@@ -1,0 +1,29 @@
+{
+  "difficulty": "medium",
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "FC7_hospital_return",
+  "fullcare": {
+    "careplan_model": "pgm",
+    "home": "compact_home",
+    "jurisdiction": "uk",
+    "locale": "en-GB",
+    "residents": 28,
+    "scope": 1,
+    "staff": 29,
+    "units": 1
+  },
+  "horizon_days": 7,
+  "instruction": "Callum: Mrs Hughes came back from hospital today (mail and team chat). Please do everything our standard asks for after a hospital stay. Tomasz",
+  "jurisdiction": "uk",
+  "start_date": "2026-01-26",
+  "surface": "fullcare",
+  "task_id": "fc-133cda77edf9",
+  "world_file": "world.json"
+}

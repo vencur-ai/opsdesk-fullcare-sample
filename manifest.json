@@ -1,0 +1,70 @@
+{
+  "product": "OpsDesk FullCare",
+  "version": "fullcare-0.6.4",
+  "image": "opsdesk-fullcare-sample:fullcare-0.6.4",
+  "licence": "evaluation only (LICENSE.md)",
+  "verifier_image": null,
+  "scoring": "in the package (references included)",
+  "references_included": "these 5 requests only (data/private/fullcare/)",
+  "house_standard": "German edition: the head of nursing's answers (all 71 values); UK edition: the same rules, not yet reviewed by a UK professional",
+  "formats": [
+    "docker",
+    "http",
+    "mcp",
+    "harbor",
+    "hud",
+    "openenv",
+    "verifiers"
+  ],
+  "name": "opsdesk-fullcare-sample",
+  "built": "2026-11-04",
+  "requests": [
+    {
+      "request": "fc-586d61205620",
+      "family": "FC14_early_shift",
+      "difficulty": "hard",
+      "tier": "long",
+      "edition": "DE",
+      "residents": 28,
+      "reference_actions": 145
+    },
+    {
+      "request": "fc-73582e57a857",
+      "family": "FC1_admission",
+      "difficulty": "medium",
+      "tier": "standard",
+      "edition": "UK",
+      "residents": 28,
+      "reference_actions": 21
+    },
+    {
+      "request": "fc-354cca1ca2d3",
+      "family": "FC5_doctor_orders",
+      "difficulty": "medium",
+      "tier": "standard",
+      "edition": "DE",
+      "residents": 28,
+      "reference_actions": 8
+    },
+    {
+      "request": "fc-a335d975244c",
+      "family": "FC6_hospital_transfer",
+      "difficulty": "medium",
+      "tier": "standard",
+      "edition": "DE",
+      "residents": 28,
+      "reference_actions": 7
+    },
+    {
+      "request": "fc-133cda77edf9",
+      "family": "FC7_hospital_return",
+      "difficulty": "medium",
+      "tier": "standard",
+      "edition": "UK",
+      "residents": 28,
+      "reference_actions": 13
+    }
+  ],
+  "solver_included": false,
+  "generator_included": false
+}

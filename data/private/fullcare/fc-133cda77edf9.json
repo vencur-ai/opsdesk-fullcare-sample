@@ -1,0 +1,311 @@
+{
+ "addresses": {
+  "care-authority": "infektionsschutz@gesundheitsamt-fairhaven.example",
+  "care-doc-01": "praxis.shaw@surgery.example",
+  "care-doc-02": "praxis.smith@surgery.example",
+  "care-doc-03": "praxis.harris@surgery.example",
+  "care-doc-04": "praxis.roberts@surgery.example",
+  "care-doc-05": "praxis.reyes@surgery.example",
+  "care-facilities": "haustechnik@heim-fairhaven.example",
+  "care-hospital": "aufnahme@klinikum-fairhaven.example",
+  "care-lab": "befunde@labor-fairhaven.example",
+  "care-pharmacy": "heimversorgung@apotheke-fairhaven.example",
+  "care-res-001-c1": "kenneth.james@mail.example",
+  "care-res-002-c1": "eileen.okafor@mail.example",
+  "care-res-002-c2": "patricia.okafor@mail.example",
+  "care-res-003-c1": "sylvia.thomson@mail.example",
+  "care-res-003-c2": "irene.thomson@mail.example",
+  "care-res-004-c1": "joan.taylor@mail.example",
+  "care-res-005-c1": "dorothy.robinson@mail.example",
+  "care-res-005-c2": "ronald.robinson@mail.example",
+  "care-res-006-c1": "eileen.moore@mail.example",
+  "care-res-007-c1": "gordon.hughes@mail.example",
+  "care-res-008-c1": "dorothy.davies@mail.example",
+  "care-res-009-c1": "barbara.white@mail.example",
+  "care-res-010-c1": "maureen.jones@mail.example",
+  "care-res-010-c2": "pamela.jones@mail.example",
+  "care-res-011-c1": "maureen.thompson@mail.example",
+  "care-res-012-c1": "alan.smith@mail.example",
+  "care-res-012-c2": "joyce.smith@mail.example",
+  "care-res-013-c1": "irene.morgan@mail.example",
+  "care-res-013-c2": "barbara.morgan@mail.example",
+  "care-res-014-c1": "gordon.martin@mail.example",
+  "care-res-015-c1": "brian.johnson@mail.example",
+  "care-res-016-c1": "frank.reyes@mail.example",
+  "care-res-016-c2": "sheila.reyes@mail.example",
+  "care-res-017-c1": "pamela.cooper@mail.example",
+  "care-res-018-c1": "eileen.moore2@mail.example",
+  "care-res-019-c1": "alan.morgan@mail.example",
+  "care-res-020-c1": "patricia.kaur@mail.example",
+  "care-res-020-c2": "gordon.kaur@mail.example",
+  "care-res-021-c1": "valerie.jackson@mail.example",
+  "care-res-022-c1": "eileen.james@mail.example",
+  "care-res-023-c1": "patricia.mensah@mail.example",
+  "care-res-024-c1": "alan.adeyemi@mail.example",
+  "care-res-025-c1": "brian.fernandes@mail.example",
+  "care-res-026-c1": "arthur.davies@mail.example",
+  "care-res-027-c1": "raymond.reyes@mail.example",
+  "care-res-028-c1": "leonard.santos@mail.example",
+  "care-transport": "dispo@krankentransport-fairhaven.example",
+  "contact-agency-1": "bookings@northstar-care-staffing-fairhaven-down.co.uk",
+  "contact-agency-2": "bookings@brightwell-nursing-agency-fairhaven-down.co.uk",
+  "contact-agency-3": "bookings@harbourside-care-recruitment-fairhaven-down.co.uk",
+  "contact-manager": "tomasz.white@ashgrove-manor-fairhaven-down.co.uk",
+  "contact-ops": "tomasz.kowalski@fairhaven-down-caregroup.co.uk",
+  "contact-payroll": "chiamaka.taylor@hartwell-payroll-fairhaven-down.co.uk",
+  "contact-rep": "callum.clark@ashgrove-manor-fairhaven-down.co.uk",
+  "contact-training": "daniel.begum@northgate-caretraining-fairhaven-down.co.uk"
+ },
+ "assessment_sources": [
+  {
+   "answers": {
+    "eats_less": "g2",
+    "feels_pressure": "g0",
+    "moves_alone": "g3",
+    "out_of_bed": "g2",
+    "skin_moist": "g2",
+    "skin_now": "g2"
+   },
+   "resident_id": "res-007",
+   "scale_id": "house_skin"
+  },
+  {
+   "answers": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g1",
+    "orientation": "g2",
+    "sight": "g0",
+    "walking": "g0"
+   },
+   "resident_id": "res-007",
+   "scale_id": "house_falls"
+  }
+ ],
+ "births": {
+  "res-001": "1935-02-23",
+  "res-002": "1938-05-17",
+  "res-003": "1935-03-23",
+  "res-004": "1943-05-02",
+  "res-005": "1944-08-19",
+  "res-006": "1940-07-05",
+  "res-007": "1939-10-13",
+  "res-008": "1947-10-10",
+  "res-009": "1934-10-13",
+  "res-010": "1949-02-05",
+  "res-011": "1938-04-03",
+  "res-012": "1937-07-22",
+  "res-013": "1938-02-06",
+  "res-014": "1935-01-25",
+  "res-015": "1948-10-14",
+  "res-016": "1941-03-22",
+  "res-017": "1947-07-05",
+  "res-018": "1949-03-06",
+  "res-019": "1932-12-08",
+  "res-020": "1935-12-19",
+  "res-021": "1943-10-28",
+  "res-022": "1928-11-09",
+  "res-023": "1933-03-15",
+  "res-024": "1949-07-02",
+  "res-025": "1925-06-09",
+  "res-026": "1934-01-14",
+  "res-027": "1926-10-28",
+  "res-028": "1945-10-17"
+ },
+ "careplan_model": "pgm",
+ "doctors": {
+  "doc-01": "Dr D. Shaw",
+  "doc-02": "Dr I. Smith",
+  "doc-03": "Dr G. Harris",
+  "doc-04": "Dr B. Roberts",
+  "doc-05": "Dr R. Reyes"
+ },
+ "eligible": {},
+ "expect": {
+  "allergy": [
+   "Nuts",
+   "swelling",
+   "moderate"
+  ],
+  "answers": {
+   "house_falls": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g1",
+    "orientation": "g2",
+    "sight": "g0",
+    "walking": "g0"
+   },
+   "house_skin": {
+    "eats_less": "g2",
+    "feels_pressure": "g0",
+    "moves_alone": "g3",
+    "out_of_bed": "g2",
+    "skin_moist": "g2",
+    "skin_now": "g2"
+   }
+  },
+  "attachment_id": "att-ret-47000005",
+  "end": [
+   "res-007-m03",
+   "res-007-m04"
+  ],
+  "gold_measures": [
+   [
+    "reposition",
+    {
+     "anchor": "06:00",
+     "every_hours": 2,
+     "kind": "interval",
+     "night_every_hours": 3,
+     "times": [],
+     "weekdays": []
+    }
+   ],
+   [
+    "mobilisation",
+    {
+     "anchor": "06:00",
+     "every_hours": null,
+     "kind": "times",
+     "night_every_hours": null,
+     "times": [
+      "10:00",
+      "14:00",
+      "17:00"
+     ],
+     "weekdays": []
+    }
+   ]
+  ],
+  "mattress": true,
+  "measures": [
+   [
+    "fluid_offer",
+    "per_day",
+    5
+   ],
+   [
+    "mobilisation",
+    "per_day",
+    3
+   ],
+   [
+    "personal_care",
+    "per_day",
+    1
+   ],
+   [
+    "reposition",
+    "interval",
+    2,
+    3
+   ],
+   [
+    "vital_signs",
+    "weekly",
+    1,
+    1
+   ],
+   [
+    "weigh",
+    "weekly",
+    1,
+    1
+   ],
+   [
+    "wound_dressing",
+    "weekly",
+    3,
+    1
+   ]
+  ],
+  "pharmacy_facts": [
+   [
+    "name",
+    "Sylvia",
+    "Hughes"
+   ],
+   [
+    "word",
+    "Ramipril"
+   ],
+   [
+    "word",
+    "2.5 mg",
+    "2.5 mg"
+   ]
+  ],
+  "resident_id": "res-007"
+ },
+ "family": "FC7_hospital_return",
+ "index": 0,
+ "jurisdiction": "uk",
+ "locale": "en-GB",
+ "names": {
+  "res-001": "Edna James",
+  "res-002": "Patricia Okafor",
+  "res-003": "Sylvia Thomson",
+  "res-004": "Alan Taylor",
+  "res-005": "Alan Robinson",
+  "res-006": "Patricia Moore",
+  "res-007": "Sylvia Hughes",
+  "res-008": "Audrey Davies",
+  "res-009": "Audrey White",
+  "res-010": "Jean Jones",
+  "res-011": "Dorothy Thompson",
+  "res-012": "Jean Smith",
+  "res-013": "Betty Morgan",
+  "res-014": "Valerie Martin",
+  "res-015": "Betty Johnson",
+  "res-016": "Leonard Reyes",
+  "res-017": "Patricia Cooper",
+  "res-018": "Dorothy Moore",
+  "res-019": "Winifred Morgan",
+  "res-020": "Joyce Kaur",
+  "res-021": "Arthur Jackson",
+  "res-022": "Jean James",
+  "res-023": "Betty Mensah",
+  "res-024": "Margaret Adeyemi",
+  "res-025": "Frank Fernandes",
+  "res-026": "Pamela Davies",
+  "res-027": "Derek Reyes",
+  "res-028": "Audrey Santos"
+ },
+ "now": "2026-02-01 08:05",
+ "pending_standard": [
+  "catalogue",
+  "fluid_check_days",
+  "fluid_days_below_inform_gp",
+  "fluid_target_ml",
+  "follow_up_minutes",
+  "initial_assessments",
+  "inspection_checklist",
+  "lab_inform_gp",
+  "mattress_for_class",
+  "measure_durations",
+  "plan_window_minutes",
+  "prevention",
+  "reassess_every_days",
+  "reassess_on",
+  "reposition",
+  "return_assessments",
+  "scale_bands",
+  "transfer_prints",
+  "vital_ranges",
+  "weigh_every_days",
+  "weight_loss_days",
+  "weight_loss_percent"
+ ],
+ "printers": [
+  "Printer Bluebell Unit"
+ ],
+ "scope": [
+  "res-007"
+ ],
+ "seed": 47000005,
+ "sources": [],
+ "task_id": "fc-133cda77edf9",
+ "today": "2026-02-01",
+ "version": "fullcare-0.6.4"
+}

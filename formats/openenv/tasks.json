@@ -1,0 +1,31 @@
+{
+  "environment": "opsdesk-fullcare",
+  "version": "fullcare-0.6.4",
+  "image": "opsdesk-fullcare-sample:fullcare-0.6.4",
+  "action": "POST /api/step {tool, args}",
+  "observation": "GET /api/state",
+  "reset": "POST /host/reset {task_id} (host key)",
+  "reward": "POST /host/finish (host key) -> score.score",
+  "tasks": [
+    {
+      "task_id": "fc-586d61205620",
+      "prompt": "Ahmet: Du hast heute die Schichtleitung im Frühdienst (Wohnbereich Sonnenblick). Meine Notizen sind in der Mail, die Nacht steht im Teamchat, und im Lauf des Vormittags kommt noch einiges dazu. Bitte alles nach unserem Standard erledigen und am Ende die Übergabe an den Spätdienst schreiben. Jonas"
+    },
+    {
+      "task_id": "fc-73582e57a857",
+      "prompt": "Sophia: Dorothy King moves in today, room A29 (Cedar Unit). The discharge summary came by mail, the admission notes are in the team chat. Please set up the record completely, do the assessments our standard asks for today, and plan the care as per our standard. The pharmacy needs the medication from the letter. Thanks! Sophie"
+    },
+    {
+      "task_id": "fc-354cca1ca2d3",
+      "prompt": "Kerstin: Dr. med. H. Neumann hat heute früh neue Anordnungen für Frau Becker eingetragen. Bitte alles umsetzen – quittieren, in die Planung übernehmen, und die Apotheke informieren, wo nötig. Felix"
+    },
+    {
+      "task_id": "fc-a335d975244c",
+      "prompt": "Andreas: Frau Zimmermann muss gleich ins Krankenhaus (siehe Teamchat). Bitte die Überleitung fertig machen und ausdrucken, die Angehörigen informieren und sie im System richtig stellen. Claudia"
+    },
+    {
+      "task_id": "fc-133cda77edf9",
+      "prompt": "Callum: Mrs Hughes came back from hospital today (mail and team chat). Please do everything our standard asks for after a hospital stay. Tomasz"
+    }
+  ]
+}

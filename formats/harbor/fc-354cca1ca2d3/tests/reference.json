@@ -1,0 +1,213 @@
+{
+ "addresses": {
+  "care-authority": "infektionsschutz@gesundheitsamt-talbach.example",
+  "care-doc-01": "praxis.neumann@praxis.example",
+  "care-doc-02": "praxis.fuchs@praxis.example",
+  "care-doc-03": "praxis.werner@praxis.example",
+  "care-doc-04": "praxis.hoffmann@praxis.example",
+  "care-doc-05": "praxis.schulz@praxis.example",
+  "care-facilities": "haustechnik@heim-talbach.example",
+  "care-hospital": "aufnahme@klinikum-talbach.example",
+  "care-lab": "befunde@labor-talbach.example",
+  "care-pharmacy": "heimversorgung@apotheke-talbach.example",
+  "care-res-001-c1": "herbert.fischer@mail.example",
+  "care-res-002-c1": "elfriede.klein@mail.example",
+  "care-res-003-c1": "siegfried.maier@mail.example",
+  "care-res-004-c1": "siegfried.yılmaz@mail.example",
+  "care-res-005-c1": "kurt.neumann@mail.example",
+  "care-res-005-c2": "elisabeth.neumann@mail.example",
+  "care-res-006-c1": "anneliese.frank@mail.example",
+  "care-res-006-c2": "erich.frank@mail.example",
+  "care-res-007-c1": "inge.becker@mail.example",
+  "care-res-008-c1": "günter.schulz@mail.example",
+  "care-res-009-c1": "klaus.frank@mail.example",
+  "care-res-009-c2": "gisela.frank@mail.example",
+  "care-res-010-c1": "lieselotte.klein@mail.example",
+  "care-res-011-c1": "werner.meier@mail.example",
+  "care-res-012-c1": "renate.kaya@mail.example",
+  "care-res-013-c1": "edith.schäfer@mail.example",
+  "care-res-014-c1": "helmut.popescu@mail.example",
+  "care-res-014-c2": "karl-heinz.popescu@mail.example",
+  "care-res-015-c1": "erika.petrović@mail.example",
+  "care-res-016-c1": "erika.müller@mail.example",
+  "care-res-016-c2": "gisela.müller@mail.example",
+  "care-res-017-c1": "erich.bauer@mail.example",
+  "care-res-018-c1": "hannelore.koch@mail.example",
+  "care-res-018-c2": "inge.koch@mail.example",
+  "care-res-019-c1": "erich.hoffmann@mail.example",
+  "care-res-020-c1": "margarete.popescu@mail.example",
+  "care-res-020-c2": "helga.popescu@mail.example",
+  "care-res-021-c1": "margarete.meyer@mail.example",
+  "care-res-021-c2": "ursula.meyer@mail.example",
+  "care-res-022-c1": "herbert.sommer@mail.example",
+  "care-res-023-c1": "margarete.meyer2@mail.example",
+  "care-res-023-c2": "siegfried.meyer@mail.example",
+  "care-res-024-c1": "edith.krüger@mail.example",
+  "care-res-025-c1": "erich.braun@mail.example",
+  "care-res-026-c1": "rosemarie.berger@mail.example",
+  "care-res-027-c1": "waltraud.köhler@mail.example",
+  "care-res-027-c2": "kurt.köhler@mail.example",
+  "care-res-028-c1": "helmut.keller@mail.example",
+  "care-res-028-c2": "helga.keller@mail.example",
+  "care-transport": "dispo@krankentransport-talbach.example",
+  "contact-agency-1": "einsatz@pflegepool-nord-talbach.de",
+  "contact-agency-2": "einsatz@personaldienst-altenhilfe-sued-talbach.de",
+  "contact-agency-3": "einsatz@curaflex-zeitarbeit-talbach.de",
+  "contact-manager": "felix.frank@haus-am-weinberg-talbach.de",
+  "contact-ops": "thomas.kaya@talbach-pflegeverbund.de",
+  "contact-payroll": "mia.schwarz@kessler-lohnbuero-talbach.de",
+  "contact-rep": "daniel.schmidt@haus-am-weinberg-talbach.de",
+  "contact-training": "felix.lange@bildungswerk-pflegesued-talbach.de"
+ },
+ "assessment_sources": [],
+ "births": {
+  "res-001": "1937-10-13",
+  "res-002": "1939-04-27",
+  "res-003": "1944-05-16",
+  "res-004": "1942-08-12",
+  "res-005": "1947-11-13",
+  "res-006": "1934-02-28",
+  "res-007": "1934-08-02",
+  "res-008": "1936-05-18",
+  "res-009": "1944-06-09",
+  "res-010": "1953-11-08",
+  "res-011": "1936-01-05",
+  "res-012": "1952-12-14",
+  "res-013": "1944-02-17",
+  "res-014": "1936-07-17",
+  "res-015": "1943-10-27",
+  "res-016": "1944-04-05",
+  "res-017": "1955-05-21",
+  "res-018": "1933-01-06",
+  "res-019": "1945-01-21",
+  "res-020": "1953-11-18",
+  "res-021": "1946-12-18",
+  "res-022": "1944-08-09",
+  "res-023": "1945-10-01",
+  "res-024": "1943-08-26",
+  "res-025": "1946-06-01",
+  "res-026": "1939-02-22",
+  "res-027": "1943-02-11",
+  "res-028": "1956-02-21"
+ },
+ "careplan_model": "pgm",
+ "doctors": {
+  "doc-01": "Dr. med. H. Neumann",
+  "doc-02": "Dr. med. R. Fuchs",
+  "doc-03": "Dr. med. R. Werner",
+  "doc-04": "Dr. med. I. Hoffmann",
+  "doc-05": "Dr. med. G. Schulz"
+ },
+ "eligible": {},
+ "expect": {
+  "measures": [
+   [
+    "res-007-new1",
+    "glucose",
+    {
+     "anchor": "06:00",
+     "every_hours": null,
+     "kind": "times",
+     "night_every_hours": null,
+     "times": [
+      "07:00",
+      "12:00",
+      "18:00"
+     ],
+     "weekdays": []
+    }
+   ],
+   [
+    "res-007-new2",
+    "weigh",
+    {
+     "anchor": "06:00",
+     "every_hours": null,
+     "kind": "weekly",
+     "night_every_hours": null,
+     "times": [
+      "07:30"
+     ],
+     "weekdays": [
+      1,
+      4
+     ]
+    }
+   ]
+  ],
+  "orders": [
+   "res-007-new1",
+   "res-007-new2",
+   "res-007-new3",
+   "res-007-new4"
+  ],
+  "pharmacy_facts": [
+   [
+    "name",
+    "Gisela",
+    "Becker"
+   ],
+   [
+    "word",
+    "Torasemid"
+   ],
+   [
+    "word",
+    "20 mg",
+    "20 mg"
+   ]
+  ],
+  "resident_id": "res-007",
+  "stop": [
+   "res-007-m01",
+   "compression"
+  ]
+ },
+ "family": "FC5_doctor_orders",
+ "index": 0,
+ "jurisdiction": "de",
+ "locale": "de-DE",
+ "names": {
+  "res-001": "Siegfried Fischer",
+  "res-002": "Werner Klein",
+  "res-003": "Ingeborg Maier",
+  "res-004": "Gerhard Yılmaz",
+  "res-005": "Edith Neumann",
+  "res-006": "Heinz Frank",
+  "res-007": "Gisela Becker",
+  "res-008": "Erika Schulz",
+  "res-009": "Margarete Frank",
+  "res-010": "Erich Klein",
+  "res-011": "Werner Meier",
+  "res-012": "Wolfgang Kaya",
+  "res-013": "Rolf Schäfer",
+  "res-014": "Gisela Popescu",
+  "res-015": "Helga Petrović",
+  "res-016": "Anneliese Müller",
+  "res-017": "Elfriede Bauer",
+  "res-018": "Christa Koch",
+  "res-019": "Elisabeth Hoffmann",
+  "res-020": "Helga Popescu",
+  "res-021": "Elisabeth Meyer",
+  "res-022": "Werner Sommer",
+  "res-023": "Waltraud Meyer",
+  "res-024": "Inge Krüger",
+  "res-025": "Helga Braun",
+  "res-026": "Hannelore Berger",
+  "res-027": "Wolfgang Köhler",
+  "res-028": "Anneliese Keller"
+ },
+ "now": "2026-10-13 08:05",
+ "pending_standard": [],
+ "printers": [
+  "Drucker Wohnbereich Weidenweg"
+ ],
+ "scope": [
+  "res-007"
+ ],
+ "seed": 47000002,
+ "sources": [],
+ "task_id": "fc-354cca1ca2d3",
+ "today": "2026-10-13",
+ "version": "fullcare-0.6.4"
+}

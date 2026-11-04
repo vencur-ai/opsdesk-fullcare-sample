@@ -1,0 +1,1615 @@
+{
+ "schema_version": "workforce-app/v2",
+ "locale": "en-GB",
+ "home": {
+  "address": "78 Church Street, Upper Lyndon",
+  "manager_name": "Sophie Santos",
+  "manager_title": "Home Manager",
+  "user_name": "Sophia James",
+  "user_title": "Registered nurse, assistant to the head of care",
+  "night_lead_name": "Maricel Wilson"
+ },
+ "unit_names": {
+  "ward-01": "Cedar Unit"
+ },
+ "profiles": [
+  {
+   "employee_id": "staff-0001",
+   "staff_number": "E2007",
+   "phone": "07700 900880",
+   "hire_date": "2024-05-22",
+   "qualification_valid_until": {
+    "Moving and handling": "2027-04-15",
+    "NMC registration": "2028-04-05",
+    "Safeguarding adults": "2028-08-26"
+   },
+   "wishes": [
+    "Does not swap shifts"
+   ],
+   "notes": "",
+   "hours_balance_minutes": -30,
+   "previous_period_minutes": 10362
+  },
+  {
+   "employee_id": "staff-0002",
+   "staff_number": "E2014",
+   "phone": "07700 900983",
+   "hire_date": "2014-01-18",
+   "qualification_valid_until": {
+    "Moving and handling": "2027-03-05",
+    "NMC registration": "2028-08-12",
+    "Safeguarding adults": "2029-01-24"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 9213
+  },
+  {
+   "employee_id": "staff-0003",
+   "staff_number": "E2021",
+   "phone": "07700 900218",
+   "hire_date": "2014-05-05",
+   "qualification_valid_until": {
+    "First aid": "2028-09-07",
+    "Moving and handling": "2028-04-20",
+    "NMC registration": "2027-01-01"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 9862
+  },
+  {
+   "employee_id": "staff-0004",
+   "staff_number": "E2028",
+   "phone": "07700 900667",
+   "hire_date": "2011-07-25",
+   "qualification_valid_until": {
+    "Fire safety": "2027-11-27",
+    "First aid": "2029-01-17",
+    "NMC registration": "2028-01-13"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -120,
+   "previous_period_minutes": 8973
+  },
+  {
+   "employee_id": "staff-0005",
+   "staff_number": "E2035",
+   "phone": "07700 900858",
+   "hire_date": "2010-09-19",
+   "qualification_valid_until": {
+    "Fire safety": "2028-04-16",
+    "First aid": "2027-08-20",
+    "NMC registration": "2028-05-02"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 360,
+   "previous_period_minutes": 9453
+  },
+  {
+   "employee_id": "staff-0006",
+   "staff_number": "E2042",
+   "phone": "07700 900446",
+   "hire_date": "2020-05-16",
+   "qualification_valid_until": {
+    "Fire safety": "2028-06-17",
+    "NMC registration": "2028-11-16",
+    "Safeguarding adults": "2026-11-14"
+   },
+   "wishes": [
+    "Not taking extra shifts at the moment"
+   ],
+   "notes": "",
+   "hours_balance_minutes": 60,
+   "previous_period_minutes": 9802
+  },
+  {
+   "employee_id": "staff-0007",
+   "staff_number": "E2049",
+   "phone": "07700 900155",
+   "hire_date": "2015-09-15",
+   "qualification_valid_until": {
+    "Fire safety": "2027-07-06",
+    "Moving and handling": "2028-12-19",
+    "NMC registration": "2028-05-28"
+   },
+   "wishes": [],
+   "notes": "Phased return after knee surgery (finished March 2025). Not to be confused with Chiamaka Clark.",
+   "hours_balance_minutes": -210,
+   "previous_period_minutes": 10182
+  },
+  {
+   "employee_id": "staff-0008",
+   "staff_number": "E2056",
+   "phone": "07700 900030",
+   "hire_date": "2021-10-31",
+   "qualification_valid_until": {
+    "Fire safety": "2028-03-23",
+    "Moving and handling": "2028-08-13"
+   },
+   "wishes": [],
+   "notes": "Please call after 10am if possible.",
+   "hours_balance_minutes": -210,
+   "previous_period_minutes": 10182
+  },
+  {
+   "employee_id": "staff-0009",
+   "staff_number": "E2063",
+   "phone": "07700 900115",
+   "hire_date": "2016-09-27",
+   "qualification_valid_until": {
+    "Moving and handling": "2028-04-14",
+    "Safeguarding adults": "2026-12-21"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 90,
+   "previous_period_minutes": 9832
+  },
+  {
+   "employee_id": "staff-0010",
+   "staff_number": "E2070",
+   "phone": "07700 900983",
+   "hire_date": "2012-09-12",
+   "qualification_valid_until": {
+    "Moving and handling": "2028-11-17",
+    "Safeguarding adults": "2028-10-06"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 150,
+   "previous_period_minutes": 6385
+  },
+  {
+   "employee_id": "staff-0011",
+   "staff_number": "E2077",
+   "phone": "07700 900395",
+   "hire_date": "2012-07-02",
+   "qualification_valid_until": {
+    "Fire safety": "2027-05-29",
+    "First aid": "2027-10-26"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 330,
+   "previous_period_minutes": 4486
+  },
+  {
+   "employee_id": "staff-0012",
+   "staff_number": "E2084",
+   "phone": "07700 900113",
+   "hire_date": "2011-08-20",
+   "qualification_valid_until": {
+    "Fire safety": "2028-05-29",
+    "First aid": "2029-02-05"
+   },
+   "wishes": [
+    "Would rather not work Sundays"
+   ],
+   "notes": "Please call after 10am if possible.",
+   "hours_balance_minutes": 240,
+   "previous_period_minutes": 9982
+  },
+  {
+   "employee_id": "staff-0013",
+   "staff_number": "E2091",
+   "phone": "07700 900674",
+   "hire_date": "2019-07-26",
+   "qualification_valid_until": {
+    "First aid": "2028-08-30",
+    "Moving and handling": "2027-04-20"
+   },
+   "wishes": [],
+   "notes": "Phased return after knee surgery (finished March 2025).",
+   "hours_balance_minutes": 90,
+   "previous_period_minutes": 9183
+  },
+  {
+   "employee_id": "staff-0014",
+   "staff_number": "E2098",
+   "phone": "07700 900812",
+   "hire_date": "2023-03-24",
+   "qualification_valid_until": {
+    "Fire safety": "2027-11-20",
+    "Moving and handling": "2027-03-26"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -120,
+   "previous_period_minutes": 4036
+  },
+  {
+   "employee_id": "staff-0015",
+   "staff_number": "E2105",
+   "phone": "07700 900942",
+   "hire_date": "2012-04-29",
+   "qualification_valid_until": {
+    "Fire safety": "2028-10-07",
+    "First aid": "2029-01-04"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 30,
+   "previous_period_minutes": 9123
+  },
+  {
+   "employee_id": "staff-0016",
+   "staff_number": "E2112",
+   "phone": "07700 900277",
+   "hire_date": "2023-07-12",
+   "qualification_valid_until": {
+    "Moving and handling": "2027-03-01",
+    "Safeguarding adults": "2026-11-21"
+   },
+   "wishes": [
+    "Not taking extra shifts at the moment"
+   ],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 9862
+  },
+  {
+   "employee_id": "staff-0017",
+   "staff_number": "E2119",
+   "phone": "07700 900560",
+   "hire_date": "2021-10-09",
+   "qualification_valid_until": {
+    "First aid": "2028-06-25",
+    "Safeguarding adults": "2027-07-02"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 30,
+   "previous_period_minutes": 9772
+  },
+  {
+   "employee_id": "staff-0018",
+   "staff_number": "E2126",
+   "phone": "07700 900160",
+   "hire_date": "2021-12-28",
+   "qualification_valid_until": {
+    "Fire safety": "2028-10-13",
+    "Safeguarding adults": "2028-06-23"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -60,
+   "previous_period_minutes": 4096
+  },
+  {
+   "employee_id": "staff-0019",
+   "staff_number": "E2133",
+   "phone": "07700 900270",
+   "hire_date": "2015-10-03",
+   "qualification_valid_until": {
+    "First aid": "2027-09-24",
+    "Safeguarding adults": "2028-11-09"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 9213
+  },
+  {
+   "employee_id": "staff-0020",
+   "staff_number": "E2140",
+   "phone": "07700 900275",
+   "hire_date": "2017-05-25",
+   "qualification_valid_until": {
+    "Fire safety": "2027-03-11",
+    "Moving and handling": "2027-07-18"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 120,
+   "previous_period_minutes": 9862
+  },
+  {
+   "employee_id": "staff-0021",
+   "staff_number": "E2147",
+   "phone": "07700 900333",
+   "hire_date": "2019-09-02",
+   "qualification_valid_until": {
+    "Moving and handling": "2027-07-02",
+    "Safeguarding adults": "2028-10-01"
+   },
+   "wishes": [],
+   "notes": "Please call after 10am if possible.",
+   "hours_balance_minutes": -30,
+   "previous_period_minutes": 6205
+  },
+  {
+   "employee_id": "staff-0022",
+   "staff_number": "E2154",
+   "phone": "07700 900731",
+   "hire_date": "2017-08-23",
+   "qualification_valid_until": {
+    "Fire safety": "2028-02-08",
+    "Safeguarding adults": "2027-11-19"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 30,
+   "previous_period_minutes": 7304
+  },
+  {
+   "employee_id": "staff-0023",
+   "staff_number": "E2161",
+   "phone": "07700 900300",
+   "hire_date": "2022-02-06",
+   "qualification_valid_until": {
+    "First aid": "2028-08-13",
+    "Moving and handling": "2027-03-22"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -180,
+   "previous_period_minutes": 10212
+  },
+  {
+   "employee_id": "staff-0024",
+   "staff_number": "E2168",
+   "phone": "07700 900797",
+   "hire_date": "2011-10-05",
+   "qualification_valid_until": {
+    "Fire safety": "2028-11-01",
+    "Safeguarding adults": "2027-04-06"
+   },
+   "wishes": [
+    "Prefers night shifts"
+   ],
+   "notes": "",
+   "hours_balance_minutes": -120,
+   "previous_period_minutes": 8973
+  },
+  {
+   "employee_id": "staff-0025",
+   "staff_number": "E2175",
+   "phone": "07700 900157",
+   "hire_date": "2015-03-31",
+   "qualification_valid_until": {
+    "Moving and handling": "2029-01-12",
+    "Safeguarding adults": "2027-11-08"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 60,
+   "previous_period_minutes": 5256
+  },
+  {
+   "employee_id": "staff-0026",
+   "staff_number": "E2182",
+   "phone": "07700 900544",
+   "hire_date": "2013-09-17",
+   "qualification_valid_until": {
+    "First aid": "2028-11-10",
+    "Moving and handling": "2027-10-21"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -30,
+   "previous_period_minutes": 9063
+  },
+  {
+   "employee_id": "staff-0027",
+   "staff_number": "E2189",
+   "phone": "07700 900346",
+   "hire_date": "2022-12-03",
+   "qualification_valid_until": {
+    "Moving and handling": "2027-11-19",
+    "Safeguarding adults": "2027-02-18"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": -90,
+   "previous_period_minutes": 10302
+  },
+  {
+   "employee_id": "staff-0028",
+   "staff_number": "E2196",
+   "phone": "07700 900085",
+   "hire_date": "2015-12-24",
+   "qualification_valid_until": {
+    "Fire safety": "2028-02-14",
+    "First aid": "2027-07-10"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 330,
+   "previous_period_minutes": 6565
+  },
+  {
+   "employee_id": "staff-0029",
+   "staff_number": "E2203",
+   "phone": "07700 900560",
+   "hire_date": "2021-07-15",
+   "qualification_valid_until": {
+    "Fire safety": "2029-02-02",
+    "Moving and handling": "2028-03-04"
+   },
+   "wishes": [],
+   "notes": "",
+   "hours_balance_minutes": 300,
+   "previous_period_minutes": 10042
+  }
+ ],
+ "absence_meta": [
+  {
+   "absence_id": "holiday-0001",
+   "entered_by": "Sophie Santos",
+   "entered_on": "2026-08-09",
+   "channel": "planned",
+   "note": ""
+  },
+  {
+   "absence_id": "holiday-0002",
+   "entered_by": "Sophie Santos",
+   "entered_on": "2026-08-19",
+   "channel": "planned",
+   "note": ""
+  }
+ ],
+ "message_meta": [],
+ "message_texts": {},
+ "requests": [],
+ "reports": [],
+ "publications": [],
+ "history": [
+  {
+   "at": "2026-08-03 16:10",
+   "user": "Sophie Santos",
+   "action": "Rota published",
+   "object": "Week 32",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-08-05 07:54",
+   "user": "Sophie Santos",
+   "action": "Agency shift booked",
+   "object": "Brightwell Nursing Agency",
+   "before": "",
+   "after": "Thu 6 Aug Night"
+  },
+  {
+   "at": "2026-08-09 09:31",
+   "user": "Sophie Santos",
+   "action": "Absence recorded",
+   "object": "Joy Adeyemi",
+   "before": "",
+   "after": "Holiday 5 Sep 2026–5 Sep 2026"
+  },
+  {
+   "at": "2026-08-10 16:17",
+   "user": "Sophie Santos",
+   "action": "Rota published",
+   "object": "Week 33",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-08-10 16:46",
+   "user": "Sophia James",
+   "action": "Shift changed",
+   "object": "Blessing Nowak",
+   "before": "Sun 16 Aug Night",
+   "after": "Late"
+  },
+  {
+   "at": "2026-08-12 17:11",
+   "user": "Sophia James",
+   "action": "Shift changed",
+   "object": "Oliver Hill",
+   "before": "Sat 15 Aug Late",
+   "after": "Night"
+  },
+  {
+   "at": "2026-08-17 16:24",
+   "user": "Sophie Santos",
+   "action": "Rota published",
+   "object": "Week 34",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-08-17 18:45",
+   "user": "Charlotte Begum",
+   "action": "Shift changed",
+   "object": "Oliver Wood",
+   "before": "Sat 22 Aug Early",
+   "after": "Night"
+  },
+  {
+   "at": "2026-08-19 09:45",
+   "user": "Sophie Santos",
+   "action": "Absence recorded",
+   "object": "Rhys Foster",
+   "before": "",
+   "after": "Holiday 5 Sep 2026–5 Sep 2026"
+  },
+  {
+   "at": "2026-08-19 15:17",
+   "user": "Sophia James",
+   "action": "Swap approved",
+   "object": "David James ↔ Joanne Green",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-08-21 16:55",
+   "user": "Sophie Santos",
+   "action": "Shift changed",
+   "object": "Emily Wood",
+   "before": "Sat 22 Aug Night",
+   "after": "Early"
+  },
+  {
+   "at": "2026-08-24 16:31",
+   "user": "Sophie Santos",
+   "action": "Rota published",
+   "object": "Week 35",
+   "before": "",
+   "after": ""
+  },
+  {
+   "at": "2026-08-24 18:22",
+   "user": "Sophia James",
+   "action": "Contact details updated",
+   "object": "Samuel Martin",
+   "before": "",
+   "after": "Phone number"
+  },
+  {
+   "at": "2026-08-25 17:03",
+   "user": "Charlotte Begum",
+   "action": "Shift changed",
+   "object": "David James",
+   "before": "Sat 29 Aug Late",
+   "after": "Early"
+  },
+  {
+   "at": "2026-08-27 07:39",
+   "user": "Sophia James",
+   "action": "Contact details updated",
+   "object": "Chiamaka Lee",
+   "before": "",
+   "after": "Phone number"
+  }
+ ],
+ "session_log": [],
+ "contacts": [
+  {
+   "contact_id": "contact-manager",
+   "name": "Sophie Santos",
+   "address": "sophie.santos@willowmere-court-upper-lyndon.co.uk",
+   "organisation": "Willowmere Court",
+   "role": "Home Manager"
+  },
+  {
+   "contact_id": "contact-ops",
+   "name": "Ruth Cooper",
+   "address": "ruth.cooper@upper-lyndon-caregroup.co.uk",
+   "organisation": "Regional office",
+   "role": "Operations manager"
+  },
+  {
+   "contact_id": "contact-payroll",
+   "name": "Olivia Watson",
+   "address": "olivia.watson@hartwell-payroll-upper-lyndon.co.uk",
+   "organisation": "Hartwell Payroll Bureau",
+   "role": "Payroll services"
+  },
+  {
+   "contact_id": "contact-training",
+   "name": "Karen Lee",
+   "address": "karen.lee@northgate-caretraining-upper-lyndon.co.uk",
+   "organisation": "Northgate Care Training",
+   "role": "Training provider"
+  },
+  {
+   "contact_id": "contact-agency-1",
+   "name": "Jack Nair",
+   "address": "bookings@northstar-care-staffing-upper-lyndon.co.uk",
+   "organisation": "Northstar Care Staffing",
+   "role": "Bookings desk"
+  },
+  {
+   "contact_id": "contact-agency-2",
+   "name": "Tomasz Lee",
+   "address": "bookings@brightwell-nursing-agency-upper-lyndon.co.uk",
+   "organisation": "Brightwell Nursing Agency",
+   "role": "Bookings desk"
+  },
+  {
+   "contact_id": "contact-agency-3",
+   "name": "Hannah Nowak",
+   "address": "bookings@harbourside-care-recruitment-upper-lyndon.co.uk",
+   "organisation": "Harbourside Care Recruitment",
+   "role": "Bookings desk"
+  },
+  {
+   "contact_id": "contact-rep",
+   "name": "Samuel Martin",
+   "address": "samuel.martin@willowmere-court-upper-lyndon.co.uk",
+   "organisation": "Staff forum",
+   "role": "Staff representative"
+  },
+  {
+   "contact_id": "care-pharmacy",
+   "name": "Care home team",
+   "address": "heimversorgung@apotheke-upper.example",
+   "organisation": "Market Square Pharmacy",
+   "role": "Pharmacy"
+  },
+  {
+   "contact_id": "care-hospital",
+   "name": "Admissions",
+   "address": "aufnahme@klinikum-upper.example",
+   "organisation": "Upper General Hospital",
+   "role": "Hospital"
+  },
+  {
+   "contact_id": "care-transport",
+   "name": "Bookings",
+   "address": "dispo@krankentransport-upper.example",
+   "organisation": "Upper Patient Transport",
+   "role": "Patient transport"
+  },
+  {
+   "contact_id": "care-authority",
+   "name": "Duty officer",
+   "address": "infektionsschutz@gesundheitsamt-upper.example",
+   "organisation": "Upper Health Protection Team",
+   "role": "Health authority"
+  },
+  {
+   "contact_id": "care-lab",
+   "name": "Results office",
+   "address": "befunde@labor-upper.example",
+   "organisation": "Upper Pathology Laboratory",
+   "role": "Laboratory"
+  },
+  {
+   "contact_id": "care-facilities",
+   "name": "Facilities team",
+   "address": "haustechnik@heim-upper.example",
+   "organisation": "Facilities",
+   "role": "Facilities and equipment"
+  },
+  {
+   "contact_id": "care-doc-01",
+   "name": "Dr F. Wood",
+   "address": "praxis.wood@surgery.example",
+   "organisation": "Wood Surgery, Upper",
+   "role": "GP practice"
+  },
+  {
+   "contact_id": "care-doc-02",
+   "name": "Dr J. Moore",
+   "address": "praxis.moore@surgery.example",
+   "organisation": "Moore Surgery, Upper",
+   "role": "GP practice"
+  },
+  {
+   "contact_id": "care-doc-03",
+   "name": "Dr R. Lewis",
+   "address": "praxis.lewis@surgery.example",
+   "organisation": "Lewis Surgery, Upper",
+   "role": "GP practice"
+  },
+  {
+   "contact_id": "care-doc-04",
+   "name": "Dr B. Williams",
+   "address": "praxis.williams@surgery.example",
+   "organisation": "Neurology Clinic, Upper",
+   "role": "Neurology"
+  },
+  {
+   "contact_id": "care-doc-05",
+   "name": "Dr A. Cooper",
+   "address": "praxis.cooper@surgery.example",
+   "organisation": "Dermatology Clinic, Upper",
+   "role": "Dermatology"
+  },
+  {
+   "contact_id": "care-res-001-c1",
+   "name": "Sheila Santos",
+   "address": "sheila.santos@mail.example",
+   "organisation": "Relative",
+   "role": "Daughter of Mrs Santos"
+  },
+  {
+   "contact_id": "care-res-001-c2",
+   "name": "Brenda Santos",
+   "address": "brenda.santos@mail.example",
+   "organisation": "Relative",
+   "role": "Niece of Mrs Santos"
+  },
+  {
+   "contact_id": "care-res-002-c1",
+   "name": "Brenda Mensah",
+   "address": "brenda.mensah@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mrs Mensah"
+  },
+  {
+   "contact_id": "care-res-003-c1",
+   "name": "Pamela Thomson",
+   "address": "pamela.thomson@mail.example",
+   "organisation": "Relative",
+   "role": "Daughter of Mr Thomson"
+  },
+  {
+   "contact_id": "care-res-004-c1",
+   "name": "Ronald Nowak",
+   "address": "ronald.nowak@mail.example",
+   "organisation": "Relative",
+   "role": "Grandson of Mr Nowak"
+  },
+  {
+   "contact_id": "care-res-004-c2",
+   "name": "Dorothy Nowak",
+   "address": "dorothy.nowak@mail.example",
+   "organisation": "Relative",
+   "role": "Niece of Mr Nowak"
+  },
+  {
+   "contact_id": "care-res-005-c1",
+   "name": "Leonard Brown",
+   "address": "leonard.brown@mail.example",
+   "organisation": "Relative",
+   "role": "Son of Mr Brown"
+  },
+  {
+   "contact_id": "care-res-005-c2",
+   "name": "Gordon Brown",
+   "address": "gordon.brown@mail.example",
+   "organisation": "Relative",
+   "role": "Nephew of Mr Brown"
+  },
+  {
+   "contact_id": "care-res-006-c1",
+   "name": "Audrey Adeyemi",
+   "address": "audrey.adeyemi@mail.example",
+   "organisation": "Relative",
+   "role": "Niece of Mrs Adeyemi"
+  },
+  {
+   "contact_id": "care-res-006-c2",
+   "name": "Joyce Adeyemi",
+   "address": "joyce.adeyemi@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mrs Adeyemi"
+  },
+  {
+   "contact_id": "care-res-007-c1",
+   "name": "Ronald Edwards",
+   "address": "ronald.edwards@mail.example",
+   "organisation": "Relative",
+   "role": "Nephew of Mr Edwards"
+  },
+  {
+   "contact_id": "care-res-008-c1",
+   "name": "Alan Evans",
+   "address": "alan.evans@mail.example",
+   "organisation": "Relative",
+   "role": "Son of Mrs Evans"
+  },
+  {
+   "contact_id": "care-res-009-c1",
+   "name": "Audrey Mensah",
+   "address": "audrey.mensah@mail.example",
+   "organisation": "Relative",
+   "role": "Niece of Mrs Mensah"
+  },
+  {
+   "contact_id": "care-res-009-c2",
+   "name": "Barbara Mensah",
+   "address": "barbara.mensah@mail.example",
+   "organisation": "Relative",
+   "role": "Niece of Mrs Mensah"
+  },
+  {
+   "contact_id": "care-res-010-c1",
+   "name": "Maureen Wilson",
+   "address": "maureen.wilson@mail.example",
+   "organisation": "Relative",
+   "role": "Daughter of Mrs Wilson"
+  },
+  {
+   "contact_id": "care-res-010-c2",
+   "name": "Audrey Wilson",
+   "address": "audrey.wilson@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mrs Wilson"
+  },
+  {
+   "contact_id": "care-res-011-c1",
+   "name": "Barbara Thompson",
+   "address": "barbara.thompson@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mrs Thompson"
+  },
+  {
+   "contact_id": "care-res-011-c2",
+   "name": "Valerie Thompson",
+   "address": "valerie.thompson@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mrs Thompson"
+  },
+  {
+   "contact_id": "care-res-012-c1",
+   "name": "Doreen Edwards",
+   "address": "doreen.edwards@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mrs Edwards"
+  },
+  {
+   "contact_id": "care-res-013-c1",
+   "name": "Edna Evans",
+   "address": "edna.evans@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mrs Evans"
+  },
+  {
+   "contact_id": "care-res-013-c2",
+   "name": "Alan Evans",
+   "address": "alan.evans2@mail.example",
+   "organisation": "Relative",
+   "role": "Son of Mrs Evans"
+  },
+  {
+   "contact_id": "care-res-014-c1",
+   "name": "Geoffrey Edwards",
+   "address": "geoffrey.edwards@mail.example",
+   "organisation": "Relative",
+   "role": "Son of Mrs Edwards"
+  },
+  {
+   "contact_id": "care-res-015-c1",
+   "name": "Ronald Jones",
+   "address": "ronald.jones@mail.example",
+   "organisation": "Relative",
+   "role": "Grandson of Mrs Jones"
+  },
+  {
+   "contact_id": "care-res-016-c1",
+   "name": "Roy Murphy",
+   "address": "roy.murphy@mail.example",
+   "organisation": "Relative",
+   "role": "Son of Mr Murphy"
+  },
+  {
+   "contact_id": "care-res-016-c2",
+   "name": "Brian Murphy",
+   "address": "brian.murphy@mail.example",
+   "organisation": "Relative",
+   "role": "Grandson of Mr Murphy"
+  },
+  {
+   "contact_id": "care-res-017-c1",
+   "name": "Geoffrey Kowalski",
+   "address": "geoffrey.kowalski@mail.example",
+   "organisation": "Relative",
+   "role": "Nephew of Mr Kowalski"
+  },
+  {
+   "contact_id": "care-res-018-c1",
+   "name": "Frank James",
+   "address": "frank.james@mail.example",
+   "organisation": "Relative",
+   "role": "Grandson of Mrs James"
+  },
+  {
+   "contact_id": "care-res-019-c1",
+   "name": "Norman Kowalski",
+   "address": "norman.kowalski@mail.example",
+   "organisation": "Relative",
+   "role": "Son of Mr Kowalski"
+  },
+  {
+   "contact_id": "care-res-020-c1",
+   "name": "Brian Adeyemi",
+   "address": "brian.adeyemi@mail.example",
+   "organisation": "Relative",
+   "role": "Son of Mr Adeyemi"
+  },
+  {
+   "contact_id": "care-res-020-c2",
+   "name": "Gordon Adeyemi",
+   "address": "gordon.adeyemi@mail.example",
+   "organisation": "Relative",
+   "role": "Nephew of Mr Adeyemi"
+  },
+  {
+   "contact_id": "care-res-021-c1",
+   "name": "Maureen Mensah",
+   "address": "maureen.mensah@mail.example",
+   "organisation": "Relative",
+   "role": "Daughter of Mrs Mensah"
+  },
+  {
+   "contact_id": "care-res-022-c1",
+   "name": "Arthur White",
+   "address": "arthur.white@mail.example",
+   "organisation": "Relative",
+   "role": "Grandson of Mrs White"
+  },
+  {
+   "contact_id": "care-res-023-c1",
+   "name": "Betty Reyes",
+   "address": "betty.reyes@mail.example",
+   "organisation": "Relative",
+   "role": "Daughter of Mrs Reyes"
+  },
+  {
+   "contact_id": "care-res-023-c2",
+   "name": "Betty Reyes",
+   "address": "betty.reyes2@mail.example",
+   "organisation": "Relative",
+   "role": "Daughter of Mrs Reyes"
+  },
+  {
+   "contact_id": "care-res-024-c1",
+   "name": "Patricia Roberts",
+   "address": "patricia.roberts@mail.example",
+   "organisation": "Relative",
+   "role": "Daughter of Mr Roberts"
+  },
+  {
+   "contact_id": "care-res-024-c2",
+   "name": "Joan Roberts",
+   "address": "joan.roberts@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mr Roberts"
+  },
+  {
+   "contact_id": "care-res-025-c1",
+   "name": "Jean White",
+   "address": "jean.white@mail.example",
+   "organisation": "Relative",
+   "role": "Niece of Mrs White"
+  },
+  {
+   "contact_id": "care-res-026-c1",
+   "name": "Eileen Thompson",
+   "address": "eileen.thompson@mail.example",
+   "organisation": "Relative",
+   "role": "Niece of Mrs Thompson"
+  },
+  {
+   "contact_id": "care-res-027-c1",
+   "name": "Kenneth Foster",
+   "address": "kenneth.foster@mail.example",
+   "organisation": "Relative",
+   "role": "Husband of Mrs Foster"
+  },
+  {
+   "contact_id": "care-res-027-c2",
+   "name": "Leonard Foster",
+   "address": "leonard.foster@mail.example",
+   "organisation": "Relative",
+   "role": "Grandson of Mrs Foster"
+  },
+  {
+   "contact_id": "care-res-028-c1",
+   "name": "Betty Wood",
+   "address": "betty.wood@mail.example",
+   "organisation": "Relative",
+   "role": "Granddaughter of Mrs Wood"
+  }
+ ],
+ "mail_address": "sophia.james@willowmere-court-upper-lyndon.co.uk",
+ "mails": [
+  {
+   "mail_id": "mail-0002",
+   "folder": "inbox",
+   "sender": "bookings@northstar-care-staffing-upper-lyndon.co.uk",
+   "sender_name": "Jack Nair",
+   "to": [
+    "sophia.james@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Updated rate card",
+   "body": "Hello,\n\nAttached is our updated rate card. Nothing changes for bookings already confirmed. As always, please book through the portal so the shift details are complete.\n\nBest wishes\nJack Nair\nNorthstar Care Staffing",
+   "sent_at": "2026-08-21 11:08",
+   "is_read": true,
+   "thread_id": "thread-0002",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-0002-ratecardpdf",
+     "filename": "rate_card.pdf",
+     "media_type": "application/pdf",
+     "content": "Northstar Care Staffing\nRate card – from 1st of this month\n\nRegistered nurse: on request\nCare assistant: on request\n\nOne hourly rate for every shift, nights and weekends included.\nMinimum booking 6 hours. Cancellation free of charge up to 24 hours before the shift; later cancellations are charged in full.\nLead time: as stated in the booking portal for each offer."
+    }
+   ]
+  },
+  {
+   "mail_id": "mail-0009",
+   "folder": "inbox",
+   "sender": "ruth.cooper@upper-lyndon-caregroup.co.uk",
+   "sender_name": "Ruth Cooper",
+   "to": [
+    "sophie.santos@willowmere-court-upper-lyndon.co.uk",
+    "sophia.james@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Hours report for the region",
+   "body": "Dear all,\n\nThank you for the last month's figures. Across the region overtime went up again. From now on I'll ask each home for a short reason when a planning period ends above the contracted hours. No action needed today.\n\nBest regards\nRuth Cooper",
+   "sent_at": "2026-08-22 16:51",
+   "is_read": true,
+   "thread_id": "thread-0009",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0011",
+   "folder": "sent",
+   "sender": "sophia.james@willowmere-court-upper-lyndon.co.uk",
+   "sender_name": "Sophia James",
+   "to": [
+    "bookings@northstar-care-staffing-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Booking number for last week",
+   "body": "Hello,\n\nThank you for covering last week's late shift. Could you send me the booking number for the invoice?\n\nSophia James\nRota coordinator, Willowmere Court",
+   "sent_at": "2026-08-23 10:23",
+   "is_read": true,
+   "thread_id": "thread-0011",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0001",
+   "folder": "inbox",
+   "sender": "olivia.watson@hartwell-payroll-upper-lyndon.co.uk",
+   "sender_name": "Olivia Watson",
+   "to": [
+    "sophia.james@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Payroll cut-off for July and next run",
+   "body": "Dear Sophia,\n\nPlease find attached the hours we processed for July 2026. For the next run we need any changes to contracted hours, new starters and leavers by Wed 9 Sep 2026. Overtime is paid at the agreed rate once it has been approved by the home manager.\n\nIf any of the figures look wrong, reply to this mail with the staff number and the corrected hours – please do not edit the file.\n\nKind regards\nOlivia Watson\nHartwell Payroll Bureau",
+   "sent_at": "2026-08-26 09:06",
+   "is_read": true,
+   "thread_id": "thread-0001",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-0001-hours202607c",
+     "filename": "hours_2026_07.csv",
+     "media_type": "text/csv",
+     "content": "staff_no,name,contract_hours_week,worked_hours,overtime_hours\nE2007,Maricel Wilson,40.00,172.70,0.00\nE2014,James Thomas,35.00,153.55,2.00\nE2021,Charlotte Lee,37.50,164.37,2.00\nE2028,Tomasz Reyes,35.00,149.55,0.00\nE2035,Mohammed Santos,35.00,157.55,6.00\nE2042,Oliver Walker,37.50,163.37,1.00\nE2049,Tomasz Clarke,40.00,169.70,0.00\nE2056,Grace Kaur,40.00,169.70,0.00\nE2063,Thomas Fernandes,37.50,163.87,1.50\nE2070,Chiamaka Clark,24.00,106.42,2.50\nE2077,Sophie Watson,16.00,74.77,5.50\nE2084,Maricel Jones,37.50,166.37,4.00\nE2091,Olivia Davies,35.00,153.05,1.50\nE2098,Aisha Kaur,16.00,67.27,0.00\nE2105,Samuel Martin,35.00,152.05,0.50\nE2112,Joanne Green,37.50,164.37,2.00\nE2119,Chiamaka Lee,37.50,162.87,0.50\nE2126,Priya Adeyemi,16.00,68.27,0.00\nE2133,Blessing Nowak,35.00,153.55,2.00\nE2140,Joy Adeyemi,37.50,164.37,2.00\nE2147,Oliver Wood,24.00,103.42,0.00\nE2154,Megan Fernandes,28.00,121.73,0.50\nE2161,David James,40.00,170.20,0.00\nE2168,Liam Smith,35.00,149.55,0.00\nE2175,Jack Cooper,20.00,87.60,1.00\nE2182,Chiamaka Smith,35.00,151.05,0.00\nE2189,Rhys Foster,40.00,171.70,0.00\nE2196,Emily Wood,24.00,109.42,5.50\nE2203,Oliver Hill,37.50,167.37,5.00\n"
+    }
+   ]
+  },
+  {
+   "mail_id": "mail-0004",
+   "folder": "inbox",
+   "sender": "samuel.martin@willowmere-court-upper-lyndon.co.uk",
+   "sender_name": "Samuel Martin",
+   "to": [
+    "sophia.james@willowmere-court-upper-lyndon.co.uk",
+    "sophie.santos@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Staff forum – date for your diary",
+   "body": "Hi all,\n\nThe next staff forum is on Fri 4 Sep 2026 at 2pm in the training room. On the agenda: rotas for the coming weeks, overtime and training. Please send me any points beforehand.\n\nThanks\nSamuel Martin",
+   "sent_at": "2026-08-26 13:31",
+   "is_read": true,
+   "thread_id": "thread-0004",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0008",
+   "folder": "inbox",
+   "sender": "sophie.santos@willowmere-court-upper-lyndon.co.uk",
+   "sender_name": "Sophie Santos",
+   "to": [
+    "sophia.james@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Fire alarm check on Wed 2 Sep",
+   "body": "Hi all,\n\nThe fire alarm will be checked on Wed 2 Sep 2026 between 10:00 and 10:30. Please reassure residents beforehand. No evacuation.\n\nSophie",
+   "sent_at": "2026-08-28 08:29",
+   "is_read": true,
+   "thread_id": "thread-0008",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0012",
+   "folder": "sent",
+   "sender": "sophia.james@willowmere-court-upper-lyndon.co.uk",
+   "sender_name": "Sophia James",
+   "to": [
+    "sophie.santos@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Rota published",
+   "body": "Hi Sophie,\n\nThe rota from Mon 31 Aug is published. Open points are in the rota as usual.\n\nSophia James\nRota coordinator, Willowmere Court",
+   "sent_at": "2026-08-28 15:59",
+   "is_read": true,
+   "thread_id": "thread-0012",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0003",
+   "folder": "inbox",
+   "sender": "sophie.santos@willowmere-court-upper-lyndon.co.uk",
+   "sender_name": "Sophie Santos",
+   "to": [
+    "sophia.james@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "This week – a few things",
+   "body": "Hi Sophia,\n\nA few things for the coming days:\n- overtime only where it is really needed – the regional office is watching hours closely\n- please make sure everyone who is moved gets a shift message\n\nI'm in meetings most of tomorrow morning; message me in the chat if something can't wait.\n\nSophie",
+   "sent_at": "2026-08-30 17:21",
+   "is_read": true,
+   "thread_id": "thread-0003",
+   "in_reply_to": null,
+   "attachments": []
+  },
+  {
+   "mail_id": "mail-0010",
+   "folder": "inbox",
+   "sender": "olivia.watson@hartwell-payroll-upper-lyndon.co.uk",
+   "sender_name": "Olivia Watson",
+   "to": [
+    "sophia.james@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Query: hours Mon 31 Aug – Sun 6 Sep",
+   "body": "Dear Sophia,\n\nBefore we run payroll for Mon 31 Aug 2026 to Sun 6 Sep 2026 we need you to check the clocked hours against the rota. Please reply to this mail with one line per person whose clocked time differs from the rota: staff number, name and the difference in minutes – plus if they clocked more than rostered, minus if less (for example “+30 min” or “−15 min” after the name). A shift that is less than 10 minutes off the rota is within our tolerance – please leave those out. If everything matches, just tell us.\n\nPlease do not correct the time clock itself; we pay from the confirmed figures.\n\nKind regards\nOlivia Watson\nHartwell Payroll Bureau",
+   "sent_at": "2026-09-06 07:14",
+   "is_read": false,
+   "thread_id": "thread-0010",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-0003-hourstopaycs",
+     "filename": "hours_to_pay.csv",
+     "media_type": "text/csv",
+     "content": "staff_no,name,rostered_minutes\nE2007,Maricel Wilson,1350\nE2014,James Thomas,1350\nE2021,Charlotte Lee,1350\nE2028,Tomasz Reyes,1350\nE2035,Mohammed Santos,1350\nE2042,Oliver Walker,1350\nE2049,Tomasz Clarke,1350\nE2056,Grace Kaur,900\nE2063,Thomas Fernandes,900\nE2070,Chiamaka Clark,450\nE2077,Sophie Watson,450\nE2084,Maricel Jones,900\nE2091,Olivia Davies,900\nE2098,Aisha Kaur,450\nE2105,Samuel Martin,900\nE2112,Joanne Green,900\nE2119,Chiamaka Lee,900\nE2126,Priya Adeyemi,450\nE2133,Blessing Nowak,900\nE2140,Joy Adeyemi,450\nE2147,Oliver Wood,450\nE2154,Megan Fernandes,450\nE2161,David James,900\nE2168,Liam Smith,900\nE2175,Jack Cooper,450\nE2182,Chiamaka Smith,900\nE2189,Rhys Foster,900\nE2196,Emily Wood,450\nE2203,Oliver Hill,900\n"
+    }
+   ]
+  },
+  {
+   "mail_id": "mail-000013",
+   "folder": "inbox",
+   "sender": "aufnahme@klinikum-upper.example",
+   "sender_name": "Admissions",
+   "to": [
+    "sophia.james@willowmere-court-upper-lyndon.co.uk"
+   ],
+   "cc": [],
+   "subject": "Discharge of Dorothy King to your home",
+   "body": "Hello,\n\nPlease find attached the discharge summary for Dorothy King, who moves to your home today.\n\nKind regards\nAdmissions",
+   "sent_at": "2026-09-06 07:40",
+   "is_read": false,
+   "thread_id": "thread-c0010",
+   "in_reply_to": null,
+   "attachments": [
+    {
+     "attachment_id": "att-adm-47000001",
+     "filename": "discharge_king.pdf",
+     "media_type": "application/pdf",
+     "content": "Upper General Hospital\nDepartment of Medicine for Older People\nHospital Road 73 · Upper JR16 2WA\nTel 01434 438436\n\nTo: Willowmere Court, care team · GP practice Dr F. Wood\nUpper, 6 September 2026\nHospital number: 2657332\n\nDischarge summary\n\nPatient: Dorothy King, born 9 May 1949 in Wakefield\nAdmitted: 30 August 2026, discharged: 6 September 2026\n\nDear colleagues,\n\nWe are writing about Dorothy King, who was an inpatient on our ward.\n\nDiagnoses:\n- Dementia, unspecified (F03)\n- Essential hypertension (I10)\n- Osteoarthritis of knee, unspecified (M17.9)\n- Osteoporosis, unspecified (M81.9)\n\nCourse:\nThe general condition improved quickly with treatment.\n\nFurther details:\nFunding: Local authority\nGP for follow-up: Dr F. Wood, Wood Surgery, Upper\nNext of kin: Valerie King (Granddaughter), tel. 07840 212605\n\nAllergies and intolerances:\n- Nuts: swelling (moderate)\n- Ibuprofen: shortness of breath (severe)\n\nMedication on discharge (morning-noon-evening-night):\n- Ramipril 5 mg tablet 1-0-0-0\n- Amlodipine 5 mg tablet 1-0-0-0\n- Colecalciferol 1000 units tablet 1-0-0-0\nThe GP will transfer the medication to the home's medication chart.\n\nFor the GP:\nNo hospital follow-up is needed.\n\nKind regards\n\nDr Rachel Morgan, Consultant · Dr Emma Clarke, Specialty doctor\n\nPage 1 of 1"
+    }
+   ]
+  }
+ ],
+ "chat_channels": [
+  {
+   "channel_id": "chat-all",
+   "name": "All staff",
+   "kind": "group",
+   "members": [
+    "me",
+    "manager",
+    "staff-0001",
+    "staff-0002",
+    "staff-0003",
+    "staff-0004",
+    "staff-0005",
+    "staff-0006",
+    "staff-0007",
+    "staff-0008",
+    "staff-0009",
+    "staff-0010",
+    "staff-0011",
+    "staff-0012",
+    "staff-0013",
+    "staff-0014",
+    "staff-0015",
+    "staff-0016",
+    "staff-0017",
+    "staff-0018",
+    "staff-0019",
+    "staff-0020",
+    "staff-0021",
+    "staff-0022",
+    "staff-0023",
+    "staff-0024",
+    "staff-0025",
+    "staff-0026",
+    "staff-0027",
+    "staff-0028",
+    "staff-0029"
+   ],
+   "topic": "Notices for the whole home"
+  },
+  {
+   "channel_id": "chat-ward-01",
+   "name": "Cedar Unit team",
+   "kind": "group",
+   "members": [
+    "me",
+    "staff-0001",
+    "staff-0002",
+    "staff-0003",
+    "staff-0004",
+    "staff-0005",
+    "staff-0006",
+    "staff-0007",
+    "staff-0008",
+    "staff-0009",
+    "staff-0010",
+    "staff-0011",
+    "staff-0012",
+    "staff-0013",
+    "staff-0014",
+    "staff-0015",
+    "staff-0016",
+    "staff-0017",
+    "staff-0018",
+    "staff-0019",
+    "staff-0020",
+    "staff-0021",
+    "staff-0022",
+    "staff-0023",
+    "staff-0024",
+    "staff-0025",
+    "staff-0026",
+    "staff-0027",
+    "staff-0028",
+    "staff-0029"
+   ],
+   "topic": "Handover and shift questions"
+  },
+  {
+   "channel_id": "chat-nights",
+   "name": "Nights",
+   "kind": "group",
+   "members": [
+    "me",
+    "staff-0001",
+    "staff-0004",
+    "staff-0005",
+    "staff-0008",
+    "staff-0010",
+    "staff-0011",
+    "staff-0014",
+    "staff-0017",
+    "staff-0024"
+   ],
+   "topic": "Night team"
+  },
+  {
+   "channel_id": "dm-staff-0009",
+   "name": "Thomas Fernandes",
+   "kind": "direct",
+   "members": [
+    "me",
+    "staff-0009"
+   ],
+   "topic": ""
+  },
+  {
+   "channel_id": "dm-staff-0026",
+   "name": "Chiamaka Smith",
+   "kind": "direct",
+   "members": [
+    "me",
+    "staff-0026"
+   ],
+   "topic": ""
+  }
+ ],
+ "chat_messages": [
+  {
+   "chat_id": "chat-0001",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0020",
+   "text": "Lift on the first floor is working again.",
+   "sent_at": "2026-08-22 15:36",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0002",
+   "channel_id": "chat-nights",
+   "sender_id": "staff-0006",
+   "text": "New gloves size M are in the cupboard by the lift.",
+   "sent_at": "2026-08-23 09:06",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0003",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0024",
+   "text": "Please sign the fridge temperature sheet every shift.",
+   "sent_at": "2026-08-23 15:02",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0004",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0009",
+   "text": "Reminder: the new hoist slings are in the store room, old ones go back to the laundry.",
+   "sent_at": "2026-08-23 17:17",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0005",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0008",
+   "text": "Thanks for staying on last night!",
+   "sent_at": "2026-08-24 08:52",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0006",
+   "channel_id": "dm-staff-0026",
+   "sender_id": "staff-0026",
+   "text": "Morning! Just checking I'm on early on Saturday, the printout in the office says late.",
+   "sent_at": "2026-08-24 13:16",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0007",
+   "channel_id": "dm-staff-0009",
+   "sender_id": "staff-0009",
+   "text": "Hi Sophia, could I have the 14th off next month? Happy to work the weekend before.",
+   "sent_at": "2026-08-24 17:25",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0008",
+   "channel_id": "dm-staff-0026",
+   "sender_id": "me",
+   "text": "Thanks – I'll check and come back to you.",
+   "sent_at": "2026-08-24 20:18",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0009",
+   "channel_id": "dm-staff-0009",
+   "sender_id": "me",
+   "text": "Thanks – I'll check and come back to you.",
+   "sent_at": "2026-08-24 20:27",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0010",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0016",
+   "text": "The GP round is moved to Thursday 11:00 this week.",
+   "sent_at": "2026-08-28 06:35",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0011",
+   "channel_id": "chat-nights",
+   "sender_id": "staff-0025",
+   "text": "Can whoever is on late tomorrow bring the menu cards down to the kitchen?",
+   "sent_at": "2026-08-29 09:31",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0012",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0023",
+   "text": "Found it – it was in the handover folder.",
+   "sent_at": "2026-08-29 20:45",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0013",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0017",
+   "text": "Birthday cake in the staff room – help yourselves.",
+   "sent_at": "2026-08-31 06:31",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0014",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0008",
+   "text": "Is anyone driving past the pharmacy today?",
+   "sent_at": "2026-08-31 07:11",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-0015",
+   "channel_id": "chat-all",
+   "sender_id": "staff-0016",
+   "text": "Who has the key for the clinic room? It's not in the box.",
+   "sent_at": "2026-08-31 07:27",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  },
+  {
+   "chat_id": "chat-000016",
+   "channel_id": "chat-ward-01",
+   "sender_id": "staff-0019",
+   "text": "Mrs King arrived at 07:20, I did the admission round. Values at 07:30: BP 153/76 mmHg, pulse 75/min, temperature 36.4 °C, weight 54.6 kg, height 153 cm.\nWhat I saw at the admission talk:\nSkin and pressure risk (house scale, modelled on Braden):\n- Changes position in bed without help: Rarely\n- Time out of bed per day: Under one hour\n- Skin often damp (sweat, incontinence): Partly\n- Eats less than half of meals: Yes\n- Reports or shows discomfort from pressure: Not at all\n- Skin over bony areas today: Intact\nFalls risk factors (house scale, modelled on a falls risk screen):\n- Fell in the last 12 months: No\n- Walking: Safe without aid\n- Knows own limits: Yes\n- Sight (with glasses): Good\n- Gets up to the toilet at night: No\n- Dizziness on standing up: No\nPain check (house scale, modelled on NRS / BESD):\n- Pain at rest: Severe\n- Pain when moving or during care: Moderate\n- Pain disturbs sleep: Yes\n- Behaviour changed (withdrawn, restless, guarding): Yes",
+   "sent_at": "2026-09-06 07:58",
+   "reply_to": null,
+   "shift_date": null,
+   "shift_type": null,
+   "ward_id": null,
+   "ask": false
+  }
+ ],
+ "calendar": [
+  {
+   "event_id": "event-0001",
+   "title": "Fire alarm check",
+   "kind": "other",
+   "start": "2026-09-02 10:00",
+   "end": "2026-09-02 10:30",
+   "all_day": false,
+   "location": "Willowmere Court",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Sophie Santos"
+  },
+  {
+   "event_id": "event-0002",
+   "title": "GP round",
+   "kind": "meeting",
+   "start": "2026-09-03 11:00",
+   "end": "2026-09-03 12:30",
+   "all_day": false,
+   "location": "all units",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Sophie Santos"
+  },
+  {
+   "event_id": "event-0003",
+   "title": "Team meeting Cedar Unit",
+   "kind": "meeting",
+   "start": "2026-09-04 13:30",
+   "end": "2026-09-04 14:15",
+   "all_day": false,
+   "location": "Staff room",
+   "attendees": [],
+   "notes": "",
+   "created_by": "Sophie Santos"
+  },
+  {
+   "event_id": "event-0004",
+   "title": "Staff forum",
+   "kind": "meeting",
+   "start": "2026-09-04 14:00",
+   "end": "2026-09-04 15:00",
+   "all_day": false,
+   "location": "Training room",
+   "attendees": [
+    "staff-0015"
+   ],
+   "notes": "",
+   "created_by": "Samuel Martin"
+  },
+  {
+   "event_id": "event-0005",
+   "title": "Leave: Joy Adeyemi",
+   "kind": "leave",
+   "start": "2026-09-05 00:00",
+   "end": "2026-09-05 23:59",
+   "all_day": true,
+   "location": "",
+   "attendees": [
+    "staff-0020"
+   ],
+   "notes": "",
+   "created_by": "Sophie Santos"
+  },
+  {
+   "event_id": "event-0006",
+   "title": "Leave: Rhys Foster",
+   "kind": "leave",
+   "start": "2026-09-05 00:00",
+   "end": "2026-09-05 23:59",
+   "all_day": true,
+   "location": "",
+   "attendees": [
+    "staff-0027"
+   ],
+   "notes": "",
+   "created_by": "Sophie Santos"
+  },
+  {
+   "event_id": "event-0007",
+   "title": "Inspection visit (announced)",
+   "kind": "inspection",
+   "start": "2026-09-17 09:00",
+   "end": "2026-09-17 15:00",
+   "all_day": false,
+   "location": "Willowmere Court",
+   "attendees": [],
+   "notes": "Care records and staffing records for the last three months.",
+   "created_by": "Sophie Santos"
+  }
+ ],
+ "staged": [],
+ "open_at_start": 0,
+ "budget_in_mail": false
+}

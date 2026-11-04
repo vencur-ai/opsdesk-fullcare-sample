@@ -1,0 +1,413 @@
+{
+ "addresses": {
+  "care-authority": "infektionsschutz@gesundheitsamt-upper.example",
+  "care-doc-01": "praxis.wood@surgery.example",
+  "care-doc-02": "praxis.moore@surgery.example",
+  "care-doc-03": "praxis.lewis@surgery.example",
+  "care-doc-04": "praxis.williams@surgery.example",
+  "care-doc-05": "praxis.cooper@surgery.example",
+  "care-facilities": "haustechnik@heim-upper.example",
+  "care-hospital": "aufnahme@klinikum-upper.example",
+  "care-lab": "befunde@labor-upper.example",
+  "care-pharmacy": "heimversorgung@apotheke-upper.example",
+  "care-res-001-c1": "sheila.santos@mail.example",
+  "care-res-001-c2": "brenda.santos@mail.example",
+  "care-res-002-c1": "brenda.mensah@mail.example",
+  "care-res-003-c1": "pamela.thomson@mail.example",
+  "care-res-004-c1": "ronald.nowak@mail.example",
+  "care-res-004-c2": "dorothy.nowak@mail.example",
+  "care-res-005-c1": "leonard.brown@mail.example",
+  "care-res-005-c2": "gordon.brown@mail.example",
+  "care-res-006-c1": "audrey.adeyemi@mail.example",
+  "care-res-006-c2": "joyce.adeyemi@mail.example",
+  "care-res-007-c1": "ronald.edwards@mail.example",
+  "care-res-008-c1": "alan.evans@mail.example",
+  "care-res-009-c1": "audrey.mensah@mail.example",
+  "care-res-009-c2": "barbara.mensah@mail.example",
+  "care-res-010-c1": "maureen.wilson@mail.example",
+  "care-res-010-c2": "audrey.wilson@mail.example",
+  "care-res-011-c1": "barbara.thompson@mail.example",
+  "care-res-011-c2": "valerie.thompson@mail.example",
+  "care-res-012-c1": "doreen.edwards@mail.example",
+  "care-res-013-c1": "edna.evans@mail.example",
+  "care-res-013-c2": "alan.evans2@mail.example",
+  "care-res-014-c1": "geoffrey.edwards@mail.example",
+  "care-res-015-c1": "ronald.jones@mail.example",
+  "care-res-016-c1": "roy.murphy@mail.example",
+  "care-res-016-c2": "brian.murphy@mail.example",
+  "care-res-017-c1": "geoffrey.kowalski@mail.example",
+  "care-res-018-c1": "frank.james@mail.example",
+  "care-res-019-c1": "norman.kowalski@mail.example",
+  "care-res-020-c1": "brian.adeyemi@mail.example",
+  "care-res-020-c2": "gordon.adeyemi@mail.example",
+  "care-res-021-c1": "maureen.mensah@mail.example",
+  "care-res-022-c1": "arthur.white@mail.example",
+  "care-res-023-c1": "betty.reyes@mail.example",
+  "care-res-023-c2": "betty.reyes2@mail.example",
+  "care-res-024-c1": "patricia.roberts@mail.example",
+  "care-res-024-c2": "joan.roberts@mail.example",
+  "care-res-025-c1": "jean.white@mail.example",
+  "care-res-026-c1": "eileen.thompson@mail.example",
+  "care-res-027-c1": "kenneth.foster@mail.example",
+  "care-res-027-c2": "leonard.foster@mail.example",
+  "care-res-028-c1": "betty.wood@mail.example",
+  "care-transport": "dispo@krankentransport-upper.example",
+  "contact-agency-1": "bookings@northstar-care-staffing-upper-lyndon.co.uk",
+  "contact-agency-2": "bookings@brightwell-nursing-agency-upper-lyndon.co.uk",
+  "contact-agency-3": "bookings@harbourside-care-recruitment-upper-lyndon.co.uk",
+  "contact-manager": "sophie.santos@willowmere-court-upper-lyndon.co.uk",
+  "contact-ops": "ruth.cooper@upper-lyndon-caregroup.co.uk",
+  "contact-payroll": "olivia.watson@hartwell-payroll-upper-lyndon.co.uk",
+  "contact-rep": "samuel.martin@willowmere-court-upper-lyndon.co.uk",
+  "contact-training": "karen.lee@northgate-caretraining-upper-lyndon.co.uk"
+ },
+ "assessment_sources": [
+  {
+   "answers": {
+    "eats_less": "g2",
+    "feels_pressure": "g2",
+    "moves_alone": "g2",
+    "out_of_bed": "g2",
+    "skin_moist": "g1",
+    "skin_now": "g0"
+   },
+   "resident_id": "res-000029",
+   "scale_id": "house_skin"
+  },
+  {
+   "answers": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g0",
+    "orientation": "g0",
+    "sight": "g0",
+    "walking": "g0"
+   },
+   "resident_id": "res-000029",
+   "scale_id": "house_falls"
+  },
+  {
+   "answers": {
+    "at_rest": "g3",
+    "behaviour": "g2",
+    "on_moving": "g2",
+    "sleep": "g1"
+   },
+   "resident_id": "res-000029",
+   "scale_id": "house_pain"
+  }
+ ],
+ "births": {
+  "res-001": "1936-05-21",
+  "res-002": "1940-10-22",
+  "res-003": "1942-11-21",
+  "res-004": "1931-10-17",
+  "res-005": "1937-08-15",
+  "res-006": "1933-06-24",
+  "res-007": "1939-11-12",
+  "res-008": "1934-02-12",
+  "res-009": "1951-10-09",
+  "res-010": "1944-08-11",
+  "res-011": "1938-03-24",
+  "res-012": "1931-03-07",
+  "res-013": "1948-05-08",
+  "res-014": "1936-06-07",
+  "res-015": "1940-10-28",
+  "res-016": "1934-10-07",
+  "res-017": "1925-10-08",
+  "res-018": "1938-04-07",
+  "res-019": "1935-05-08",
+  "res-020": "1950-12-08",
+  "res-021": "1942-07-16",
+  "res-022": "1940-07-22",
+  "res-023": "1950-08-25",
+  "res-024": "1944-10-19",
+  "res-025": "1950-04-11",
+  "res-026": "1941-04-14",
+  "res-027": "1939-03-02",
+  "res-028": "1940-10-11"
+ },
+ "careplan_model": "pgm",
+ "doctors": {
+  "doc-01": "Dr F. Wood",
+  "doc-02": "Dr J. Moore",
+  "doc-03": "Dr R. Lewis",
+  "doc-04": "Dr B. Williams",
+  "doc-05": "Dr A. Cooper"
+ },
+ "eligible": {},
+ "expect": {
+  "allergies": [
+   [
+    "ibuprofen",
+    "severe"
+   ],
+   [
+    "nuts",
+    "moderate"
+   ]
+  ],
+  "allergy_rows": [
+   [
+    "Nuts",
+    "swelling",
+    "moderate"
+   ],
+   [
+    "Ibuprofen",
+    "shortness of breath",
+    "severe"
+   ]
+  ],
+  "answers": {
+   "house_falls": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g0",
+    "orientation": "g0",
+    "sight": "g0",
+    "walking": "g0"
+   },
+   "house_pain": {
+    "at_rest": "g3",
+    "behaviour": "g2",
+    "on_moving": "g2",
+    "sleep": "g1"
+   },
+   "house_skin": {
+    "eats_less": "g2",
+    "feels_pressure": "g2",
+    "moves_alone": "g2",
+    "out_of_bed": "g2",
+    "skin_moist": "g1",
+    "skin_now": "g0"
+   }
+  },
+  "attachment_id": "att-adm-47000001",
+  "contact": {
+   "name": "Valerie King",
+   "phone": "07840 212605",
+   "relation": "Granddaughter"
+  },
+  "gold_measures": [
+   [
+    "personal_care",
+    {
+     "anchor": "06:00",
+     "every_hours": null,
+     "kind": "times",
+     "night_every_hours": null,
+     "times": [
+      "07:00"
+     ],
+     "weekdays": []
+    }
+   ],
+   [
+    "vital_signs",
+    {
+     "anchor": "06:00",
+     "every_hours": null,
+     "kind": "weekly",
+     "night_every_hours": null,
+     "times": [
+      "09:00"
+     ],
+     "weekdays": [
+      0
+     ]
+    }
+   ],
+   [
+    "reposition",
+    {
+     "anchor": "06:00",
+     "every_hours": 2,
+     "kind": "interval",
+     "night_every_hours": 3,
+     "times": [],
+     "weekdays": []
+    }
+   ]
+  ],
+  "master": {
+   "birth_date": "1949-05-09",
+   "birth_place": "Wakefield",
+   "care_level": null,
+   "family_name": "King",
+   "funding_note": "Local authority",
+   "given_name": "Dorothy",
+   "gp_id": "doc-01",
+   "room": "A29",
+   "sex": "f",
+   "ward_id": "ward-01"
+  },
+  "mattress": true,
+  "mattress_facts": [
+   [
+    "name",
+    "Dorothy",
+    "King"
+   ],
+   [
+    "word",
+    "matratze",
+    "mattress"
+   ]
+  ],
+  "measures": [
+   [
+    "personal_care",
+    "per_day",
+    1
+   ],
+   [
+    "reposition",
+    "interval",
+    2,
+    3
+   ],
+   [
+    "vital_signs",
+    "weekly",
+    1,
+    1
+   ]
+  ],
+  "pharmacy_facts": [
+   [
+    "name",
+    "Dorothy",
+    "King"
+   ],
+   [
+    "dob",
+    "1949-05-09"
+   ],
+   [
+    "word",
+    "Ramipril"
+   ],
+   [
+    "word",
+    "Amlodipine"
+   ],
+   [
+    "word",
+    "Colecalciferol"
+   ]
+  ],
+  "resident_id": "res-000029"
+ },
+ "family": "FC1_admission",
+ "index": 0,
+ "jurisdiction": "uk",
+ "locale": "en-GB",
+ "names": {
+  "res-001": "Irene Santos",
+  "res-002": "Patricia Mensah",
+  "res-003": "Leonard Thomson",
+  "res-004": "Alan Nowak",
+  "res-005": "Derek Brown",
+  "res-006": "Jean Adeyemi",
+  "res-007": "Gordon Edwards",
+  "res-008": "Maureen Evans",
+  "res-009": "Sylvia Mensah",
+  "res-010": "Brenda Wilson",
+  "res-011": "Sheila Thompson",
+  "res-012": "Doreen Edwards",
+  "res-013": "Patricia Evans",
+  "res-014": "Pamela Edwards",
+  "res-015": "Sheila Jones",
+  "res-016": "Leonard Murphy",
+  "res-017": "Geoffrey Kowalski",
+  "res-018": "Doreen James",
+  "res-019": "Norman Kowalski",
+  "res-020": "Derek Adeyemi",
+  "res-021": "Doreen Mensah",
+  "res-022": "Brenda White",
+  "res-023": "Audrey Reyes",
+  "res-024": "Gordon Roberts",
+  "res-025": "Doreen White",
+  "res-026": "Audrey Thompson",
+  "res-027": "Edna Foster",
+  "res-028": "Winifred Wood"
+ },
+ "now": "2026-09-06 08:05",
+ "pending_standard": [
+  "catalogue",
+  "fluid_check_days",
+  "fluid_days_below_inform_gp",
+  "fluid_target_ml",
+  "follow_up_minutes",
+  "initial_assessments",
+  "inspection_checklist",
+  "lab_inform_gp",
+  "mattress_for_class",
+  "measure_durations",
+  "plan_window_minutes",
+  "prevention",
+  "reassess_every_days",
+  "reassess_on",
+  "reposition",
+  "return_assessments",
+  "scale_bands",
+  "transfer_prints",
+  "vital_ranges",
+  "weigh_every_days",
+  "weight_loss_days",
+  "weight_loss_percent"
+ ],
+ "printers": [
+  "Printer Cedar Unit"
+ ],
+ "scope": [
+  "res-000029"
+ ],
+ "seed": 47000001,
+ "sources": [
+  {
+   "kind": "bp",
+   "measured_at": "2026-09-06 07:30",
+   "resident_id": "res-000029",
+   "unit": "mmHg",
+   "value": 153.0,
+   "value2": 76.0
+  },
+  {
+   "kind": "pulse",
+   "measured_at": "2026-09-06 07:30",
+   "resident_id": "res-000029",
+   "unit": "/min",
+   "value": 75.0,
+   "value2": null
+  },
+  {
+   "kind": "temperature",
+   "measured_at": "2026-09-06 07:30",
+   "resident_id": "res-000029",
+   "unit": "°C",
+   "value": 36.4,
+   "value2": null
+  },
+  {
+   "kind": "weight",
+   "measured_at": "2026-09-06 07:30",
+   "resident_id": "res-000029",
+   "unit": "kg",
+   "value": 54.6,
+   "value2": null
+  },
+  {
+   "kind": "height",
+   "measured_at": "2026-09-06 07:30",
+   "resident_id": "res-000029",
+   "unit": "cm",
+   "value": 153.0,
+   "value2": null
+  }
+ ],
+ "task_id": "fc-73582e57a857",
+ "today": "2026-09-06",
+ "version": "fullcare-0.6.4"
+}

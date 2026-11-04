@@ -1,0 +1,1406 @@
+[
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-015",
+   "kind": "bp",
+   "value": 208.0,
+   "unit": "mmHg",
+   "measured_at": "2026-07-31 05:53",
+   "value2": 99.0,
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "praxis.lorenz@praxis.example"
+   ],
+   "subject": "Auffälliger Wert Heinz Lehmann",
+   "body": "Guten Tag,\n\nbei Heinz Lehmann, geb. 1937-09-28, haben wir um 05:53 208/99 mmHg gemessen. Wir messen nach Standard nach.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "care.report_write",
+  "args": {
+   "resident_id": "res-015",
+   "category": "observation",
+   "observation_ids": [
+    "obs-000001"
+   ],
+   "text": "Wert außerhalb der Hausgrenzen, Hausarzt per Mail informiert, Nachmessung geplant.",
+   "informed": [
+    "Hausarzt"
+   ]
+  }
+ },
+ {
+  "tool": "plan.add_item",
+  "args": {
+   "resident_id": "res-015",
+   "date": "2026-07-31",
+   "due": "06:23",
+   "catalogue_key": "vital_signs",
+   "reason": "Nachmessung nach auffälligem Wert"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "xitem-000001@2026-07-31T06:23",
+   "employee_id": "staff-0002"
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-003",
+   "kind": "spo2",
+   "value": 94.0,
+   "unit": "%",
+   "measured_at": "2026-07-31 05:53",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "absences.record",
+  "args": {
+   "employee_id": "staff-0010",
+   "absence_type": "sick",
+   "start_date": "2026-07-31",
+   "end_date": "2026-07-31",
+   "note": "Krankmeldung telefonisch"
+  }
+ },
+ {
+  "tool": "plan.view",
+  "args": {
+   "date": "2026-07-31",
+   "shift": "early"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-018-m02@2026-07-31T06:45",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-004-m01@2026-07-31T07:15",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-004-m05@2026-07-31T07:30",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-008-m06@2026-07-31T07:30",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-009-m07@2026-07-31T07:30",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-010-m06@2026-07-31T07:30",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-012-m06@2026-07-31T07:30",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-014-m06@2026-07-31T07:30",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-019-m06@2026-07-31T07:30",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-023-m06@2026-07-31T07:30",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-028-m06@2026-07-31T07:30",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-022-m03@2026-07-31T07:45",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-004-m04@2026-07-31T08:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-008-m05@2026-07-31T08:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-009-m06@2026-07-31T08:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-010-m05@2026-07-31T08:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-012-m05@2026-07-31T08:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-014-m05@2026-07-31T08:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-018-m06@2026-07-31T08:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-023-m05@2026-07-31T08:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-028-m05@2026-07-31T08:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-009-m03@2026-07-31T08:30",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-004-m04@2026-07-31T09:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-008-m03@2026-07-31T09:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-008-m05@2026-07-31T09:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-009-m06@2026-07-31T09:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-010-m03@2026-07-31T09:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-012-m03@2026-07-31T09:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-013-m05@2026-07-31T09:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-017-m06@2026-07-31T09:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-019-m03@2026-07-31T09:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-023-m05@2026-07-31T09:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-028-m03@2026-07-31T09:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-028-m01@2026-07-31T09:15",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-004-m04@2026-07-31T11:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-008-m05@2026-07-31T11:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-009-m06@2026-07-31T11:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-010-m05@2026-07-31T11:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-012-m05@2026-07-31T11:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-013-m07@2026-07-31T11:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-014-m05@2026-07-31T11:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-019-m05@2026-07-31T11:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-028-m05@2026-07-31T11:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-008-m03@2026-07-31T12:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-010-m03@2026-07-31T12:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-012-m03@2026-07-31T12:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-014-m03@2026-07-31T12:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-019-m03@2026-07-31T12:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-028-m03@2026-07-31T12:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-004-m04@2026-07-31T13:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-008-m05@2026-07-31T13:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-009-m06@2026-07-31T13:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-012-m05@2026-07-31T13:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-017-m06@2026-07-31T13:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-021-m06@2026-07-31T13:00",
+   "employee_id": "staff-0012"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "res-028-m05@2026-07-31T13:00",
+   "employee_id": "staff-0008"
+  }
+ },
+ {
+  "tool": "care.escalate",
+  "args": {
+   "subject": "Verbandwechsel 10:00",
+   "resident_ids": [
+    "res-026"
+   ],
+   "text": "Für den Verbandwechsel bei Hildegard Yılmaz um 10:00 ist heute niemand mit Wundqualifikation im Frühdienst. Bitte entscheiden, wer ihn übernimmt."
+  }
+ },
+ {
+  "tool": "care.order_acknowledge",
+  "args": {
+   "order_id": "res-005-new1"
+  }
+ },
+ {
+  "tool": "care.order_acknowledge",
+  "args": {
+   "order_id": "res-005-new2"
+  }
+ },
+ {
+  "tool": "care.order_acknowledge",
+  "args": {
+   "order_id": "res-005-new3"
+  }
+ },
+ {
+  "tool": "care.order_acknowledge",
+  "args": {
+   "order_id": "res-005-new4"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-005",
+   "catalogue_key": "glucose",
+   "schedule": {
+    "anchor": "06:00",
+    "every_hours": null,
+    "kind": "times",
+    "night_every_hours": null,
+    "times": [
+     "07:30",
+     "11:30",
+     "17:30"
+    ],
+    "weekdays": []
+   },
+   "start": "2026-07-31",
+   "order_id": "res-005-new1"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-005",
+   "catalogue_key": "weigh",
+   "schedule": {
+    "anchor": "06:00",
+    "every_hours": null,
+    "kind": "weekly",
+    "night_every_hours": null,
+    "times": [
+     "07:30"
+    ],
+    "weekdays": [
+     1,
+     4
+    ]
+   },
+   "start": "2026-07-31",
+   "order_id": "res-005-new2"
+  }
+ },
+ {
+  "tool": "care.measure_end",
+  "args": {
+   "measure_id": "res-005-m01",
+   "end": "2026-07-31",
+   "reason": "Ärztliche Anordnung: absetzen"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "heimversorgung@apotheke-kirchheiligen.example"
+   ],
+   "subject": "Medikationsänderung Inge Bauer",
+   "body": "Guten Tag,\n\nfür Inge Bauer hat der Hausarzt Torasemid ab heute auf 20 mg geändert. Bitte entsprechend liefern.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "care.document_file",
+  "args": {
+   "attachment_id": "att-lab-47000000",
+   "resident_id": "res-025",
+   "kind": "lab_report",
+   "title": "Laborbefund"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "praxis.werner@praxis.example"
+   ],
+   "subject": "Laborbefund Edith Lange",
+   "body": "Guten Tag,\n\nim Befund von Edith Lange, geb. 1935-05-11, liegen außerhalb des Normbereichs: Hämoglobin 11.1. Der Befund liegt in der Akte.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "care.fluid_record",
+  "args": {
+   "resident_id": "res-011",
+   "direction": "in",
+   "kind": "drink",
+   "ml": 150,
+   "at": "2026-07-31 04:45",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.fluid_record",
+  "args": {
+   "resident_id": "res-011",
+   "direction": "in",
+   "kind": "drink",
+   "ml": 150,
+   "at": "2026-07-31 05:25",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.report_write",
+  "args": {
+   "resident_id": "res-011",
+   "category": "observation",
+   "text": "Trinkbilanz der letzten Tage: 2026-07-26: 1790 ml; 2026-07-27: 1750 ml; 2026-07-28: 1802 ml; 2026-07-29: 1679 ml; 2026-07-30: 1681 ml",
+   "informed": []
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-001",
+   "scale_id": "house_falls",
+   "answers": {
+    "dizzy": "g1",
+    "fell_recently": "g1",
+    "night_toilet": "g0",
+    "orientation": "g1",
+    "sight": "g1",
+    "walking": "g2"
+   },
+   "performed_at": "2026-07-31 06:05",
+   "source_refs": [
+    "chat"
+   ]
+  }
+ },
+ {
+  "tool": "shift.wait",
+  "args": {
+   "until": "08:00"
+  }
+ },
+ {
+  "tool": "care.transfer_sheet_save",
+  "args": {
+   "resident_id": "res-002",
+   "destination": "Kreisklinikum Kirchheiligen",
+   "reason": "Sturz, Verdacht auf Hüftfraktur (Notarzt)",
+   "aids_sent": [
+    "dentures",
+    "hearing_aid",
+    "walking_frame"
+   ],
+   "continence": "continent",
+   "mobility": "walks_with_aid",
+   "orientation": "partly_oriented"
+  }
+ },
+ {
+  "tool": "print.submit",
+  "args": {
+   "kind": "transfer_sheet",
+   "resident_id": "res-002",
+   "printer": "Drucker Wohnbereich Sonnenblick"
+  }
+ },
+ {
+  "tool": "print.submit",
+  "args": {
+   "kind": "medication_plan",
+   "resident_id": "res-002",
+   "printer": "Drucker Wohnbereich Sonnenblick"
+  }
+ },
+ {
+  "tool": "print.submit",
+  "args": {
+   "kind": "care_report",
+   "resident_id": "res-002",
+   "printer": "Drucker Wohnbereich Sonnenblick"
+  }
+ },
+ {
+  "tool": "print.submit",
+  "args": {
+   "kind": "daily_plan",
+   "resident_id": "res-002",
+   "printer": "Drucker Wohnbereich Sonnenblick"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "renate.wolf@mail.example"
+   ],
+   "subject": "Krankenhaus – Dieter Wolf",
+   "body": "Guten Tag,\n\nDieter Wolf kommt heute ins Kreisklinikum Kirchheiligen. Bei Fragen rufen Sie uns gern an.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "care.status_set",
+  "args": {
+   "resident_id": "res-002",
+   "status": "in_hospital",
+   "reason": "Sturz, Notarzt, Rettungswagen ins Krankenhaus"
+  }
+ },
+ {
+  "tool": "shift.wait",
+  "args": {
+   "until": "08:45"
+  }
+ },
+ {
+  "tool": "care.status_set",
+  "args": {
+   "resident_id": "res-016",
+   "status": "present",
+   "reason": "Zurück aus dem Krankenhaus"
+  }
+ },
+ {
+  "tool": "care.document_file",
+  "args": {
+   "attachment_id": "att-ret-47000000",
+   "resident_id": "res-016",
+   "kind": "discharge_letter",
+   "title": "Entlassbrief"
+  }
+ },
+ {
+  "tool": "care.allergy_add",
+  "args": {
+   "resident_id": "res-016",
+   "substance": "Penicillin",
+   "reaction": "Hautausschlag",
+   "severity": "moderate",
+   "source_document_id": "doc-000002"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-016",
+   "scale_id": "house_dependency",
+   "answers": {
+    "continence": "g1",
+    "dressing": "g2",
+    "eating": "g1",
+    "toilet": "g0",
+    "transfer": "g0",
+    "walking": "g1",
+    "washing": "g1"
+   },
+   "performed_at": "2026-07-31 08:45"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-016",
+   "scale_id": "house_falls",
+   "answers": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g0",
+    "orientation": "g0",
+    "sight": "g0",
+    "walking": "g0"
+   },
+   "performed_at": "2026-07-31 08:45"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-016",
+   "scale_id": "house_nutrition",
+   "answers": {
+    "drinks": "g0",
+    "help_eating": "g0",
+    "lost_weight": "g0",
+    "meals": "g0",
+    "swallowing": "g0"
+   },
+   "performed_at": "2026-07-31 08:45"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-016",
+   "scale_id": "house_pain",
+   "answers": {
+    "at_rest": "g2",
+    "behaviour": "g0",
+    "on_moving": "g0",
+    "sleep": "g1"
+   },
+   "performed_at": "2026-07-31 08:45"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-016",
+   "scale_id": "house_skin",
+   "answers": {
+    "eats_less": "g2",
+    "feels_pressure": "g1",
+    "moves_alone": "g1",
+    "out_of_bed": "g2",
+    "skin_moist": "g2",
+    "skin_now": "g0"
+   },
+   "performed_at": "2026-07-31 08:45"
+  }
+ },
+ {
+  "tool": "care.measure_end",
+  "args": {
+   "measure_id": "res-016-m03",
+   "end": "2026-07-31",
+   "reason": "Neue Einschätzung, Planung angepasst"
+  }
+ },
+ {
+  "tool": "care.measure_end",
+  "args": {
+   "measure_id": "res-016-m04",
+   "end": "2026-07-31",
+   "reason": "Neue Einschätzung, Planung angepasst"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-016",
+   "problem": "Dekubitusgefahr, bewegt sich kaum selbst.",
+   "goal": "Bleibt sicher und versorgt.",
+   "review_on": "2026-08-28"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-016",
+   "catalogue_key": "reposition",
+   "schedule": {
+    "kind": "interval",
+    "times": [],
+    "every_hours": 3,
+    "night_every_hours": 4,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-07-31",
+   "entry_id": "cpe-000001"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "heimversorgung@apotheke-kirchheiligen.example"
+   ],
+   "subject": "Medikationsänderung Helmut Popescu",
+   "body": "Guten Tag,\n\nHelmut Popescu ist aus dem Krankenhaus zurück. Ramipril laut Entlassbrief jetzt 2,5 mg.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "shift.wait",
+  "args": {
+   "until": "09:35"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "ingeborg.demir@mail.example"
+   ],
+   "subject": "Ihre Anfrage",
+   "body": "Guten Tag,\n\nohne eine Schweigepflichtentbindung dürfen wir Ihnen leider keine Auskunft zur Gesundheit geben. Ihr Besuch am Samstag um 15:00 Uhr ist eingetragen.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "care.appointment_create",
+  "args": {
+   "resident_id": "res-027",
+   "kind": "relatives",
+   "date": "2026-08-01",
+   "start": "15:00",
+   "end": "16:00",
+   "place": "Wohnbereich"
+  }
+ },
+ {
+  "tool": "shift.wait",
+  "args": {
+   "until": "10:15"
+  }
+ },
+ {
+  "tool": "care.admit",
+  "args": {
+   "birth_date": "1942-10-18",
+   "birth_place": "Leipzig",
+   "care_level": 4,
+   "family_name": "Schneider",
+   "given_name": "Manfred",
+   "gp_id": "doc-02",
+   "room": "A29",
+   "sex": "m",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "care.document_file",
+  "args": {
+   "attachment_id": "att-adm-47000000",
+   "resident_id": "res-000029",
+   "kind": "discharge_letter",
+   "title": "Entlassbrief"
+  }
+ },
+ {
+  "tool": "care.allergy_add",
+  "args": {
+   "resident_id": "res-000029",
+   "substance": "Nüsse",
+   "reaction": "Schwellung",
+   "severity": "moderate",
+   "source_document_id": "doc-000003"
+  }
+ },
+ {
+  "tool": "care.allergy_add",
+  "args": {
+   "resident_id": "res-000029",
+   "substance": "Ibuprofen",
+   "reaction": "Atemnot",
+   "severity": "severe",
+   "source_document_id": "doc-000003"
+  }
+ },
+ {
+  "tool": "care.contact_add",
+  "args": {
+   "resident_id": "res-000029",
+   "name": "Lieselotte Schneider",
+   "phone": "0156 4589501",
+   "relation": "Ehefrau",
+   "emergency": true
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "bp",
+   "value": 152.0,
+   "unit": "mmHg",
+   "measured_at": "2026-07-31 09:45",
+   "source_ref": "chat",
+   "value2": 89.0
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "pulse",
+   "value": 71.0,
+   "unit": "/min",
+   "measured_at": "2026-07-31 09:45",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "temperature",
+   "value": 36.2,
+   "unit": "°C",
+   "measured_at": "2026-07-31 09:45",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "weight",
+   "value": 61.3,
+   "unit": "kg",
+   "measured_at": "2026-07-31 09:45",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-000029",
+   "kind": "height",
+   "value": 176.0,
+   "unit": "cm",
+   "measured_at": "2026-07-31 09:45",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-000029",
+   "scale_id": "house_dependency",
+   "answers": {
+    "continence": "g1",
+    "dressing": "g1",
+    "eating": "g1",
+    "toilet": "g1",
+    "transfer": "g0",
+    "walking": "g2",
+    "washing": "g2"
+   },
+   "performed_at": "2026-07-31 10:15"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-000029",
+   "scale_id": "house_falls",
+   "answers": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g1",
+    "orientation": "g1",
+    "sight": "g0",
+    "walking": "g2"
+   },
+   "performed_at": "2026-07-31 10:15"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-000029",
+   "scale_id": "house_nutrition",
+   "answers": {
+    "drinks": "g1",
+    "help_eating": "g0",
+    "lost_weight": "g0",
+    "meals": "g1",
+    "swallowing": "g0"
+   },
+   "performed_at": "2026-07-31 10:15"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-000029",
+   "scale_id": "house_pain",
+   "answers": {
+    "at_rest": "g3",
+    "behaviour": "g1",
+    "on_moving": "g1",
+    "sleep": "g1"
+   },
+   "performed_at": "2026-07-31 10:15"
+  }
+ },
+ {
+  "tool": "care.assessment_submit",
+  "args": {
+   "resident_id": "res-000029",
+   "scale_id": "house_skin",
+   "answers": {
+    "eats_less": "g2",
+    "feels_pressure": "g0",
+    "moves_alone": "g1",
+    "out_of_bed": "g3",
+    "skin_moist": "g1",
+    "skin_now": "g2"
+   },
+   "performed_at": "2026-07-31 10:15"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "Braucht Unterstützung bei der Körperpflege.",
+   "goal": "Bleibt sicher und versorgt.",
+   "review_on": "2026-08-28"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "personal_care",
+   "schedule": {
+    "kind": "times",
+    "times": [
+     "07:00"
+    ],
+    "every_hours": null,
+    "night_every_hours": null,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-07-31",
+   "entry_id": "cpe-000002"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "Vitalzeichen wöchentlich kontrollieren.",
+   "goal": "Bleibt sicher und versorgt.",
+   "review_on": "2026-08-28"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "vital_signs",
+   "schedule": {
+    "kind": "weekly",
+    "times": [
+     "09:00"
+    ],
+    "every_hours": null,
+    "night_every_hours": null,
+    "anchor": "06:00",
+    "weekdays": [
+     0
+    ]
+   },
+   "start": "2026-07-31",
+   "entry_id": "cpe-000003"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "Dekubitusgefahr, bewegt sich kaum selbst.",
+   "goal": "Bleibt sicher und versorgt.",
+   "review_on": "2026-08-28"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "reposition",
+   "schedule": {
+    "kind": "interval",
+    "times": [],
+    "every_hours": 2,
+    "night_every_hours": 3,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-07-31",
+   "entry_id": "cpe-000004"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "Sturzgefahr beim Gehen.",
+   "goal": "Bleibt sicher und versorgt.",
+   "review_on": "2026-08-28"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "mobilisation",
+   "schedule": {
+    "kind": "times",
+    "times": [
+     "10:00",
+     "14:00",
+     "17:00"
+    ],
+    "every_hours": null,
+    "night_every_hours": null,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-07-31",
+   "entry_id": "cpe-000005"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "Isst und trinkt zu wenig.",
+   "goal": "Bleibt sicher und versorgt.",
+   "review_on": "2026-08-28"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "fluid_offer",
+   "schedule": {
+    "kind": "times",
+    "times": [
+     "08:00",
+     "09:00",
+     "11:00",
+     "13:00",
+     "14:00",
+     "16:00",
+     "18:00",
+     "20:00"
+    ],
+    "every_hours": null,
+    "night_every_hours": null,
+    "anchor": "06:00",
+    "weekdays": []
+   },
+   "start": "2026-07-31",
+   "entry_id": "cpe-000006"
+  }
+ },
+ {
+  "tool": "care.careplan_entry_add",
+  "args": {
+   "resident_id": "res-000029",
+   "problem": "Gewicht wöchentlich kontrollieren.",
+   "goal": "Bleibt sicher und versorgt.",
+   "review_on": "2026-08-28"
+  }
+ },
+ {
+  "tool": "care.measure_add",
+  "args": {
+   "resident_id": "res-000029",
+   "catalogue_key": "weigh",
+   "schedule": {
+    "kind": "weekly",
+    "times": [
+     "07:30"
+    ],
+    "every_hours": null,
+    "night_every_hours": null,
+    "anchor": "06:00",
+    "weekdays": [
+     0,
+     4
+    ]
+   },
+   "start": "2026-07-31",
+   "entry_id": "cpe-000007"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "heimversorgung@apotheke-kirchheiligen.example"
+   ],
+   "subject": "Neuaufnahme Manfred Schneider",
+   "body": "Guten Tag,\n\nheute ist Manfred Schneider, geb. 18.10.1942, bei uns eingezogen. Medikation laut Entlassbrief: Metformin, Torasemid, Bisoprolol. Der Hausarzt überträgt den Plan.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "haustechnik@heim-kirchheiligen.example"
+   ],
+   "subject": "Matratze",
+   "body": "Hallo,\n\nbitte eine Wechseldruckmatratze für Manfred Schneider, Zimmer A29."
+  }
+ },
+ {
+  "tool": "shift.wait",
+  "args": {
+   "until": "11:30"
+  }
+ },
+ {
+  "tool": "care.observation_record",
+  "args": {
+   "resident_id": "res-007",
+   "kind": "glucose",
+   "value": 326.0,
+   "unit": "mg/dl",
+   "measured_at": "2026-07-31 11:28",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "mail.send",
+  "args": {
+   "to": [
+    "praxis.werner@praxis.example"
+   ],
+   "subject": "Auffälliger Wert Irmgard Krause",
+   "body": "Guten Tag,\n\nbei Irmgard Krause, geb. 1934-04-08, haben wir um 11:28 326 mg/dl gemessen. Wir messen nach Standard nach.\n\nViele Grüße"
+  }
+ },
+ {
+  "tool": "care.report_write",
+  "args": {
+   "resident_id": "res-007",
+   "category": "observation",
+   "observation_ids": [
+    "obs-000008"
+   ],
+   "text": "Wert außerhalb der Hausgrenzen, Hausarzt per Mail informiert, Nachmessung geplant.",
+   "informed": [
+    "Hausarzt"
+   ]
+  }
+ },
+ {
+  "tool": "plan.add_item",
+  "args": {
+   "resident_id": "res-007",
+   "date": "2026-07-31",
+   "due": "11:58",
+   "catalogue_key": "glucose",
+   "reason": "Nachmessung nach auffälligem Wert"
+  }
+ },
+ {
+  "tool": "plan.assign",
+  "args": {
+   "item_key": "xitem-000002@2026-07-31T11:58",
+   "employee_id": "staff-0002"
+  }
+ },
+ {
+  "tool": "shift.wait",
+  "args": {
+   "until": "12:10"
+  }
+ },
+ {
+  "tool": "care.fluid_record",
+  "args": {
+   "resident_id": "res-006",
+   "direction": "in",
+   "kind": "drink",
+   "ml": 200,
+   "at": "2026-07-31 11:25",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.fluid_record",
+  "args": {
+   "resident_id": "res-006",
+   "direction": "in",
+   "kind": "drink",
+   "ml": 100,
+   "at": "2026-07-31 12:05",
+   "source_ref": "chat"
+  }
+ },
+ {
+  "tool": "care.report_write",
+  "args": {
+   "resident_id": "res-006",
+   "category": "observation",
+   "text": "Trinkbilanz der letzten Tage: 2026-07-26: 1772 ml; 2026-07-27: 1568 ml; 2026-07-28: 1842 ml; 2026-07-29: 1622 ml; 2026-07-30: 1750 ml",
+   "informed": []
+  }
+ },
+ {
+  "tool": "care.handover_write",
+  "args": {
+   "ward_id": "ward-01",
+   "shift": "early",
+   "text": "Übergabe Frühdienst an Spätdienst:\n- Heinz Lehmann: Auffälliger Wert, Hausarzt informiert, Nachmessung im Plan\n- Hildegard Yılmaz: Verbandwechsel 10:00 – siehe Tagesplan bzw. Meldung an die PDL\n- Edith Lange: Laborbefund auffällig, an den Hausarzt\n- Dieter Wolf: Nach Sturz ins Krankenhaus, Überleitung mitgegeben\n- Helmut Popescu: Heute aus dem Krankenhaus zurück, Planung angepasst\n- Manfred Schneider: Heute neu eingezogen, Einschätzungen gemacht\n- Irmgard Krause: Auffälliger Wert, Hausarzt informiert, Nachmessung im Plan",
+   "resident_ids": [
+    "res-000029",
+    "res-002",
+    "res-007",
+    "res-015",
+    "res-016",
+    "res-025",
+    "res-026"
+   ]
+  }
+ }
+]

@@ -1,0 +1,29 @@
+{
+  "difficulty": "medium",
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "FC5_doctor_orders",
+  "fullcare": {
+    "careplan_model": "pgm",
+    "home": "compact_home",
+    "jurisdiction": "de",
+    "locale": "de-DE",
+    "residents": 28,
+    "scope": 1,
+    "staff": 25,
+    "units": 1
+  },
+  "horizon_days": 7,
+  "instruction": "Kerstin: Dr. med. H. Neumann hat heute früh neue Anordnungen für Frau Becker eingetragen. Bitte alles umsetzen – quittieren, in die Planung übernehmen, und die Apotheke informieren, wo nötig. Felix",
+  "jurisdiction": "de",
+  "start_date": "2026-10-07",
+  "surface": "fullcare",
+  "task_id": "fc-354cca1ca2d3",
+  "world_file": "world.json"
+}

@@ -1,0 +1,198 @@
+{
+  "house_rule_policy": {
+    "forbid_late_to_early": true,
+    "max_consecutive_nights": 2,
+    "max_consecutive_work_days": 5,
+    "min_registered_nurses_per_shift": 1,
+    "part_time_hours_margin_percent": 10.0,
+    "policy_id": "house-current-v1"
+  },
+  "staff_personas": [
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0001",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": false,
+      "employee_id": "staff-0002",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0003",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0004",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0005",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0006",
+      "never_sundays": true,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0007",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": false,
+      "employee_id": "staff-0008",
+      "never_sundays": false,
+      "preferred_shift_types": [
+        "early"
+      ]
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0009",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0010",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0011",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0012",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0013",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0014",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0015",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0016",
+      "never_sundays": false,
+      "preferred_shift_types": [
+        "night"
+      ]
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0017",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": false,
+      "employee_id": "staff-0018",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0019",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0020",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0021",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0022",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0023",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0024",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": true,
+      "accepts_swaps": true,
+      "employee_id": "staff-0025",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    },
+    {
+      "accepts_extra_shifts": false,
+      "accepts_swaps": true,
+      "employee_id": "staff-0026",
+      "never_sundays": false,
+      "preferred_shift_types": []
+    }
+  ]
+}

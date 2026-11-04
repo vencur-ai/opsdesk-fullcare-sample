@@ -1,0 +1,29 @@
+{
+  "difficulty": "medium",
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "FC6_hospital_transfer",
+  "fullcare": {
+    "careplan_model": "pgm",
+    "home": "compact_home",
+    "jurisdiction": "de",
+    "locale": "de-DE",
+    "residents": 28,
+    "scope": 1,
+    "staff": 28,
+    "units": 1
+  },
+  "horizon_days": 7,
+  "instruction": "Andreas: Frau Zimmermann muss gleich ins Krankenhaus (siehe Teamchat). Bitte die Überleitung fertig machen und ausdrucken, die Angehörigen informieren und sie im System richtig stellen. Claudia",
+  "jurisdiction": "de",
+  "start_date": "2026-03-04",
+  "surface": "fullcare",
+  "task_id": "fc-a335d975244c",
+  "world_file": "world.json"
+}

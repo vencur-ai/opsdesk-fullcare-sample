@@ -1,0 +1,2033 @@
+{
+ "addresses": {
+  "care-authority": "infektionsschutz@gesundheitsamt-kirchheiligen.example",
+  "care-doc-01": "praxis.werner@praxis.example",
+  "care-doc-02": "praxis.schröder@praxis.example",
+  "care-doc-03": "praxis.lorenz@praxis.example",
+  "care-doc-04": "praxis.becker@praxis.example",
+  "care-doc-05": "praxis.köhler@praxis.example",
+  "care-facilities": "haustechnik@heim-kirchheiligen.example",
+  "care-hospital": "aufnahme@klinikum-kirchheiligen.example",
+  "care-lab": "befunde@labor-kirchheiligen.example",
+  "care-pharmacy": "heimversorgung@apotheke-kirchheiligen.example",
+  "care-res-001-c1": "wolfgang.becker@mail.example",
+  "care-res-002-c1": "renate.wolf@mail.example",
+  "care-res-003-c1": "rolf.maier@mail.example",
+  "care-res-003-c2": "lieselotte.maier@mail.example",
+  "care-res-004-c1": "helga.werner@mail.example",
+  "care-res-005-c1": "elisabeth.bauer@mail.example",
+  "care-res-006-c1": "lieselotte.becker@mail.example",
+  "care-res-006-c2": "waltraud.becker@mail.example",
+  "care-res-007-c1": "klaus.krause@mail.example",
+  "care-res-007-c2": "helga.krause@mail.example",
+  "care-res-008-c1": "heinz.popescu@mail.example",
+  "care-res-009-c1": "ingeborg.braun@mail.example",
+  "care-res-009-c2": "inge.braun@mail.example",
+  "care-res-010-c1": "elisabeth.roth@mail.example",
+  "care-res-010-c2": "elisabeth.roth2@mail.example",
+  "care-res-011-c1": "dieter.meier@mail.example",
+  "care-res-011-c2": "hannelore.meier@mail.example",
+  "care-res-012-c1": "rosemarie.fuchs@mail.example",
+  "care-res-013-c1": "günter.braun@mail.example",
+  "care-res-014-c1": "waltraud.haas@mail.example",
+  "care-res-014-c2": "karl-heinz.haas@mail.example",
+  "care-res-015-c1": "rolf.lehmann@mail.example",
+  "care-res-016-c1": "werner.popescu@mail.example",
+  "care-res-017-c1": "brigitte.demir@mail.example",
+  "care-res-017-c2": "karl-heinz.demir@mail.example",
+  "care-res-018-c1": "marianne.roth@mail.example",
+  "care-res-019-c1": "rolf.berger@mail.example",
+  "care-res-020-c1": "helmut.köhler@mail.example",
+  "care-res-020-c2": "ingeborg.köhler@mail.example",
+  "care-res-021-c1": "kurt.zimmermann@mail.example",
+  "care-res-022-c1": "waltraud.werner@mail.example",
+  "care-res-023-c1": "christa.demir@mail.example",
+  "care-res-024-c1": "werner.fischer@mail.example",
+  "care-res-025-c1": "werner.lange@mail.example",
+  "care-res-026-c1": "anneliese.yılmaz@mail.example",
+  "care-res-027-c1": "ingeborg.demir@mail.example",
+  "care-res-028-c1": "hannelore.bauer@mail.example",
+  "care-res-028-c2": "irmgard.bauer@mail.example",
+  "care-transport": "dispo@krankentransport-kirchheiligen.example",
+  "contact-agency-1": "einsatz@pflegepool-nord-kirchheiligen.de",
+  "contact-agency-2": "einsatz@personaldienst-altenhilfe-sued-kirchheiligen.de",
+  "contact-agency-3": "einsatz@curaflex-zeitarbeit-kirchheiligen.de",
+  "contact-manager": "jonas.winkler@pflegezentrum-am-weinberg-kirchheiligen.de",
+  "contact-ops": "monika.demir@kirchheiligen-pflegeverbund.de",
+  "contact-payroll": "lena.koch@kessler-lohnbuero-kirchheiligen.de",
+  "contact-rep": "ahmet.nowak@pflegezentrum-am-weinberg-kirchheiligen.de",
+  "contact-training": "stefan.keller@bildungswerk-pflegesued-kirchheiligen.de"
+ },
+ "assessment_sources": [
+  {
+   "answers": {
+    "dizzy": "g1",
+    "fell_recently": "g1",
+    "night_toilet": "g0",
+    "orientation": "g1",
+    "sight": "g1",
+    "walking": "g2"
+   },
+   "resident_id": "res-001",
+   "scale_id": "house_falls"
+  },
+  {
+   "answers": {
+    "eats_less": "g2",
+    "feels_pressure": "g1",
+    "moves_alone": "g1",
+    "out_of_bed": "g2",
+    "skin_moist": "g2",
+    "skin_now": "g0"
+   },
+   "resident_id": "res-016",
+   "scale_id": "house_skin"
+  },
+  {
+   "answers": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g0",
+    "orientation": "g0",
+    "sight": "g0",
+    "walking": "g0"
+   },
+   "resident_id": "res-016",
+   "scale_id": "house_falls"
+  },
+  {
+   "answers": {
+    "at_rest": "g2",
+    "behaviour": "g0",
+    "on_moving": "g0",
+    "sleep": "g1"
+   },
+   "resident_id": "res-016",
+   "scale_id": "house_pain"
+  },
+  {
+   "answers": {
+    "drinks": "g0",
+    "help_eating": "g0",
+    "lost_weight": "g0",
+    "meals": "g0",
+    "swallowing": "g0"
+   },
+   "resident_id": "res-016",
+   "scale_id": "house_nutrition"
+  },
+  {
+   "answers": {
+    "continence": "g1",
+    "dressing": "g2",
+    "eating": "g1",
+    "toilet": "g0",
+    "transfer": "g0",
+    "walking": "g1",
+    "washing": "g1"
+   },
+   "resident_id": "res-016",
+   "scale_id": "house_dependency"
+  },
+  {
+   "answers": {
+    "eats_less": "g2",
+    "feels_pressure": "g0",
+    "moves_alone": "g1",
+    "out_of_bed": "g3",
+    "skin_moist": "g1",
+    "skin_now": "g2"
+   },
+   "resident_id": "res-000029",
+   "scale_id": "house_skin"
+  },
+  {
+   "answers": {
+    "dizzy": "g0",
+    "fell_recently": "g0",
+    "night_toilet": "g1",
+    "orientation": "g1",
+    "sight": "g0",
+    "walking": "g2"
+   },
+   "resident_id": "res-000029",
+   "scale_id": "house_falls"
+  },
+  {
+   "answers": {
+    "at_rest": "g3",
+    "behaviour": "g1",
+    "on_moving": "g1",
+    "sleep": "g1"
+   },
+   "resident_id": "res-000029",
+   "scale_id": "house_pain"
+  },
+  {
+   "answers": {
+    "drinks": "g1",
+    "help_eating": "g0",
+    "lost_weight": "g0",
+    "meals": "g1",
+    "swallowing": "g0"
+   },
+   "resident_id": "res-000029",
+   "scale_id": "house_nutrition"
+  },
+  {
+   "answers": {
+    "continence": "g1",
+    "dressing": "g1",
+    "eating": "g1",
+    "toilet": "g1",
+    "transfer": "g0",
+    "walking": "g2",
+    "washing": "g2"
+   },
+   "resident_id": "res-000029",
+   "scale_id": "house_dependency"
+  }
+ ],
+ "births": {
+  "res-001": "1946-10-05",
+  "res-002": "1954-12-24",
+  "res-003": "1935-05-22",
+  "res-004": "1953-03-05",
+  "res-005": "1941-07-09",
+  "res-006": "1937-01-23",
+  "res-007": "1934-04-08",
+  "res-008": "1932-04-27",
+  "res-009": "1943-11-21",
+  "res-010": "1934-03-13",
+  "res-011": "1933-09-14",
+  "res-012": "1941-01-09",
+  "res-013": "1930-11-20",
+  "res-014": "1942-04-04",
+  "res-015": "1937-09-28",
+  "res-016": "1937-08-22",
+  "res-017": "1946-05-17",
+  "res-018": "1937-11-17",
+  "res-019": "1936-06-27",
+  "res-020": "1943-05-15",
+  "res-021": "1933-12-16",
+  "res-022": "1932-09-26",
+  "res-023": "1948-10-06",
+  "res-024": "1936-06-11",
+  "res-025": "1935-05-11",
+  "res-026": "1943-12-07",
+  "res-027": "1936-09-28",
+  "res-028": "1939-09-05"
+ },
+ "careplan_model": "pgm",
+ "doctors": {
+  "doc-01": "Dr. med. M. Werner",
+  "doc-02": "Dr. med. U. Schröder",
+  "doc-03": "Dr. med. D. Lorenz",
+  "doc-04": "Dr. med. G. Becker",
+  "doc-05": "Dr. med. H. Köhler"
+ },
+ "eligible": {},
+ "expect": {
+  "fluid_sources": [
+   {
+    "at": "2026-07-31 04:45",
+    "direction": "in",
+    "ml": 150,
+    "resident_id": "res-011"
+   },
+   {
+    "at": "2026-07-31 05:25",
+    "direction": "in",
+    "ml": 150,
+    "resident_id": "res-011"
+   },
+   {
+    "at": "2026-07-31 11:25",
+    "direction": "in",
+    "ml": 200,
+    "resident_id": "res-006"
+   },
+   {
+    "at": "2026-07-31 12:05",
+    "direction": "in",
+    "ml": 100,
+    "resident_id": "res-006"
+   }
+  ],
+  "open_matters": [
+   {
+    "family": "FC3_vital_escalation",
+    "name": [
+     "Heinz",
+     "Lehmann"
+    ],
+    "resident_id": "res-015"
+   },
+   {
+    "family": "FC13_cannot_be_done",
+    "name": [
+     "Hildegard",
+     "Yılmaz"
+    ],
+    "resident_id": "res-026"
+   },
+   {
+    "family": "FC8_lab_results",
+    "name": [
+     "Edith",
+     "Lange"
+    ],
+    "resident_id": "res-025"
+   },
+   {
+    "family": "FC6_hospital_transfer",
+    "name": [
+     "Dieter",
+     "Wolf"
+    ],
+    "resident_id": "res-002"
+   },
+   {
+    "family": "FC7_hospital_return",
+    "name": [
+     "Helmut",
+     "Popescu"
+    ],
+    "resident_id": "res-016"
+   },
+   {
+    "family": "FC1_admission",
+    "name": [
+     "Manfred",
+     "Schneider"
+    ],
+    "resident_id": "res-000029"
+   },
+   {
+    "family": "FC3_vital_escalation",
+    "name": [
+     "Irmgard",
+     "Krause"
+    ],
+    "resident_id": "res-007"
+   }
+  ],
+  "parts": [
+   {
+    "assessment_sources": [],
+    "at": null,
+    "brief": "Ahmet: Im Teamchat stehen Werte von heute früh. Bitte dokumentieren und nach unserem Standard handeln. Jonas",
+    "eligible": {
+     "vital_signs": [
+      "staff-0002"
+     ]
+    },
+    "expect": {
+     "items": [
+      {
+       "facts": [
+        [
+         "name",
+         "Heinz",
+         "Lehmann"
+        ],
+        [
+         "dob",
+         "1937-09-28"
+        ],
+        [
+         "value",
+         "208"
+        ],
+        [
+         "value",
+         "99"
+        ],
+        [
+         "time",
+         "05:53"
+        ]
+       ],
+       "follow_due": "2026-07-31 06:23",
+       "follow_key": "vital_signs",
+       "gp_contact": "care-doc-03",
+       "kind": "bp",
+       "outside": true,
+       "resident_id": "res-015",
+       "source": {
+        "kind": "bp",
+        "measured_at": "2026-07-31 05:53",
+        "resident_id": "res-015",
+        "unit": "mmHg",
+        "value": 208.0,
+        "value2": 99.0
+       }
+      },
+      {
+       "facts": [
+        [
+         "name",
+         "Hannelore",
+         "Maier"
+        ],
+        [
+         "dob",
+         "1935-05-22"
+        ],
+        [
+         "value",
+         "94"
+        ],
+        [
+         "time",
+         "05:53"
+        ]
+       ],
+       "follow_due": "2026-07-31 06:23",
+       "follow_key": "vital_signs",
+       "gp_contact": "care-doc-03",
+       "kind": "spo2",
+       "outside": false,
+       "resident_id": "res-003",
+       "source": {
+        "kind": "spo2",
+        "measured_at": "2026-07-31 05:53",
+        "resident_id": "res-003",
+        "unit": "%",
+        "value": 94.0,
+        "value2": null
+       }
+      }
+     ],
+     "pattern": "two_mixed"
+    },
+    "family": "FC3_vital_escalation",
+    "label": "values",
+    "now": "2026-07-31 06:05",
+    "scope": [
+     "res-015",
+     "res-003"
+    ],
+    "sources": [
+     {
+      "kind": "bp",
+      "measured_at": "2026-07-31 05:53",
+      "resident_id": "res-015",
+      "unit": "mmHg",
+      "value": 208.0,
+      "value2": 99.0
+     },
+     {
+      "kind": "spo2",
+      "measured_at": "2026-07-31 05:53",
+      "resident_id": "res-003",
+      "unit": "%",
+      "value": 94.0,
+      "value2": null
+     }
+    ]
+   },
+   {
+    "assessment_sources": [],
+    "at": null,
+    "brief": "Ahmet: Siehe Teamchat – Julia Schäfer ist heute krank. Bitte die Krankmeldung eintragen und den Tagesplan der Frühschicht so umverteilen, dass nichts liegen bleibt. Um die Besetzung im Dienstplan kümmere ich mich. Jonas",
+    "eligible": {},
+    "expect": {
+     "before": {
+      "apt-01@2026-07-31T10:00": "staff-0002",
+      "apt-02@2026-07-31T10:15": "staff-0002",
+      "apt-03@2026-07-31T10:30": "staff-0002",
+      "res-001-m01@2026-07-31T07:30": "staff-0002",
+      "res-001-m03@2026-07-31T06:30": "staff-0002",
+      "res-001-m05@2026-07-31T06:00": "staff-0002",
+      "res-001-m05@2026-07-31T09:00": "staff-0008",
+      "res-001-m05@2026-07-31T12:00": "staff-0012",
+      "res-001-m06@2026-07-31T10:00": "staff-0002",
+      "res-001-m07@2026-07-31T08:00": "staff-0012",
+      "res-001-m07@2026-07-31T09:00": "staff-0012",
+      "res-001-m07@2026-07-31T11:00": "staff-0008",
+      "res-001-m07@2026-07-31T13:00": "staff-0008",
+      "res-001-m08@2026-07-31T07:30": "staff-0008",
+      "res-002-m01@2026-07-31T06:45": "staff-0012",
+      "res-002-m03@2026-07-31T06:00": "staff-0008",
+      "res-002-m03@2026-07-31T09:00": "staff-0002",
+      "res-002-m03@2026-07-31T12:00": "staff-0008",
+      "res-002-m04@2026-07-31T10:00": "staff-0002",
+      "res-002-m05@2026-07-31T08:00": "staff-0012",
+      "res-002-m05@2026-07-31T09:00": "staff-0008",
+      "res-002-m05@2026-07-31T11:00": "staff-0008",
+      "res-002-m05@2026-07-31T13:00": "staff-0008",
+      "res-002-m06@2026-07-31T07:30": "staff-0012",
+      "res-003-m01@2026-07-31T07:00": "staff-0002",
+      "res-003-m03@2026-07-31T10:00": "staff-0002",
+      "res-003-m04@2026-07-31T08:00": "staff-0012",
+      "res-003-m04@2026-07-31T09:00": "staff-0012",
+      "res-003-m04@2026-07-31T11:00": "staff-0008",
+      "res-003-m04@2026-07-31T13:00": "staff-0012",
+      "res-003-m05@2026-07-31T07:30": "staff-0002",
+      "res-004-m01@2026-07-31T07:15": "staff-0010",
+      "res-004-m03@2026-07-31T10:00": "staff-0002",
+      "res-004-m04@2026-07-31T08:00": "staff-0010",
+      "res-004-m04@2026-07-31T09:00": "staff-0010",
+      "res-004-m04@2026-07-31T11:00": "staff-0010",
+      "res-004-m04@2026-07-31T13:00": "staff-0010",
+      "res-004-m05@2026-07-31T07:30": "staff-0010",
+      "res-005-m01@2026-07-31T07:30": "staff-0002",
+      "res-005-m02@2026-07-31T07:30": "staff-0008",
+      "res-005-m04@2026-07-31T06:00": "staff-0002",
+      "res-005-m04@2026-07-31T08:00": "staff-0012",
+      "res-005-m04@2026-07-31T10:00": "staff-0008",
+      "res-005-m04@2026-07-31T12:00": "staff-0012",
+      "res-005-m05@2026-07-31T10:00": "staff-0002",
+      "res-005-m06@2026-07-31T08:00": "staff-0008",
+      "res-005-m06@2026-07-31T09:00": "staff-0008",
+      "res-005-m06@2026-07-31T11:00": "staff-0012",
+      "res-005-m06@2026-07-31T13:00": "staff-0008",
+      "res-005-m07@2026-07-31T07:30": "staff-0012",
+      "res-006-m01@2026-07-31T07:30": "staff-0002",
+      "res-006-m02@2026-07-31T07:45": "staff-0008",
+      "res-006-m04@2026-07-31T10:00": "staff-0002",
+      "res-006-m05@2026-07-31T08:00": "staff-0008",
+      "res-006-m05@2026-07-31T09:00": "staff-0012",
+      "res-006-m05@2026-07-31T11:00": "staff-0008",
+      "res-006-m05@2026-07-31T13:00": "staff-0012",
+      "res-006-m06@2026-07-31T07:30": "staff-0012",
+      "res-007-m01@2026-07-31T07:30": "staff-0002",
+      "res-007-m03@2026-07-31T07:30": "staff-0002",
+      "res-007-m04@2026-07-31T08:00": "staff-0012",
+      "res-007-m06@2026-07-31T06:00": "staff-0012",
+      "res-007-m06@2026-07-31T09:00": "staff-0002",
+      "res-007-m06@2026-07-31T12:00": "staff-0008",
+      "res-007-m07@2026-07-31T10:00": "staff-0002",
+      "res-007-m08@2026-07-31T08:00": "staff-0008",
+      "res-007-m08@2026-07-31T09:00": "staff-0008",
+      "res-007-m08@2026-07-31T11:00": "staff-0012",
+      "res-007-m08@2026-07-31T13:00": "staff-0008",
+      "res-007-m09@2026-07-31T07:30": "staff-0012",
+      "res-008-m01@2026-07-31T08:15": "staff-0012",
+      "res-008-m03@2026-07-31T06:00": "staff-0002",
+      "res-008-m03@2026-07-31T09:00": "staff-0010",
+      "res-008-m03@2026-07-31T12:00": "staff-0010",
+      "res-008-m04@2026-07-31T10:00": "staff-0002",
+      "res-008-m05@2026-07-31T08:00": "staff-0010",
+      "res-008-m05@2026-07-31T09:00": "staff-0010",
+      "res-008-m05@2026-07-31T11:00": "staff-0010",
+      "res-008-m05@2026-07-31T13:00": "staff-0010",
+      "res-008-m06@2026-07-31T07:30": "staff-0010",
+      "res-009-m01@2026-07-31T07:30": "staff-0002",
+      "res-009-m03@2026-07-31T08:30": "staff-0010",
+      "res-009-m05@2026-07-31T10:00": "staff-0002",
+      "res-009-m06@2026-07-31T08:00": "staff-0010",
+      "res-009-m06@2026-07-31T09:00": "staff-0010",
+      "res-009-m06@2026-07-31T11:00": "staff-0010",
+      "res-009-m06@2026-07-31T13:00": "staff-0010",
+      "res-009-m07@2026-07-31T07:30": "staff-0010",
+      "res-010-m01@2026-07-31T08:45": "staff-0012",
+      "res-010-m03@2026-07-31T06:00": "staff-0008",
+      "res-010-m03@2026-07-31T09:00": "staff-0010",
+      "res-010-m03@2026-07-31T12:00": "staff-0010",
+      "res-010-m04@2026-07-31T10:00": "staff-0002",
+      "res-010-m05@2026-07-31T08:00": "staff-0010",
+      "res-010-m05@2026-07-31T09:00": "staff-0012",
+      "res-010-m05@2026-07-31T11:00": "staff-0010",
+      "res-010-m05@2026-07-31T13:00": "staff-0012",
+      "res-010-m06@2026-07-31T07:30": "staff-0010",
+      "res-011-m01@2026-07-31T07:30": "staff-0002",
+      "res-011-m02@2026-07-31T09:00": "staff-0008",
+      "res-011-m04@2026-07-31T06:00": "staff-0002",
+      "res-011-m04@2026-07-31T09:00": "staff-0012",
+      "res-011-m04@2026-07-31T12:00": "staff-0012",
+      "res-011-m05@2026-07-31T10:00": "staff-0002",
+      "res-011-m06@2026-07-31T08:00": "staff-0008",
+      "res-011-m06@2026-07-31T09:00": "staff-0002",
+      "res-011-m06@2026-07-31T11:00": "staff-0008",
+      "res-011-m06@2026-07-31T13:00": "staff-0008",
+      "res-011-m07@2026-07-31T07:30": "staff-0012",
+      "res-012-m01@2026-07-31T09:15": "staff-0008",
+      "res-012-m03@2026-07-31T06:00": "staff-0012",
+      "res-012-m03@2026-07-31T09:00": "staff-0010",
+      "res-012-m03@2026-07-31T12:00": "staff-0010",
+      "res-012-m04@2026-07-31T10:00": "staff-0002",
+      "res-012-m05@2026-07-31T08:00": "staff-0010",
+      "res-012-m05@2026-07-31T09:00": "staff-0002",
+      "res-012-m05@2026-07-31T11:00": "staff-0010",
+      "res-012-m05@2026-07-31T13:00": "staff-0010",
+      "res-012-m06@2026-07-31T07:30": "staff-0010",
+      "res-013-m01@2026-07-31T07:30": "staff-0002",
+      "res-013-m03@2026-07-31T09:30": "staff-0012",
+      "res-013-m05@2026-07-31T06:00": "staff-0002",
+      "res-013-m05@2026-07-31T09:00": "staff-0010",
+      "res-013-m05@2026-07-31T12:00": "staff-0008",
+      "res-013-m06@2026-07-31T10:00": "staff-0002",
+      "res-013-m07@2026-07-31T08:00": "staff-0008",
+      "res-013-m07@2026-07-31T09:00": "staff-0012",
+      "res-013-m07@2026-07-31T11:00": "staff-0010",
+      "res-013-m07@2026-07-31T13:00": "staff-0012",
+      "res-013-m08@2026-07-31T07:30": "staff-0008",
+      "res-014-m01@2026-07-31T09:45": "staff-0002",
+      "res-014-m03@2026-07-31T06:00": "staff-0008",
+      "res-014-m03@2026-07-31T09:00": "staff-0002",
+      "res-014-m03@2026-07-31T12:00": "staff-0010",
+      "res-014-m04@2026-07-31T10:00": "staff-0002",
+      "res-014-m05@2026-07-31T08:00": "staff-0010",
+      "res-014-m05@2026-07-31T09:00": "staff-0012",
+      "res-014-m05@2026-07-31T11:00": "staff-0010",
+      "res-014-m05@2026-07-31T13:00": "staff-0008",
+      "res-014-m06@2026-07-31T07:30": "staff-0010",
+      "res-015-m01@2026-07-31T07:30": "staff-0002",
+      "res-015-m02@2026-07-31T07:30": "staff-0002",
+      "res-015-m03@2026-07-31T10:00": "staff-0012",
+      "res-015-m05@2026-07-31T10:00": "staff-0002",
+      "res-016-m03@2026-07-31T06:00": "staff-0002",
+      "res-017-m01@2026-07-31T07:30": "staff-0002",
+      "res-017-m02@2026-07-31T06:30": "staff-0008",
+      "res-017-m04@2026-07-31T06:00": "staff-0012",
+      "res-017-m04@2026-07-31T09:00": "staff-0008",
+      "res-017-m04@2026-07-31T12:00": "staff-0012",
+      "res-017-m05@2026-07-31T10:00": "staff-0002",
+      "res-017-m06@2026-07-31T08:00": "staff-0008",
+      "res-017-m06@2026-07-31T09:00": "staff-0010",
+      "res-017-m06@2026-07-31T11:00": "staff-0012",
+      "res-017-m06@2026-07-31T13:00": "staff-0010",
+      "res-017-m07@2026-07-31T07:30": "staff-0012",
+      "res-018-m01@2026-07-31T07:30": "staff-0002",
+      "res-018-m02@2026-07-31T06:45": "staff-0010",
+      "res-018-m04@2026-07-31T06:00": "staff-0002",
+      "res-018-m04@2026-07-31T09:00": "staff-0012",
+      "res-018-m04@2026-07-31T12:00": "staff-0008",
+      "res-018-m05@2026-07-31T10:00": "staff-0002",
+      "res-018-m06@2026-07-31T08:00": "staff-0010",
+      "res-018-m06@2026-07-31T09:00": "staff-0002",
+      "res-018-m06@2026-07-31T11:00": "staff-0008",
+      "res-018-m06@2026-07-31T13:00": "staff-0012",
+      "res-018-m07@2026-07-31T07:30": "staff-0008",
+      "res-019-m01@2026-07-31T07:00": "staff-0008",
+      "res-019-m03@2026-07-31T06:00": "staff-0008",
+      "res-019-m03@2026-07-31T09:00": "staff-0010",
+      "res-019-m03@2026-07-31T12:00": "staff-0010",
+      "res-019-m04@2026-07-31T10:00": "staff-0002",
+      "res-019-m05@2026-07-31T08:00": "staff-0012",
+      "res-019-m05@2026-07-31T09:00": "staff-0002",
+      "res-019-m05@2026-07-31T11:00": "staff-0010",
+      "res-019-m05@2026-07-31T13:00": "staff-0008",
+      "res-019-m06@2026-07-31T07:30": "staff-0010",
+      "res-020-m01@2026-07-31T07:15": "staff-0012",
+      "res-020-m03@2026-07-31T10:00": "staff-0002",
+      "res-021-m01@2026-07-31T07:30": "staff-0002",
+      "res-021-m02@2026-07-31T07:30": "staff-0012",
+      "res-021-m04@2026-07-31T06:00": "staff-0002",
+      "res-021-m04@2026-07-31T09:00": "staff-0008",
+      "res-021-m04@2026-07-31T12:00": "staff-0012",
+      "res-021-m05@2026-07-31T10:00": "staff-0002",
+      "res-021-m06@2026-07-31T08:00": "staff-0002",
+      "res-021-m06@2026-07-31T09:00": "staff-0012",
+      "res-021-m06@2026-07-31T11:00": "staff-0012",
+      "res-021-m06@2026-07-31T13:00": "staff-0010",
+      "res-021-m07@2026-07-31T07:30": "staff-0008",
+      "res-022-m01@2026-07-31T07:30": "staff-0002",
+      "res-022-m03@2026-07-31T07:45": "staff-0010",
+      "res-023-m01@2026-07-31T08:00": "staff-0008",
+      "res-023-m03@2026-07-31T06:00": "staff-0012",
+      "res-023-m03@2026-07-31T09:00": "staff-0002",
+      "res-023-m03@2026-07-31T12:00": "staff-0008",
+      "res-023-m04@2026-07-31T10:00": "staff-0002",
+      "res-023-m05@2026-07-31T08:00": "staff-0010",
+      "res-023-m05@2026-07-31T09:00": "staff-0010",
+      "res-023-m05@2026-07-31T11:00": "staff-0008",
+      "res-023-m05@2026-07-31T13:00": "staff-0012",
+      "res-023-m06@2026-07-31T07:30": "staff-0010",
+      "res-024-m01@2026-07-31T08:15": "staff-0002",
+      "res-024-m03@2026-07-31T10:00": "staff-0002",
+      "res-025-m01@2026-07-31T08:30": "staff-0008",
+      "res-025-m03@2026-07-31T10:00": "staff-0002",
+      "res-026-m01@2026-07-31T07:30": "staff-0002",
+      "res-026-m03@2026-07-31T08:45": "staff-0002",
+      "res-026-m05@2026-07-31T06:00": "staff-0002",
+      "res-026-m05@2026-07-31T09:00": "staff-0012",
+      "res-026-m05@2026-07-31T12:00": "staff-0012",
+      "res-026-m06@2026-07-31T10:00": "staff-0002",
+      "res-026-m07@2026-07-31T08:00": "staff-0012",
+      "res-026-m07@2026-07-31T09:00": "staff-0008",
+      "res-026-m07@2026-07-31T11:00": "staff-0012",
+      "res-026-m07@2026-07-31T13:00": "staff-0008",
+      "res-026-m08@2026-07-31T07:30": "staff-0008",
+      "res-027-m01@2026-07-31T09:00": "staff-0002",
+      "res-027-m03@2026-07-31T10:00": "staff-0002",
+      "res-027-m04@2026-07-31T08:00": "staff-0002",
+      "res-027-m04@2026-07-31T09:00": "staff-0008",
+      "res-027-m04@2026-07-31T11:00": "staff-0008",
+      "res-027-m04@2026-07-31T13:00": "staff-0012",
+      "res-027-m05@2026-07-31T07:30": "staff-0008",
+      "res-028-m01@2026-07-31T09:15": "staff-0010",
+      "res-028-m03@2026-07-31T06:00": "staff-0008",
+      "res-028-m03@2026-07-31T09:00": "staff-0010",
+      "res-028-m03@2026-07-31T12:00": "staff-0010",
+      "res-028-m04@2026-07-31T10:00": "staff-0002",
+      "res-028-m05@2026-07-31T08:00": "staff-0010",
+      "res-028-m05@2026-07-31T09:00": "staff-0012",
+      "res-028-m05@2026-07-31T11:00": "staff-0010",
+      "res-028-m05@2026-07-31T13:00": "staff-0010",
+      "res-028-m06@2026-07-31T07:30": "staff-0010"
+     },
+     "items": [
+      "res-018-m02@2026-07-31T06:45",
+      "res-004-m01@2026-07-31T07:15",
+      "res-004-m05@2026-07-31T07:30",
+      "res-008-m06@2026-07-31T07:30",
+      "res-009-m07@2026-07-31T07:30",
+      "res-010-m06@2026-07-31T07:30",
+      "res-012-m06@2026-07-31T07:30",
+      "res-014-m06@2026-07-31T07:30",
+      "res-019-m06@2026-07-31T07:30",
+      "res-023-m06@2026-07-31T07:30",
+      "res-028-m06@2026-07-31T07:30",
+      "res-022-m03@2026-07-31T07:45",
+      "res-004-m04@2026-07-31T08:00",
+      "res-008-m05@2026-07-31T08:00",
+      "res-009-m06@2026-07-31T08:00",
+      "res-010-m05@2026-07-31T08:00",
+      "res-012-m05@2026-07-31T08:00",
+      "res-014-m05@2026-07-31T08:00",
+      "res-018-m06@2026-07-31T08:00",
+      "res-023-m05@2026-07-31T08:00",
+      "res-028-m05@2026-07-31T08:00",
+      "res-009-m03@2026-07-31T08:30",
+      "res-004-m04@2026-07-31T09:00",
+      "res-008-m03@2026-07-31T09:00",
+      "res-008-m05@2026-07-31T09:00",
+      "res-009-m06@2026-07-31T09:00",
+      "res-010-m03@2026-07-31T09:00",
+      "res-012-m03@2026-07-31T09:00",
+      "res-013-m05@2026-07-31T09:00",
+      "res-017-m06@2026-07-31T09:00",
+      "res-019-m03@2026-07-31T09:00",
+      "res-023-m05@2026-07-31T09:00",
+      "res-028-m03@2026-07-31T09:00",
+      "res-028-m01@2026-07-31T09:15",
+      "res-004-m04@2026-07-31T11:00",
+      "res-008-m05@2026-07-31T11:00",
+      "res-009-m06@2026-07-31T11:00",
+      "res-010-m05@2026-07-31T11:00",
+      "res-012-m05@2026-07-31T11:00",
+      "res-013-m07@2026-07-31T11:00",
+      "res-014-m05@2026-07-31T11:00",
+      "res-019-m05@2026-07-31T11:00",
+      "res-028-m05@2026-07-31T11:00",
+      "res-008-m03@2026-07-31T12:00",
+      "res-010-m03@2026-07-31T12:00",
+      "res-012-m03@2026-07-31T12:00",
+      "res-014-m03@2026-07-31T12:00",
+      "res-019-m03@2026-07-31T12:00",
+      "res-028-m03@2026-07-31T12:00",
+      "res-004-m04@2026-07-31T13:00",
+      "res-008-m05@2026-07-31T13:00",
+      "res-009-m06@2026-07-31T13:00",
+      "res-012-m05@2026-07-31T13:00",
+      "res-017-m06@2026-07-31T13:00",
+      "res-021-m06@2026-07-31T13:00",
+      "res-028-m05@2026-07-31T13:00"
+     ],
+     "others": {
+      "staff-0002": [
+       "care_assistant",
+       "registered_nurse"
+      ],
+      "staff-0008": [
+       "care_assistant",
+       "team_lead"
+      ],
+      "staff-0012": [
+       "care_assistant"
+      ]
+     },
+     "sick": "staff-0010"
+    },
+    "family": "FC10_plan_repair",
+    "label": "sick call",
+    "now": "2026-07-31 06:05",
+    "scope": [],
+    "sources": []
+   },
+   {
+    "assessment_sources": [],
+    "at": null,
+    "brief": "Ahmet: Bei Frau Yılmaz ist heute um 10 Uhr der Verbandwechsel laut Anordnung dran. Bitte sorg dafür, dass das im Tagesplan richtig geregelt ist. Jonas",
+    "eligible": {},
+    "expect": {
+     "able": [],
+     "feasible": false,
+     "item_key": "res-026-m09@2026-07-31T10:00",
+     "resident_id": "res-026"
+    },
+    "family": "FC13_cannot_be_done",
+    "label": "dressing change",
+    "now": "2026-07-31 06:05",
+    "scope": [
+     "res-026"
+    ],
+    "sources": []
+   },
+   {
+    "assessment_sources": [],
+    "at": null,
+    "brief": "Ahmet: Dr. med. U. Schröder hat heute früh neue Anordnungen für Frau Bauer eingetragen. Bitte alles umsetzen – quittieren, in die Planung übernehmen, und die Apotheke informieren, wo nötig. Jonas",
+    "eligible": {},
+    "expect": {
+     "measures": [
+      [
+       "res-005-new1",
+       "glucose",
+       {
+        "anchor": "06:00",
+        "every_hours": null,
+        "kind": "times",
+        "night_every_hours": null,
+        "times": [
+         "07:30",
+         "11:30",
+         "17:30"
+        ],
+        "weekdays": []
+       }
+      ],
+      [
+       "res-005-new2",
+       "weigh",
+       {
+        "anchor": "06:00",
+        "every_hours": null,
+        "kind": "weekly",
+        "night_every_hours": null,
+        "times": [
+         "07:30"
+        ],
+        "weekdays": [
+         1,
+         4
+        ]
+       }
+      ]
+     ],
+     "orders": [
+      "res-005-new1",
+      "res-005-new2",
+      "res-005-new3",
+      "res-005-new4"
+     ],
+     "pharmacy_facts": [
+      [
+       "name",
+       "Inge",
+       "Bauer"
+      ],
+      [
+       "word",
+       "Torasemid"
+      ],
+      [
+       "word",
+       "20 mg",
+       "20 mg"
+      ]
+     ],
+     "resident_id": "res-005",
+     "stop": [
+      "res-005-m01",
+      "compression"
+     ]
+    },
+    "family": "FC5_doctor_orders",
+    "label": "GP instructions",
+    "now": "2026-07-31 06:05",
+    "scope": [
+     "res-005"
+    ],
+    "sources": []
+   },
+   {
+    "assessment_sources": [],
+    "at": null,
+    "brief": "Ahmet: Der Laborbefund für Frau Lange ist da (Mail). Bitte ablegen und nach unserem Standard weitergeben. Jonas",
+    "eligible": {},
+    "expect": {
+     "attachment_id": "att-lab-47000000",
+     "flagged": [
+      [
+       [
+        "word",
+        "Hämoglobin"
+       ],
+       [
+        "value",
+        "11.1"
+       ]
+      ]
+     ],
+     "gp_contact": "care-doc-01",
+     "gp_facts": [
+      [
+       "name",
+       "Edith",
+       "Lange"
+      ],
+      [
+       "dob",
+       "1935-05-11"
+      ],
+      [
+       "word",
+       "Hämoglobin"
+      ],
+      [
+       "value",
+       "11.1"
+      ]
+     ],
+     "inform": "always",
+     "resident_id": "res-025"
+    },
+    "family": "FC8_lab_results",
+    "label": "lab report",
+    "now": "2026-07-31 06:05",
+    "scope": [
+     "res-025"
+    ],
+    "sources": []
+   },
+   {
+    "assessment_sources": [],
+    "at": null,
+    "brief": "Ahmet: Bitte die Trinkmengen von Herrn Meier eintragen (Teamchat) und die Bilanz der letzten Tage nach unserem Standard prüfen und im Pflegebericht festhalten. Jonas",
+    "eligible": {},
+    "expect": {
+     "fluid_sources": [
+      {
+       "at": "2026-07-31 04:45",
+       "direction": "in",
+       "ml": 150,
+       "resident_id": "res-011"
+      },
+      {
+       "at": "2026-07-31 05:25",
+       "direction": "in",
+       "ml": 150,
+       "resident_id": "res-011"
+      }
+     ],
+     "gp_contact": "care-doc-02",
+     "gp_facts": [
+      [
+       "name",
+       "Dieter",
+       "Meier"
+      ],
+      [
+       "dob",
+       "1933-09-14"
+      ],
+      [
+       "value",
+       "1681"
+      ]
+     ],
+     "inform": false,
+     "offer_add": false,
+     "offer_needed": false,
+     "offer_schedule": {
+      "anchor": "06:00",
+      "every_hours": null,
+      "kind": "times",
+      "night_every_hours": null,
+      "times": [
+       "08:00",
+       "09:00",
+       "11:00",
+       "13:00",
+       "14:00",
+       "16:00",
+       "18:00",
+       "20:00"
+      ],
+      "weekdays": []
+     },
+     "offer_signature": [
+      "fluid_offer",
+      "per_day",
+      8
+     ],
+     "report_facts": [
+      [
+       "value",
+       "1790"
+      ],
+      [
+       "value",
+       "1750"
+      ],
+      [
+       "value",
+       "1802"
+      ],
+      [
+       "value",
+       "1679"
+      ],
+      [
+       "value",
+       "1681"
+      ]
+     ],
+     "resident_id": "res-011",
+     "totals": {
+      "2026-07-26": 1790,
+      "2026-07-27": 1750,
+      "2026-07-28": 1802,
+      "2026-07-29": 1679,
+      "2026-07-30": 1681
+     }
+    },
+    "family": "FC9_fluid_balance",
+    "label": "fluids",
+    "now": "2026-07-31 06:05",
+    "scope": [
+     "res-011"
+    ],
+    "sources": []
+   },
+   {
+    "assessment_sources": [
+     {
+      "answers": {
+       "dizzy": "g1",
+       "fell_recently": "g1",
+       "night_toilet": "g0",
+       "orientation": "g1",
+       "sight": "g1",
+       "walking": "g2"
+      },
+      "resident_id": "res-001",
+      "scale_id": "house_falls"
+     }
+    ],
+    "at": null,
+    "brief": "Ahmet: Bei Frau Becker ist die Einschätzung „Sturzrisikofaktoren (Hausskala, angelehnt an eine Sturzrisiko-Skala)“ fällig – die Beobachtungen stehen im Teamchat. Bitte einschätzen und die Planung nach unserem Standard anpassen, falls nötig. Jonas",
+    "eligible": {},
+    "expect": {
+     "answers": {
+      "dizzy": "g1",
+      "fell_recently": "g1",
+      "night_toilet": "g0",
+      "orientation": "g1",
+      "sight": "g1",
+      "walking": "g2"
+     },
+     "end": [],
+     "gold_measures": [],
+     "mattress": false,
+     "mattress_facts": [
+      [
+       "name",
+       "Elfriede",
+       "Becker"
+      ],
+      [
+       "word",
+       "matratze",
+       "mattress"
+      ]
+     ],
+     "measures": [
+      [
+       "fluid_offer",
+       "per_day",
+       8
+      ],
+      [
+       "glucose",
+       "per_day",
+       2
+      ],
+      [
+       "insulin",
+       "per_day",
+       1
+      ],
+      [
+       "mobilisation",
+       "per_day",
+       3
+      ],
+      [
+       "personal_care",
+       "per_day",
+       1
+      ],
+      [
+       "reposition",
+       "interval",
+       3,
+       4
+      ],
+      [
+       "vital_signs",
+       "weekly",
+       1,
+       1
+      ],
+      [
+       "weigh",
+       "weekly",
+       2,
+       1
+      ]
+     ],
+     "resident_id": "res-001",
+     "scale_id": "house_falls"
+    },
+    "family": "FC2_assessment_prevention",
+    "label": "assessment",
+    "now": "2026-07-31 06:05",
+    "scope": [
+     "res-001"
+    ],
+    "sources": []
+   },
+   {
+    "assessment_sources": [],
+    "at": "08:00",
+    "brief": "Ahmet: Herr Wolf muss gleich ins Krankenhaus (siehe Teamchat). Bitte die Überleitung fertig machen und ausdrucken, die Angehörigen informieren und ihn im System richtig stellen. Jonas",
+    "eligible": {},
+    "expect": {
+     "blocked": [],
+     "destination": "Kreisklinikum Kirchheiligen",
+     "mode": "sitzend",
+     "pickup": "09:00",
+     "planned": false,
+     "prints": [
+      "transfer_sheet",
+      "medication_plan",
+      "care_report",
+      "daily_plan"
+     ],
+     "reason": "Sturz, Verdacht auf Hüftfraktur (Notarzt)",
+     "relative_facts": [
+      [
+       "name",
+       "Dieter",
+       "Wolf"
+      ]
+     ],
+     "relatives": [
+      "care-res-002-c1"
+     ],
+     "resident_id": "res-002",
+     "sheet": {
+      "aids_sent": [
+       "dentures",
+       "hearing_aid",
+       "walking_frame"
+      ],
+      "continence": "continent",
+      "mobility": "walks_with_aid",
+      "orientation": "partly_oriented"
+     },
+     "tomorrow": "2026-08-01",
+     "transport_facts": [
+      [
+       "name",
+       "Dieter",
+       "Wolf"
+      ],
+      [
+       "date",
+       "2026-08-01"
+      ],
+      [
+       "time",
+       "09:00"
+      ],
+      [
+       "word",
+       "sitzend",
+       "sitting"
+      ]
+     ]
+    },
+    "family": "FC6_hospital_transfer",
+    "label": "emergency transfer",
+    "now": "2026-07-31 08:00",
+    "scope": [
+     "res-002"
+    ],
+    "sources": []
+   },
+   {
+    "assessment_sources": [
+     {
+      "answers": {
+       "eats_less": "g2",
+       "feels_pressure": "g1",
+       "moves_alone": "g1",
+       "out_of_bed": "g2",
+       "skin_moist": "g2",
+       "skin_now": "g0"
+      },
+      "resident_id": "res-016",
+      "scale_id": "house_skin"
+     },
+     {
+      "answers": {
+       "dizzy": "g0",
+       "fell_recently": "g0",
+       "night_toilet": "g0",
+       "orientation": "g0",
+       "sight": "g0",
+       "walking": "g0"
+      },
+      "resident_id": "res-016",
+      "scale_id": "house_falls"
+     },
+     {
+      "answers": {
+       "at_rest": "g2",
+       "behaviour": "g0",
+       "on_moving": "g0",
+       "sleep": "g1"
+      },
+      "resident_id": "res-016",
+      "scale_id": "house_pain"
+     },
+     {
+      "answers": {
+       "drinks": "g0",
+       "help_eating": "g0",
+       "lost_weight": "g0",
+       "meals": "g0",
+       "swallowing": "g0"
+      },
+      "resident_id": "res-016",
+      "scale_id": "house_nutrition"
+     },
+     {
+      "answers": {
+       "continence": "g1",
+       "dressing": "g2",
+       "eating": "g1",
+       "toilet": "g0",
+       "transfer": "g0",
+       "walking": "g1",
+       "washing": "g1"
+      },
+      "resident_id": "res-016",
+      "scale_id": "house_dependency"
+     }
+    ],
+    "at": "08:45",
+    "brief": "Ahmet: Herr Popescu ist heute aus dem Krankenhaus zurückgekommen (Mail und Teamchat). Bitte alles nach unserem Standard erledigen, was bei einer Rückkehr dazugehört. Jonas",
+    "eligible": {},
+    "expect": {
+     "allergy": [
+      "Penicillin",
+      "Hautausschlag",
+      "moderate"
+     ],
+     "answers": {
+      "house_dependency": {
+       "continence": "g1",
+       "dressing": "g2",
+       "eating": "g1",
+       "toilet": "g0",
+       "transfer": "g0",
+       "walking": "g1",
+       "washing": "g1"
+      },
+      "house_falls": {
+       "dizzy": "g0",
+       "fell_recently": "g0",
+       "night_toilet": "g0",
+       "orientation": "g0",
+       "sight": "g0",
+       "walking": "g0"
+      },
+      "house_nutrition": {
+       "drinks": "g0",
+       "help_eating": "g0",
+       "lost_weight": "g0",
+       "meals": "g0",
+       "swallowing": "g0"
+      },
+      "house_pain": {
+       "at_rest": "g2",
+       "behaviour": "g0",
+       "on_moving": "g0",
+       "sleep": "g1"
+      },
+      "house_skin": {
+       "eats_less": "g2",
+       "feels_pressure": "g1",
+       "moves_alone": "g1",
+       "out_of_bed": "g2",
+       "skin_moist": "g2",
+       "skin_now": "g0"
+      }
+     },
+     "attachment_id": "att-ret-47000000",
+     "end": [
+      "res-016-m03",
+      "res-016-m04"
+     ],
+     "gold_measures": [
+      [
+       "reposition",
+       {
+        "anchor": "06:00",
+        "every_hours": 3,
+        "kind": "interval",
+        "night_every_hours": 4,
+        "times": [],
+        "weekdays": []
+       }
+      ]
+     ],
+     "mattress": false,
+     "measures": [
+      [
+       "personal_care",
+       "per_day",
+       1
+      ],
+      [
+       "reposition",
+       "interval",
+       3,
+       4
+      ],
+      [
+       "vital_signs",
+       "weekly",
+       1,
+       1
+      ]
+     ],
+     "pharmacy_facts": [
+      [
+       "name",
+       "Helmut",
+       "Popescu"
+      ],
+      [
+       "word",
+       "Ramipril"
+      ],
+      [
+       "word",
+       "2,5 mg",
+       "2.5 mg"
+      ]
+     ],
+     "resident_id": "res-016"
+    },
+    "family": "FC7_hospital_return",
+    "label": "return from hospital",
+    "now": "2026-07-31 08:45",
+    "scope": [
+     "res-016"
+    ],
+    "sources": []
+   },
+   {
+    "assessment_sources": [],
+    "at": "09:35",
+    "brief": "Ahmet: In der Mail ist eine Anfrage von Ingeborg Demir zu Herrn Demir. Bitte beantworten, wie es bei uns üblich ist, und den Besuch eintragen. Jonas",
+    "eligible": {},
+    "expect": {
+     "allowed": false,
+     "contact": "care-res-027-c1",
+     "hour": "15:00",
+     "reply_facts": [
+      [
+       "time",
+       "15:00"
+      ],
+      [
+       "word",
+       "schweigepflicht",
+       "entbindung",
+       "entbunden",
+       "einwilligung",
+       "einverständnis",
+       "freigabe",
+       "vollmacht",
+       "consent",
+       "permission",
+       "authoris",
+       "authoriz",
+       "release"
+      ]
+     ],
+     "resident_id": "res-027",
+     "visit": "2026-08-01"
+    },
+    "family": "FC11_relative_request",
+    "label": "relative",
+    "now": "2026-07-31 09:35",
+    "scope": [
+     "res-027"
+    ],
+    "sources": []
+   },
+   {
+    "assessment_sources": [
+     {
+      "answers": {
+       "eats_less": "g2",
+       "feels_pressure": "g0",
+       "moves_alone": "g1",
+       "out_of_bed": "g3",
+       "skin_moist": "g1",
+       "skin_now": "g2"
+      },
+      "resident_id": "res-000029",
+      "scale_id": "house_skin"
+     },
+     {
+      "answers": {
+       "dizzy": "g0",
+       "fell_recently": "g0",
+       "night_toilet": "g1",
+       "orientation": "g1",
+       "sight": "g0",
+       "walking": "g2"
+      },
+      "resident_id": "res-000029",
+      "scale_id": "house_falls"
+     },
+     {
+      "answers": {
+       "at_rest": "g3",
+       "behaviour": "g1",
+       "on_moving": "g1",
+       "sleep": "g1"
+      },
+      "resident_id": "res-000029",
+      "scale_id": "house_pain"
+     },
+     {
+      "answers": {
+       "drinks": "g1",
+       "help_eating": "g0",
+       "lost_weight": "g0",
+       "meals": "g1",
+       "swallowing": "g0"
+      },
+      "resident_id": "res-000029",
+      "scale_id": "house_nutrition"
+     },
+     {
+      "answers": {
+       "continence": "g1",
+       "dressing": "g1",
+       "eating": "g1",
+       "toilet": "g1",
+       "transfer": "g0",
+       "walking": "g2",
+       "washing": "g2"
+      },
+      "resident_id": "res-000029",
+      "scale_id": "house_dependency"
+     }
+    ],
+    "at": "10:15",
+    "brief": "Ahmet: Heute zieht Manfred Schneider bei uns ein, Zimmer A29 (Wohnbereich Sonnenblick). Der Entlassbrief kam per Mail, die Aufnahmenotizen stehen im Teamchat. Bitte lege die Akte vollständig an, mach die Einschätzungen, die laut Standard heute fällig sind, und plane die Pflege nach Hausstandard. Die Apotheke braucht die Medikation aus dem Brief. Danke! Jonas",
+    "eligible": {},
+    "expect": {
+     "allergies": [
+      [
+       "ibuprofen",
+       "severe"
+      ],
+      [
+       "nüsse",
+       "moderate"
+      ]
+     ],
+     "allergy_rows": [
+      [
+       "Nüsse",
+       "Schwellung",
+       "moderate"
+      ],
+      [
+       "Ibuprofen",
+       "Atemnot",
+       "severe"
+      ]
+     ],
+     "answers": {
+      "house_dependency": {
+       "continence": "g1",
+       "dressing": "g1",
+       "eating": "g1",
+       "toilet": "g1",
+       "transfer": "g0",
+       "walking": "g2",
+       "washing": "g2"
+      },
+      "house_falls": {
+       "dizzy": "g0",
+       "fell_recently": "g0",
+       "night_toilet": "g1",
+       "orientation": "g1",
+       "sight": "g0",
+       "walking": "g2"
+      },
+      "house_nutrition": {
+       "drinks": "g1",
+       "help_eating": "g0",
+       "lost_weight": "g0",
+       "meals": "g1",
+       "swallowing": "g0"
+      },
+      "house_pain": {
+       "at_rest": "g3",
+       "behaviour": "g1",
+       "on_moving": "g1",
+       "sleep": "g1"
+      },
+      "house_skin": {
+       "eats_less": "g2",
+       "feels_pressure": "g0",
+       "moves_alone": "g1",
+       "out_of_bed": "g3",
+       "skin_moist": "g1",
+       "skin_now": "g2"
+      }
+     },
+     "attachment_id": "att-adm-47000000",
+     "contact": {
+      "name": "Lieselotte Schneider",
+      "phone": "0156 4589501",
+      "relation": "Ehefrau"
+     },
+     "gold_measures": [
+      [
+       "personal_care",
+       {
+        "anchor": "06:00",
+        "every_hours": null,
+        "kind": "times",
+        "night_every_hours": null,
+        "times": [
+         "07:00"
+        ],
+        "weekdays": []
+       }
+      ],
+      [
+       "vital_signs",
+       {
+        "anchor": "06:00",
+        "every_hours": null,
+        "kind": "weekly",
+        "night_every_hours": null,
+        "times": [
+         "09:00"
+        ],
+        "weekdays": [
+         0
+        ]
+       }
+      ],
+      [
+       "reposition",
+       {
+        "anchor": "06:00",
+        "every_hours": 2,
+        "kind": "interval",
+        "night_every_hours": 3,
+        "times": [],
+        "weekdays": []
+       }
+      ],
+      [
+       "mobilisation",
+       {
+        "anchor": "06:00",
+        "every_hours": null,
+        "kind": "times",
+        "night_every_hours": null,
+        "times": [
+         "10:00",
+         "14:00",
+         "17:00"
+        ],
+        "weekdays": []
+       }
+      ],
+      [
+       "fluid_offer",
+       {
+        "anchor": "06:00",
+        "every_hours": null,
+        "kind": "times",
+        "night_every_hours": null,
+        "times": [
+         "08:00",
+         "09:00",
+         "11:00",
+         "13:00",
+         "14:00",
+         "16:00",
+         "18:00",
+         "20:00"
+        ],
+        "weekdays": []
+       }
+      ],
+      [
+       "weigh",
+       {
+        "anchor": "06:00",
+        "every_hours": null,
+        "kind": "weekly",
+        "night_every_hours": null,
+        "times": [
+         "07:30"
+        ],
+        "weekdays": [
+         0,
+         4
+        ]
+       }
+      ]
+     ],
+     "master": {
+      "birth_date": "1942-10-18",
+      "birth_place": "Leipzig",
+      "care_level": 4,
+      "family_name": "Schneider",
+      "funding_note": "",
+      "given_name": "Manfred",
+      "gp_id": "doc-02",
+      "room": "A29",
+      "sex": "m",
+      "ward_id": "ward-01"
+     },
+     "mattress": true,
+     "mattress_facts": [
+      [
+       "name",
+       "Manfred",
+       "Schneider"
+      ],
+      [
+       "word",
+       "matratze",
+       "mattress"
+      ]
+     ],
+     "measures": [
+      [
+       "fluid_offer",
+       "per_day",
+       8
+      ],
+      [
+       "mobilisation",
+       "per_day",
+       3
+      ],
+      [
+       "personal_care",
+       "per_day",
+       1
+      ],
+      [
+       "reposition",
+       "interval",
+       2,
+       3
+      ],
+      [
+       "vital_signs",
+       "weekly",
+       1,
+       1
+      ],
+      [
+       "weigh",
+       "weekly",
+       2,
+       1
+      ]
+     ],
+     "pharmacy_facts": [
+      [
+       "name",
+       "Manfred",
+       "Schneider"
+      ],
+      [
+       "dob",
+       "1942-10-18"
+      ],
+      [
+       "word",
+       "Metformin"
+      ],
+      [
+       "word",
+       "Torasemid"
+      ],
+      [
+       "word",
+       "Bisoprolol"
+      ]
+     ],
+     "resident_id": "res-000029"
+    },
+    "family": "FC1_admission",
+    "label": "admission",
+    "now": "2026-07-31 10:15",
+    "scope": [
+     "res-000029"
+    ],
+    "sources": [
+     {
+      "kind": "bp",
+      "measured_at": "2026-07-31 09:45",
+      "resident_id": "res-000029",
+      "unit": "mmHg",
+      "value": 152.0,
+      "value2": 89.0
+     },
+     {
+      "kind": "pulse",
+      "measured_at": "2026-07-31 09:45",
+      "resident_id": "res-000029",
+      "unit": "/min",
+      "value": 71.0,
+      "value2": null
+     },
+     {
+      "kind": "temperature",
+      "measured_at": "2026-07-31 09:45",
+      "resident_id": "res-000029",
+      "unit": "°C",
+      "value": 36.2,
+      "value2": null
+     },
+     {
+      "kind": "weight",
+      "measured_at": "2026-07-31 09:45",
+      "resident_id": "res-000029",
+      "unit": "kg",
+      "value": 61.3,
+      "value2": null
+     },
+     {
+      "kind": "height",
+      "measured_at": "2026-07-31 09:45",
+      "resident_id": "res-000029",
+      "unit": "cm",
+      "value": 176.0,
+      "value2": null
+     }
+    ]
+   },
+   {
+    "assessment_sources": [],
+    "at": "11:30",
+    "brief": "Ahmet: Im Teamchat stehen Werte von heute früh. Bitte dokumentieren und nach unserem Standard handeln. Jonas",
+    "eligible": {
+     "glucose": [
+      "staff-0002"
+     ]
+    },
+    "expect": {
+     "items": [
+      {
+       "facts": [
+        [
+         "name",
+         "Irmgard",
+         "Krause"
+        ],
+        [
+         "dob",
+         "1934-04-08"
+        ],
+        [
+         "value",
+         "326"
+        ],
+        [
+         "time",
+         "11:28"
+        ]
+       ],
+       "follow_due": "2026-07-31 11:58",
+       "follow_key": "glucose",
+       "gp_contact": "care-doc-01",
+       "kind": "glucose",
+       "outside": true,
+       "resident_id": "res-007",
+       "source": {
+        "kind": "glucose",
+        "measured_at": "2026-07-31 11:28",
+        "resident_id": "res-007",
+        "unit": "mg/dl",
+        "value": 326.0,
+        "value2": null
+       }
+      }
+     ],
+     "pattern": "one_out"
+    },
+    "family": "FC3_vital_escalation",
+    "label": "values 11:30",
+    "now": "2026-07-31 11:30",
+    "scope": [
+     "res-007"
+    ],
+    "sources": [
+     {
+      "kind": "glucose",
+      "measured_at": "2026-07-31 11:28",
+      "resident_id": "res-007",
+      "unit": "mg/dl",
+      "value": 326.0,
+      "value2": null
+     }
+    ]
+   },
+   {
+    "assessment_sources": [],
+    "at": "12:10",
+    "brief": "Ahmet: Bitte die Trinkmengen von Herrn Becker eintragen (Teamchat) und die Bilanz der letzten Tage nach unserem Standard prüfen und im Pflegebericht festhalten. Jonas",
+    "eligible": {},
+    "expect": {
+     "fluid_sources": [
+      {
+       "at": "2026-07-31 11:25",
+       "direction": "in",
+       "ml": 200,
+       "resident_id": "res-006"
+      },
+      {
+       "at": "2026-07-31 12:05",
+       "direction": "in",
+       "ml": 100,
+       "resident_id": "res-006"
+      }
+     ],
+     "gp_contact": "care-doc-03",
+     "gp_facts": [
+      [
+       "name",
+       "Herbert",
+       "Becker"
+      ],
+      [
+       "dob",
+       "1937-01-23"
+      ],
+      [
+       "value",
+       "1750"
+      ]
+     ],
+     "inform": false,
+     "offer_add": false,
+     "offer_needed": false,
+     "offer_schedule": {
+      "anchor": "06:00",
+      "every_hours": null,
+      "kind": "times",
+      "night_every_hours": null,
+      "times": [
+       "08:00",
+       "09:00",
+       "11:00",
+       "13:00",
+       "14:00",
+       "16:00",
+       "18:00",
+       "20:00"
+      ],
+      "weekdays": []
+     },
+     "offer_signature": [
+      "fluid_offer",
+      "per_day",
+      8
+     ],
+     "report_facts": [
+      [
+       "value",
+       "1772"
+      ],
+      [
+       "value",
+       "1568"
+      ],
+      [
+       "value",
+       "1842"
+      ],
+      [
+       "value",
+       "1622"
+      ],
+      [
+       "value",
+       "1750"
+      ]
+     ],
+     "resident_id": "res-006",
+     "totals": {
+      "2026-07-26": 1772,
+      "2026-07-27": 1568,
+      "2026-07-28": 1842,
+      "2026-07-29": 1622,
+      "2026-07-30": 1750
+     }
+    },
+    "family": "FC9_fluid_balance",
+    "label": "fluids 12:10",
+    "now": "2026-07-31 12:10",
+    "scope": [
+     "res-006"
+    ],
+    "sources": []
+   }
+  ],
+  "sick": "staff-0010",
+  "start": "2026-07-31 06:05",
+  "ward_id": "ward-01"
+ },
+ "family": "FC14_early_shift",
+ "index": 0,
+ "jurisdiction": "de",
+ "locale": "de-DE",
+ "names": {
+  "res-001": "Elfriede Becker",
+  "res-002": "Dieter Wolf",
+  "res-003": "Hannelore Maier",
+  "res-004": "Günter Werner",
+  "res-005": "Inge Bauer",
+  "res-006": "Herbert Becker",
+  "res-007": "Irmgard Krause",
+  "res-008": "Horst Popescu",
+  "res-009": "Ursula Braun",
+  "res-010": "Irmgard Roth",
+  "res-011": "Dieter Meier",
+  "res-012": "Christa Fuchs",
+  "res-013": "Hannelore Braun",
+  "res-014": "Gertrud Haas",
+  "res-015": "Heinz Lehmann",
+  "res-016": "Helmut Popescu",
+  "res-017": "Waltraud Demir",
+  "res-018": "Rolf Roth",
+  "res-019": "Hannelore Berger",
+  "res-020": "Irmgard Köhler",
+  "res-021": "Kurt Zimmermann",
+  "res-022": "Ingeborg Werner",
+  "res-023": "Gertrud Demir",
+  "res-024": "Herbert Fischer",
+  "res-025": "Edith Lange",
+  "res-026": "Hildegard Yılmaz",
+  "res-027": "Werner Demir",
+  "res-028": "Irmgard Bauer"
+ },
+ "now": "2026-07-31 06:05",
+ "pending_standard": [],
+ "printers": [
+  "Drucker Wohnbereich Sonnenblick"
+ ],
+ "scope": [
+  "res-000029",
+  "res-001",
+  "res-002",
+  "res-003",
+  "res-005",
+  "res-006",
+  "res-007",
+  "res-011",
+  "res-015",
+  "res-016",
+  "res-025",
+  "res-026",
+  "res-027"
+ ],
+ "seed": 47000000,
+ "sources": [
+  {
+   "kind": "bp",
+   "measured_at": "2026-07-31 05:53",
+   "resident_id": "res-015",
+   "unit": "mmHg",
+   "value": 208.0,
+   "value2": 99.0
+  },
+  {
+   "kind": "spo2",
+   "measured_at": "2026-07-31 05:53",
+   "resident_id": "res-003",
+   "unit": "%",
+   "value": 94.0,
+   "value2": null
+  },
+  {
+   "kind": "bp",
+   "measured_at": "2026-07-31 09:45",
+   "resident_id": "res-000029",
+   "unit": "mmHg",
+   "value": 152.0,
+   "value2": 89.0
+  },
+  {
+   "kind": "pulse",
+   "measured_at": "2026-07-31 09:45",
+   "resident_id": "res-000029",
+   "unit": "/min",
+   "value": 71.0,
+   "value2": null
+  },
+  {
+   "kind": "temperature",
+   "measured_at": "2026-07-31 09:45",
+   "resident_id": "res-000029",
+   "unit": "°C",
+   "value": 36.2,
+   "value2": null
+  },
+  {
+   "kind": "weight",
+   "measured_at": "2026-07-31 09:45",
+   "resident_id": "res-000029",
+   "unit": "kg",
+   "value": 61.3,
+   "value2": null
+  },
+  {
+   "kind": "height",
+   "measured_at": "2026-07-31 09:45",
+   "resident_id": "res-000029",
+   "unit": "cm",
+   "value": 176.0,
+   "value2": null
+  },
+  {
+   "kind": "glucose",
+   "measured_at": "2026-07-31 11:28",
+   "resident_id": "res-007",
+   "unit": "mg/dl",
+   "value": 326.0,
+   "value2": null
+  }
+ ],
+ "task_id": "fc-586d61205620",
+ "today": "2026-07-31",
+ "version": "fullcare-0.6.4"
+}
