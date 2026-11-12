@@ -6,7 +6,7 @@ handover, next to the rota, mail, team chat and calendar on one clock. Colleague
 by fixed rules. Computer-use agents work in the browser, tool-use agents call the same functions over HTTP or MCP,
 and both change one shared workspace. A deterministic verifier scores the final workspace – no LLM judge.
 
-**Custom RL environments that can't be gamed: built in days, proven against reward hacking, difficulty calibrated on real models.**
+**RL environments that can't be gamed: proven against reward hacking, difficulty calibrated on real models.**
 
 ![The reference solution of the hospital-return request, clicked through the screens](demo.gif)
 
@@ -57,8 +57,8 @@ Details, every cheat agent and every near miss: [`PROOF_REPORT.md`](PROOF_REPORT
 
 Where it fails: it skips the follow-up work a care home expects, such as ordering a pressure-relief mattress or
 telling the pharmacy about a changed medication, and it leaves hospital-transfer sheets incomplete. *Solved* is
-`passed: true` (score 1.0). The 5 requests in this sample have not been run on a model; the full run with several
-models follows in November 2026.
+`passed: true` (score 1.0). The 5 requests in this sample have not been run on a model. We share calibration across
+models, with several attempts per request, under NDA.
 
 ## The full environment
 
@@ -72,11 +72,10 @@ models follows in November 2026.
 | Cheating agents | 30/30 runs score 0 | 6 kinds score 0 on every request |
 | Near misses | 0 of 171 pass | 0 of 6,449 pass |
 | Equivalent solutions | 26/26 accepted | all 1,003 score 1.0 |
-| Built | – | from written spec to 300 verified requests in 3 days (30 Oct – 2 Nov 2026) |
 | Licence | evaluation only | evaluation, training, exclusive on request |
 
-Designed with a practising head of nursing in long-term residential care (35 years in nursing, 17 as head of
-nursing). All residents, staff and records are fictional: care records are health data, so no real ones are used.
+Designed and reviewed, in several rounds, with a practising head of nursing in long-term residential care (35 years
+in nursing, 17 as head of nursing). All residents, staff and records are fictional: care records are health data, so no real ones are used.
 
 ## How scoring works
 
